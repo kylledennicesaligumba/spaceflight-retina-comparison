@@ -1,0 +1,23 @@
+# Downloaded measurements and locally generated results
+/data/*
+!/data/README.md
+/results/
+
+# R session state, histories, and local project settings
+.RData
+.Rhistory
+.Rapp.history
+*.RData
+*.rda
+*.rds
+.Rproj.user/
+.Renviron
+.Rprofile
+Rplots.pdf
+
+# Local credentials and operating-system files
+.env
+.env.*
+.DS_Store
+._*
+*.log

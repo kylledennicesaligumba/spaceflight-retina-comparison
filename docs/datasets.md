@@ -18,7 +18,7 @@ The seven terrestrial datasets below are selected for retrieval and individual p
 
 All entries concern mouse retinal measurements. LHON and AMD entries are specific experimental models; light damage is an experimental injury. These labels should be retained when presenting future results.
 
-This snapshot contains the glaucoma precheck only. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
+This snapshot contains the completed glaucoma processed-data precheck and its four saved QC figures. The agreed endpoint retains all eight selected libraries, including R-08, and omits the optional correlation check. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
 
 ## Glaucoma inputs
 

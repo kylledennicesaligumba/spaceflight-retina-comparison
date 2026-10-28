@@ -1,5 +1,17 @@
 # Project progress
 
+## 28 October 2026 — Completed glaucoma processed-data precheck
+
+- Synced the completed glaucoma script while preserving portable input and output paths.
+- Recorded gene-label structural checks, the 23,301-gene filtered QC copy, TMM factors and completed MDS/PCA review.
+- Added four unchanged original QC exports: boxplot, density, MDS and common-gene PCA.
+- Updated the report and README to record the agreed endpoint: retain all eight retinal libraries, including R-08, and omit the optional sample-correlation check.
+- Confirmed the completed 28 October checkpoint file exists locally; kept workspace binaries and downloaded counts outside Git.
+- Updated execution instructions and package records to include limma.
+- Preserved the existing GitHub edit describing this as a bioinformatics project.
+
+The original external-drive files were preserved. This synchronization did not rerun expression analysis, generate new figures or begin differential-expression/disease-similarity analysis.
+
 ## 27 October 2026 — Initial private portfolio snapshot
 
 - Documented the research objective and agreed seven-dataset terrestrial panel against OSD-758.

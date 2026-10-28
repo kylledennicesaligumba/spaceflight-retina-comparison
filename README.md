@@ -1,10 +1,10 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: preprocessing and quality checks in progress.**
+**Status: dataset prechecks in progress; glaucoma precheck completed.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 27 October 2026.
+Last documented update: 28 October 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
@@ -14,25 +14,38 @@ Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The 
 
 ## Current work
 
-The first documented dataset is **GSE241782, experimental glaucoma**. Its precheck script covers importing gene counts, matching sample descriptions, checking count integrity, selecting retinal libraries, and inspecting initial library summaries.
+The processed-data precheck for **GSE241782, experimental glaucoma**, was completed on **28 October 2026**. It covers input integrity, sample matching and selection, gene-label structure, expression distributions, expression filtering, TMM composition normalization, and exploratory MDS/PCA plots.
 
 | Component | Current status |
 | --- | --- |
 | Dataset panel | Seven terrestrial condition/model datasets selected for individual prechecks |
 | Glaucoma counts and metadata | Imported and matched in the interactive workflow |
 | Retinal glaucoma/control selection | 55,487 gene rows and eight pooled libraries; sample order checked |
-| Library totals and detected genes | Interactive results recorded |
-| Initial expression distributions | Plotting code included; plot review pending in this snapshot |
-| Remaining QC, disease signatures and cross-study comparisons | Planned |
+| Library totals, detection, boxplots and density plots | Reviewed and documented |
+| Gene-label structure and row alignment | Checked; cross-study reference harmonization remains a later step |
+| Expression filtering and TMM | 23,301 genes retained in the QC copy; all eight libraries retained |
+| MDS and PCA | Completed, reviewed and saved; four QC figures included |
+| Glaucoma precheck decision | Retain all eight libraries, including R-08; optional sample correlation omitted |
+| Other dataset prechecks, disease signatures and cross-study comparisons | In progress / planned |
 
 The glaucoma libraries comprise two naïve controls and two libraries at each of three glaucoma stages. Each pair contains one male pool and one female pool. Retaining stages and sex is important: six glaucoma libraries across three stages are not six replicates at one stage. See the [precheck record](docs/glaucoma-precheck.md) and the [original study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10531004/).
+
+R-08's distinct profile remains documented without classifying it as a failed library. The completed precheck concerns deposited processed counts and metadata; raw sequencing QC was not repeated.
+
+## Glaucoma QC preview
+
+The saved PCA shows the eight retained libraries after TMM, using one common set of 500 variable genes. The displayed axes describe these expression profiles; they are not disease–spaceflight similarity scores.
+
+![Glaucoma retinal-library PCA after TMM using a common set of 500 variable genes](figures/glaucoma/Glaucoma_GSE241782_TMM_PCA_top500.png)
+
+See the [completed report and all four figures](docs/glaucoma-precheck.md) for the observations, sample-retention decision and design limitations.
 
 ## Explore the repository
 
 - [Glaucoma precheck script](scripts/01_Glaucoma_GSE241782_precheck.R): the current educational script, adapted to portable paths.
 - [Sample metadata](metadata/GSE241782_samples_all.csv): 36 library records parsed from public GEO metadata, before retinal selection.
 - [Dataset panel and sources](docs/datasets.md): accessions, measurement types and intended comparisons.
-- [Precheck observations](docs/glaucoma-precheck.md): completed checks, observed summaries and outstanding steps.
+- [Completed glaucoma precheck](docs/glaucoma-precheck.md): checks, observed summaries, four figures and the retained-library decision.
 - [Running the precheck](docs/running-the-precheck.md): inputs, R requirements and block-by-block instructions.
 - [GitHub first steps](docs/github-first-steps.md): what commits and pushes mean, and how to save future updates.
 
@@ -44,6 +57,6 @@ The panel contains RNA-seq counts and microarray measurements. Exact statistical
 
 ## Reproducibility and scope
 
-The script is designed for interactive execution one block at a time. Recorded numerical observations come from the author's interactive R runs. Repository setup checked R syntax and file organization without rerunning expression analysis. See [environment details](docs/environment.md).
+The script is designed for interactive execution one block at a time. Recorded numerical observations and figures come from the author's interactive R runs. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
-Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. R workspace checkpoints and generated results are excluded from Git. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.
+Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded counts, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.

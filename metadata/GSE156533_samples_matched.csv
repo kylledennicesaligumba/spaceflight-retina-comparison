@@ -1,0 +1,8 @@
+geo_accession,sample_id,genotype,sex,age,tissue,strain
+GSM4733112,P23H_6,RhoP23H/WT (mutant),Female,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733116,WT_7,RhoWT (wild-type),Female,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733113,P23H_8,RhoP23H/WT (mutant),Female,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733117,WT_9,RhoWT (wild-type),Female,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733114,P23H_11,RhoP23H/WT (mutant),Male,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733118,WT_12,RhoWT (wild-type),Male,Postnatal day 90,Whole retina,C57BL/6J
+GSM4733115,P23H_13,RhoP23H/WT (mutant),Male,Postnatal day 90,Whole retina,C57BL/6J

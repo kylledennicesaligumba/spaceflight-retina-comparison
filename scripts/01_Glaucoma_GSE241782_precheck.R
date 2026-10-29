@@ -1,25 +1,18 @@
+# Portable repository copy. Start R in the repository root.
+# This file records the interactive workflow; later result/closure notes
+# supersede earlier pending notes. See the execution guides under docs/.
+# Original working files are preserved. Repository sync did not run analysis.
 # Glaucoma GSE241782: pre-quality checks
 # Started: 26 October 2026
 # Run one small block at a time and review its output before proceeding.
-# Portable repository copy; original interactive working script is retained.
-# Processed-data precheck completed on 28 October 2026. All eight libraries
-# are retained, including R-08; the optional correlation check was omitted.
-# Start R in the repository root. See docs/running-the-precheck.md.
-# Use GLAUCOMA_DATA_DIR to point to inputs stored outside this repository.
-# This file retains the learning/work log. Earlier pending/error notes are
-# superseded by later RESULT blocks and the final PRECHECK CLOSED decision.
-# Recorded findings come from the author's interactive runs. Repository sync
-# reviewed saved outputs and checked syntax without rerunning expression data.
+# Completed glaucoma precheck; figures restyled on 29 October 2026.
 
 # STEP 1: Confirm that R can find the dataset folder and both input files.
 # The dataset folder has been renamed to "Glaucoma_GSE241782".
 # The downloaded files are already uncompressed: .csv and .soft.
 
 # <- assigns the folder path to an R object named glaucoma_dir.
-glaucoma_dir <- Sys.getenv(
-  "GLAUCOMA_DATA_DIR",
-  unset = file.path("data", "raw", "Glaucoma_GSE241782")
-)
+glaucoma_dir <- Sys.getenv("GLAUCOMA_DATA_DIR", unset = file.path("data", "raw", "Glaucoma_GSE241782"))
 
 # file.path() joins the folder path and filename to locate each input.
 # glaucoma_count_file points to the gene-expression measurements.
@@ -411,7 +404,7 @@ file.exists(c(glaucoma_metadata_csv, glaucoma_workspace_file))
 # been calculated by this script at the checkpoint above.
 
 # STEP 7A: Experimental-group check: tissue and treatment inventory.
-# Added: 27 October 2026. Run in the restored R session.
+# Added: 27 October 2026. Run in the author's restored R session.
 # The checkpoint export paths above now match the actual glaucoma subfolder.
 # This block counts existing metadata rows; it does not remove samples or
 # change the counts or metadata. Each row represents a sequenced library.
@@ -599,7 +592,7 @@ head(glaucoma_counts_selected[, 1:4, drop = FALSE], n = 5)
 glaucoma_total_counts <- colSums(glaucoma_counts_selected)
 
 # Expected: eight totals, named R-03, R-04, R-07, R-08, R-09, R-10, R-11, R-12.
-# Numerical totals must be reviewed from the actual interactive output.
+# Numerical totals must be reviewed from the author's actual output.
 glaucoma_total_counts
 
 # Display the same named totals from smallest to largest for comparison.
@@ -629,7 +622,7 @@ sort(glaucoma_total_counts)
 glaucoma_detected_genes <- colSums(glaucoma_counts_selected > 0)
 
 # Expected: eight named detected-gene counts, each between 0 and 55487.
-# Review the actual interactive values before drawing sample-quality conclusions.
+# Review the author's actual values before drawing sample-quality conclusions.
 glaucoma_detected_genes
 
 # Display these counts from smallest to largest, retaining sample names.
@@ -714,8 +707,8 @@ boxplot(
 # STEP 9D: Save the same initial boxplot as a PNG image.
 # Added: 27 October 2026 at the author's explicit request to save the boxplot.
 # Run after Step 9C has created glaucoma_log_cpm in the active R session.
-# The repository output directory is results/glaucoma.
-# Start R in the repository root when using these relative output paths.
+# The existing directory is prequalitychecks/glaucoma (not prechecks/glaucoma).
+# Start R in the repository root when using relative output paths.
 glaucoma_precheck_dir <- file.path("results", "glaucoma")
 glaucoma_boxplot_file <- file.path(
   glaucoma_precheck_dir,
@@ -767,7 +760,7 @@ file.exists(glaucoma_boxplot_file)
 # Retain all eight libraries for the remaining planned checks; do not treat
 # this initial boxplot as final sample-quality approval.
 #
-# The user requested a conceptual explanation of CPM, log2 and the prior.
+# The author requested a conceptual explanation of CPM, log2 and the prior.
 # CPM expresses a gene's count per million total gene counts in that library.
 # log = TRUE returns a new matrix of log2-CPM values, with unchanged row/column
 # identities. Negative logarithms are possible for positive values below 1.
@@ -847,7 +840,7 @@ glaucoma_draw_density()
 
 # STEP 9F: Save the same density plot in the agreed glaucoma output folder.
 glaucoma_density_file <- file.path(
-  glaucoma_precheck_dir,
+  file.path("results", "glaucoma"),
   "Glaucoma_GSE241782_logCPM_density.png"
 )
 png(filename = glaucoma_density_file, width = 2400, height = 1800, res = 300)
@@ -863,7 +856,7 @@ file.exists(glaucoma_density_file)
 # is performed in these plotting/export blocks.
 
 # DENSITY EXPORT TROUBLESHOOTING (recorded interactive R output, 27 October 2026):
-# The user's first png() call lacked a closing parenthesis; later calls fixed
+# The author's first png() call lacked a closing parenthesis; later calls fixed
 # that syntax. The export path was typed as prequality/glaucoma, which does
 # not exist; the confirmed folder is prequalitychecks/glaucoma as above.
 # Typing dev.off without () prints the function instead of closing/writing
@@ -878,7 +871,7 @@ file.exists(glaucoma_density_file)
 
 # STEP 9E-9F RESULT (user's density PNG, 27 October 2026):
 # The saved Glaucoma_GSE241782_logCPM_density.png is now present in the correct
-# glaucoma output folder (about 236 KB). The user supplied it for interpretation.
+# glaucoma output folder (about 236 KB). The author supplied it for interpretation.
 # All eight curves share a large left peak near the zero-count floor (-4.14)
 # and broadly overlapping distributions through the positive-expression range,
 # including a broad smaller peak around log2-CPM 5. R-08's green left peak is
@@ -1143,7 +1136,7 @@ glaucoma_pause_file <- file.path("results", "glaucoma", "Glaucoma_GSE241782_prec
 
 # Save all objects currently in the global workspace, including counts,
 # metadata, annotation, calculated summaries and any QC objects already made.
-# The user decided to keep a backup too. Save the current workspace to this
+# The author decided to keep a backup too. Save the current workspace to this
 # dated file while retaining the original named checkpoint as currently saved.
 # Rerunning this block replaces the dated file. Plot PNGs are separate files.
 save.image(file = glaucoma_pause_file)
@@ -1157,7 +1150,7 @@ file.exists(glaucoma_pause_file)
 # updating the checkpoint requires the user to run the save block above.
 
 # STEP 11 RESUME — 28 October 2026
-# The user reports reloading the saved workspace and wants to start MDS.
+# The author reports reloading the saved workspace and wants to start MDS.
 # First check which preparation objects were restored, without repeating work.
 # exists() checks for an object in R memory; it does not check a disk filename.
 # Expected: the first three TRUE; filtered_QC may be TRUE or FALSE because
@@ -1327,7 +1320,7 @@ glaucoma_mds_colours <- glaucoma_mds_palette[
 ]
 
 glaucoma_mds_file <- file.path(
-  glaucoma_precheck_dir,
+  file.path("results", "glaucoma"),
   "Glaucoma_GSE241782_TMM_MDS.png"
 )
 
@@ -1430,7 +1423,7 @@ file.exists(glaucoma_mds_file)
 # do not follow from the plot alone. Keep the agreed design and remaining QC.
 
 # STEP 11E: PCA using one common set of 500 variable genes; draw and save.
-# Added: 28 October 2026. The user explicitly requests PCA as a complementary
+# Added: 28 October 2026. The author explicitly requests PCA as a complementary
 # view of internal expression patterns. Retain the existing MDS result.
 # Input is the same filtered/TMM DGEList: 23,301 eligible genes, eight libraries.
 # In limma's documented plotMDS() implementation, gene.selection = "common"
@@ -1454,7 +1447,7 @@ glaucoma_pca_colours <- glaucoma_pca_palette[
 
 # Save this complementary figure under its own explicit filename.
 glaucoma_pca_file <- file.path(
-  glaucoma_precheck_dir,
+  file.path("results", "glaucoma"),
   "Glaucoma_GSE241782_TMM_PCA_top500.png"
 )
 
@@ -1504,7 +1497,7 @@ file.exists(glaucoma_pca_file)
 # was verified with dummy data only; user execution and results are pending.
 
 # STEP 11E RESULT — 28 October 2026:
-# The user supplied a screenshot of the PCA; its PNG file exists (~211 KB).
+# The author supplied a screenshot of the PCA; its PNG file exists (~211 KB).
 # PC1 shows 23% and PC2 20% (rounded): about 43% of variation in the common
 # 500 selected genes' log-expression values is represented in this view.
 # Visual observations, not a new calculation from user data:
@@ -1532,14 +1525,14 @@ file.exists(glaucoma_pca_file)
 # Omit the optional sample-correlation check and move to the next dataset.
 # Do not reopen QC or add required follow-ups without a specific new reason.
 # Precheck summary saved separately as:
-# docs/glaucoma-precheck.md (portable copy of the completed summary).
+# docs/glaucoma-precheck.md
 # No differential-expression or disease/OSD-758 comparison was performed here.
 
 # Run this in the active R session BEFORE beginning the next dataset, to save
 # the current objects including filtered/TMM data, annotation, MDS and PCA.
 # Keep both older checkpoints as backups; this dated file is the new target.
 glaucoma_final_checkpoint <- file.path(
-  glaucoma_precheck_dir,
+  file.path("results", "glaucoma"),
   "Glaucoma_GSE241782_precheck_checkpoint_2026-10-28.RData"
 )
 save.image(file = glaucoma_final_checkpoint)
@@ -1548,3 +1541,29 @@ file.exists(glaucoma_final_checkpoint)
 # Restore this newest checkpoint in a future session only AFTER the user has
 # confirmed saving it successfully. The assistant has not saved live R objects.
 # load(file.path("results", "glaucoma", "Glaucoma_GSE241782_precheck_checkpoint_2026-10-28.RData"))
+
+# HANDOFF STATUS — 28 October 2026:
+# The newest checkpoint now exists (305,345,347 bytes); filesystem presence
+# verified while preparing the handoff, without loading or inspecting objects.
+# Full record for the new RP thread:
+# docs/glaucoma-precheck.md (completed precheck record)
+# Glaucoma remains closed with R-08 retained and no required correlation check.
+
+# FIGURE STYLE REFRESH REQUESTED — 29 October 2026:
+# User requests glaucoma MDS/PCA in the approved RP PCA style: actual sample
+# points, nonoverlapping labels with connector lines, and an outside legend.
+# Glaucoma's four treatment/time groups and existing colours are preserved.
+# Run the standalone restyling code in the active RP session:
+# source(file.path("scripts", "04_Restyle_Retinal_MDS_PCA.R"))
+# It reuses the stored projections; if glaucoma objects are absent, it loads
+# the dated 28 October checkpoint into an isolated environment. It does not
+# load the checkpoint into the current RP workspace or rerun expression QC.
+# The script replaces glaucoma MDS/PCA PNGs plus RP MDS. All eight glaucoma
+# samples, including R-08, remain as agreed. Exports/visual QA await the user.
+
+# FIGURE STYLE CONFIRMED — 29 October 2026:
+# User reports completion; the two restyled PNGs exist with 13:46 timestamps.
+# Assistant opened both for layout QA: eight points/sex labels and four
+# treatment/time groups remain visible, with outside legends and readable
+# labels. MDS axes remain 19%/18%; PCA remains 23%/20%. No reanalysis or
+# revised sample decision occurred. The saved RData was not refreshed here.

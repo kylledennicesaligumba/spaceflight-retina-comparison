@@ -1,10 +1,10 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: dataset prechecks in progress; glaucoma precheck completed.**
+**Status: glaucoma and retinitis pigmentosa prechecks completed; remaining dataset prechecks in progress.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 28 October 2026.
+Last documented update: 29 October 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
@@ -14,40 +14,33 @@ Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The 
 
 ## Current work
 
-The processed-data precheck for **GSE241782, experimental glaucoma**, was completed on **28 October 2026**. It covers input integrity, sample matching and selection, gene-label structure, expression distributions, expression filtering, TMM composition normalization, and exploratory MDS/PCA plots.
+Two processed-data prechecks are completed. Each includes input integrity, sample matching, gene-label checks, initial expression distributions, expression filtering, TMM scaling, and reviewed MDS/PCA figures.
 
-| Component | Current status |
-| --- | --- |
-| Dataset panel | Seven terrestrial condition/model datasets selected for individual prechecks |
-| Glaucoma counts and metadata | Imported and matched in the interactive workflow |
-| Retinal glaucoma/control selection | 55,487 gene rows and eight pooled libraries; sample order checked |
-| Library totals, detection, boxplots and density plots | Reviewed and documented |
-| Gene-label structure and row alignment | Checked; cross-study reference harmonization remains a later step |
-| Expression filtering and TMM | 23,301 genes retained in the QC copy; all eight libraries retained |
-| MDS and PCA | Completed, reviewed and saved; four QC figures included |
-| Glaucoma precheck decision | Retain all eight libraries, including R-08; optional sample correlation omitted |
-| Other dataset prechecks, disease signatures and cross-study comparisons | In progress / planned |
+| Dataset | Completed | Libraries retained | Gene rows in the QC copy | Record |
+| --- | --- | --- | --- | --- |
+| Experimental glaucoma, GSE241782 | 28 October 2026 | All eight selected retinal libraries | 23,301 of 55,487 | [Glaucoma report](docs/glaucoma-precheck.md) |
+| Retinitis pigmentosa, GSE156533 | 29 October 2026 | All seven libraries: four P23H and three WT | 17,351 of 54,532 | [RP report](docs/retinitis-pigmentosa-precheck.md) |
 
-The glaucoma libraries comprise two naïve controls and two libraries at each of three glaucoma stages. Each pair contains one male pool and one female pool. Retaining stages and sex is important: six glaucoma libraries across three stages are not six replicates at one stage. See the [precheck record](docs/glaucoma-precheck.md) and the [original study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10531004/).
+The glaucoma decision retains R-08 with its distinct profile documented and omits the optional correlation check. Glaucoma stages and sex remain recorded; each condition/time pair consists of one male pool and one female pool. The RP decision retains all seven libraries and preserves sex for later genotype modelling. The RP report includes the recorded checkpoint audit and stored TMM-factor table.
 
-R-08's distinct profile remains documented without classifying it as a failed library. The completed precheck concerns deposited processed counts and metadata; raw sequencing QC was not repeated.
+These prechecks concern deposited counts and metadata. Raw sequence QC was not repeated, and disease–spaceflight similarity has not yet been calculated. The seven-dataset panel remains the agreed project scope.
 
-## Glaucoma QC preview
+## Latest completed precheck: retinitis pigmentosa
 
-The saved PCA shows the eight retained libraries after TMM, using one common set of 500 variable genes. The displayed axes describe these expression profiles; they are not disease–spaceflight similarity scores.
+The saved RP PCA uses one common set of 500 variable genes after TMM. The genotype and sex-associated patterns are descriptive within-study observations. Separate studies' PCA axes are not a common disease–spaceflight similarity scale.
 
-![Glaucoma retinal-library PCA after TMM using a common set of 500 variable genes](figures/glaucoma/Glaucoma_GSE241782_TMM_PCA_top500.png)
+![RP retinal-library PCA after TMM using a common set of 500 variable genes](figures/retinitis_pigmentosa/RP_GSE156533_TMM_PCA_top500.png)
 
-See the [completed report and all four figures](docs/glaucoma-precheck.md) for the observations, sample-retention decision and design limitations.
+The [RP report](docs/retinitis-pigmentosa-precheck.md) includes all four figures. The [glaucoma report](docs/glaucoma-precheck.md) now shows the revised MDS/PCA appearance: sample points, readable F/M labels, connector lines and outside legends. Stored coordinates and retention decisions were preserved during that formatting update.
 
 ## Explore the repository
 
-- [Glaucoma precheck script](scripts/01_Glaucoma_GSE241782_precheck.R): the current educational script, adapted to portable paths.
-- [Sample metadata](metadata/GSE241782_samples_all.csv): 36 library records parsed from public GEO metadata, before retinal selection.
-- [Dataset panel and sources](docs/datasets.md): accessions, measurement types and intended comparisons.
-- [Completed glaucoma precheck](docs/glaucoma-precheck.md): checks, observed summaries, four figures and the retained-library decision.
-- [Running the precheck](docs/running-the-precheck.md): inputs, R requirements and block-by-block instructions.
-- [GitHub first steps](docs/github-first-steps.md): what commits and pushes mean, and how to save future updates.
+- [Glaucoma script](scripts/01_Glaucoma_GSE241782_precheck.R) and [execution guide](docs/running-the-precheck.md).
+- [RP script](scripts/02_Retinitis_Pigmentosa_GSE156533_precheck.R), [recovery helper](scripts/03_Retinitis_Pigmentosa_GSE156533_reload.R) and [execution guide](docs/running-the-rp-precheck.md).
+- [Shared projection-styling script](scripts/04_Restyle_Retinal_MDS_PCA.R) and [style/reuse instructions](docs/projection-styling.md).
+- [Glaucoma metadata](metadata/GSE241782_samples_all.csv) and [RP metadata](metadata/GSE156533_samples_matched.csv), both derived from public source records.
+- [Dataset panel and input sources](docs/datasets.md).
+- [GitHub first steps](docs/github-first-steps.md).
 
 ## Planned comparison
 
@@ -57,6 +50,6 @@ The panel contains RNA-seq counts and microarray measurements. Exact statistical
 
 ## Reproducibility and scope
 
-The script is designed for interactive execution one block at a time. Recorded numerical observations and figures come from the author's interactive R runs. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
+The precheck scripts are designed for interactive execution one block at a time. Recorded numerical observations and figures come from the author's interactive R runs. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
 Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded counts, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.

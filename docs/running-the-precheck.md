@@ -64,3 +64,7 @@ The repository version uses relative output paths. The original working script a
 All PNG export blocks write to local `results/glaucoma/`. The MDS and PCA blocks use the same filtered/TMM QC object; they do not refilter genes or reestimate normalization factors. Opening a PNG does not refresh a workspace checkpoint.
 
 The reviewed original figures are committed under `figures/glaucoma/` and embedded in the [completed report](glaucoma-precheck.md). Regenerating local files under `results/` does not automatically replace those curated copies. No new figure generation is needed merely to review the completed precheck.
+
+The final 29 October MDS/PCA appearance is supplied by the [shared styling script](../scripts/04_Restyle_Retinal_MDS_PCA.R), using the already stored scores. It requires `ggplot2`, `ggrepel` and the objects or local checkpoint described in [projection-styling.md](projection-styling.md). This appearance change did not reopen the completed glaucoma precheck.
+
+For the completed RP workflow, see [running-the-rp-precheck.md](running-the-rp-precheck.md).

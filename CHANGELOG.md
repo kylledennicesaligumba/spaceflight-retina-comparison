@@ -1,5 +1,16 @@
 # Project progress
 
+## 29 October 2026 — RP precheck complete and projection appearance updated
+
+- Added the completed RP GSE156533 precheck and recovery scripts, report, matched seven-library metadata and four saved QC figures.
+- Recorded the retained seven-library comparison and 17,351-gene QC copy; preserved sex and the documented source limitations. Included the existing checkpoint audit and stored TMM-factor table.
+- Replaced glaucoma MDS/PCA PNGs with the revised original exports and added the shared styling script. Stored projection scores, percentages and sample-retention decisions were preserved.
+- Added portable input/output paths, execution guides and the observed readxl/xml2/ggplot2/ggrepel versions.
+- Made the RP final checkpoint base-list initialization explicit in the portable script, using the list from the existing recovery helper; expression calculations were preserved.
+- Confirmed the dated RP checkpoint file exists locally and kept both datasets' workspace binaries outside Git.
+
+Original MaxineDrive files were preserved. Synchronization did not load workspaces, import expression inputs, rerun QC or generate figures.
+
 ## 28 October 2026 — Completed glaucoma processed-data precheck
 
 - Synced the completed glaucoma script while preserving portable input and output paths.

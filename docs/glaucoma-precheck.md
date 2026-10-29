@@ -60,7 +60,7 @@ The original study used sex-adjusted treatment-time-versus-control models: [Keut
 
 ## Saved figures
 
-The following original PNG exports were inspected and copied unchanged from the completed precheck. The script exports to local `results/glaucoma/`; these reviewed copies are versioned under `figures/glaucoma/`.
+The PNG exports were inspected and copied unchanged from local storage. MDS/PCA were restyled on 29 October 2026 using stored coordinates: points mark samples, F/M labels are separated with connector lines, and legends sit outside the panel. The precheck decision and axis percentages are unchanged. The script exports to local `results/glaucoma/`; these reviewed copies are versioned under `figures/glaucoma/`.
 
 ### Initial log-CPM boxplot
 
@@ -88,7 +88,7 @@ The complementary view uses one common set of 500 variable genes. PC1 and PC2 sh
 
 ## Script, checkpoint and provenance
 
-The current [precheck script](../scripts/01_Glaucoma_GSE241782_precheck.R) contains the calculation and explicit PNG-save blocks. It retains the interactive learning log; later result and closure comments supersede earlier pending notes.
+The current [precheck script](../scripts/01_Glaucoma_GSE241782_precheck.R) contains the calculation and explicit PNG-save blocks. The [shared styling script](../scripts/04_Restyle_Retinal_MDS_PCA.R) supplies the final revised MDS/PCA appearance; see [styling instructions](projection-styling.md). It retains the interactive learning log; later result and closure comments supersede earlier pending notes.
 
 The latest local checkpoint is `Glaucoma_GSE241782_precheck_checkpoint_2026-10-28.RData`. Its file presence was verified on 28 October 2026; its objects were not loaded or independently checked during this repository update. The original and 27 October checkpoints remain local backups. Workspace binaries and downloaded counts are excluded from Git.
 

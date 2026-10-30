@@ -25,3 +25,7 @@ source(file.path("scripts", "04_Restyle_Retinal_MDS_PCA.R"))
 ```
 
 This displays and replaces the three named local PNGs under `results/`, at 2400 by 1800 pixels and 300 dpi. The save helper closes each device. Three file-existence checks should return `TRUE`. This export does not save a new R checkpoint or automatically replace the curated image copies under `figures/`.
+
+## LHON specialization
+
+[07_LHON_projection_style.R](../scripts/07_LHON_projection_style.R) uses the same point/repelled-label/outside-legend pattern for the four LHON genotype colours. It defines a formatting function only. The LHON main script calculates both projections and calls the helper before its explicit display/save blocks; this is separate from the RP/glaucoma restyling script. See [the LHON execution guide](running-the-lhon-precheck.md).

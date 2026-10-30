@@ -1,6 +1,6 @@
 # Dataset panel and sources
 
-Panel recorded on 26 October 2026; progress updated on 29 October 2026.
+Panel recorded on 26 October 2026; progress updated on 30 October 2026.
 
 The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
@@ -18,7 +18,7 @@ The seven terrestrial datasets below are selected for retrieval and individual p
 
 All entries concern mouse retinal measurements. LHON and AMD entries are specific experimental models; light damage is an experimental injury. These labels should be retained when presenting future results.
 
-This snapshot contains completed glaucoma and RP processed-data prechecks, each with four saved QC figures. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
+This snapshot contains completed glaucoma, RP and LHON-linked model processed-data prechecks, each with four saved QC figures. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
 
 ## Glaucoma inputs
 
@@ -45,3 +45,11 @@ The source is [GSE156533](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
 Preserve downloaded filenames. If the archive downloads under a different name, point `rp_metadata_archive` to that file rather than treating it as SOFT text. The portable default directory is `data/raw/Retinitis_Pigmentosa_GSE156533/`; `RP_DATA_DIR` can point to existing storage.
 
 The included `metadata/GSE156533_samples_matched.csv` was extracted from the existing public XML during repository synchronization. Its seven rows follow the count-column order recorded in the completed precheck, preserving accessions, titles, genotype, sex, age, tissue and strain. The expression workbook was not imported during synchronization. See the [RP execution guide](running-the-rp-precheck.md).
+
+## LHON-linked model inputs
+
+The source is [GSE304707](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304707). The manually reviewed inputs are `GSE304707_gene_count_matrix.csv` and the extensionless local family archive `GSE304707_family`, containing `GSE304707_family.xml`.
+
+The portable default directory is `data/raw/LHON_GSE304707/`; `LHON_DATA_DIR` can point to existing storage. Preserve downloaded filenames, adjusting the archive assignment if your download uses a different name.
+
+The repository includes the final exported matched metadata and TMM table from the completed session. They retain the sample IDs WT-1–3, Y-1–3, C-1–3 and YC-1–3 in count-column order. No original expression input or unreviewed metadata was imported during synchronization. The principal genotype contrast and cross-study gene-name harmonization remain later analysis decisions. See the [LHON report](lhon-precheck.md) and [execution guide](running-the-lhon-precheck.md).

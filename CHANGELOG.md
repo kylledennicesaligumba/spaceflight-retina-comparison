@@ -1,5 +1,15 @@
 # Project progress
 
+## 30 October 2026 — LHON-linked model precheck complete
+
+- Added the main LHON teaching script, completed-state reload helper, projection-formatting helper and final save/export helper with portable paths.
+- Added the completion report, four original saved QC figures, final matched metadata, TMM-factor export and actual session information.
+- Recorded all 12 libraries retained, with 17,860 of 49,714 rows in the QC copy; principal contrast and cross-study gene mapping remain later steps.
+- Preserved the original labels, documented timing-information scope, and recorded the existing 47-object checkpoint restore verification. Workspace binaries and raw expression inputs remain local.
+- Updated the project overview and dataset/execution documentation to show three completed prechecks.
+
+Synchronization preserved the original MaxineDrive files and did not import expression inputs, load RData, recompute QC or regenerate plots.
+
 ## 29 October 2026 — RP precheck complete and projection appearance updated
 
 - Added the completed RP GSE156533 precheck and recovery scripts, report, matched seven-library metadata and four saved QC figures.

@@ -32,3 +32,9 @@ This is a record of the available environment, not a dependency lockfile or a cl
 The 28 October glaucoma and 29 October RP checkpoint files were confirmed on local storage; their binary contents were not loaded during synchronization. The small RP sample table was extracted from the already available public XML; the expression workbook was not read during this update.
 
 No expression analysis was run to prepare this repository. Recorded numerical observations retain their provenance in the [glaucoma record](glaucoma-precheck.md) and [RP record](retinitis-pigmentosa-precheck.md).
+
+## LHON completed-session record — 30 October 2026
+
+The [exported sessionInfo](lhon-sessionInfo_2026-10-30.txt) records the actual R session used for the completed LHON precheck. It includes R 4.5.3, edgeR 4.8.2, limma 3.66.0, xml2 1.5.2, ggplot2 4.0.3 and ggrepel 0.9.8. System-library paths are retained; trailing whitespace was normalized for version control.
+
+The LHON update copies the final metadata and TMM exports, original figures and portable scripts. Syntax and source-expression comparison are performed without running the workflow. The existing completion record reports a restore-verified 47-object checkpoint; the GitHub update confirms its file presence but does not load it. See [the completed LHON report](lhon-precheck.md).

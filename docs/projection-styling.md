@@ -29,3 +29,7 @@ This displays and replaces the three named local PNGs under `results/`, at 2400 
 ## LHON specialization
 
 [07_LHON_projection_style.R](../scripts/07_LHON_projection_style.R) uses the same point/repelled-label/outside-legend pattern for the four LHON genotype colours. It defines a formatting function only. The LHON main script calculates both projections and calls the helper before its explicit display/save blocks; this is separate from the RP/glaucoma restyling script. See [the LHON execution guide](running-the-lhon-precheck.md).
+
+## DR microarray specialization
+
+[11_DR_projection_style.R](../scripts/11_DR_projection_style.R) defines matching point/repelled-label/outside-legend formatting for normal, diabetic and treated arrays. It is loaded by the portable DR scripts using the captured project folder. DR projections use the supplied processed microarray values without additional log2, CPM or TMM. MDS axes use the generic names MDS1/MDS2, preserving the documented scale limitation. See the [DR execution guide](running-the-dr-precheck.md).

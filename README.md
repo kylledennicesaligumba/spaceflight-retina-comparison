@@ -1,10 +1,10 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: glaucoma, retinitis pigmentosa and LHON-linked model prechecks completed; remaining dataset prechecks in progress.**
+**Status: glaucoma, retinitis pigmentosa, LHON-linked model and diabetic retinopathy prechecks completed.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 30 October 2026.
+Last documented update: 31 October 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
@@ -14,25 +14,28 @@ Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The 
 
 ## Current work
 
-Three processed-data prechecks are completed. Each includes input integrity, sample matching, gene-label checks, initial expression distributions, expression filtering, TMM scaling, and reviewed MDS/PCA figures.
+Four processed-data prechecks are completed. Each includes input integrity, sample/feature annotation alignment, expression-distribution checks and reviewed MDS/PCA figures. The RNA-seq workflows use count filtering and TMM. **DR is a deposited processed microarray matrix: no additional log2 transformation, CPM calculation or TMM normalization was performed, and no RNA-seq count-filtering step was applied.**
 
-| Dataset | Completed | Libraries retained | Gene rows in the QC copy | Record |
+| Dataset | Completed | Samples used for QC | Feature rows used for QC | Record |
 | --- | --- | --- | --- | --- |
 | Experimental glaucoma, GSE241782 | 28 October 2026 | All eight selected retinal libraries | 23,301 of 55,487 | [Glaucoma report](docs/glaucoma-precheck.md) |
 | Retinitis pigmentosa, GSE156533 | 29 October 2026 | All seven libraries: four P23H and three WT | 17,351 of 54,532 | [RP report](docs/retinitis-pigmentosa-precheck.md) |
 | LHON-linked model, GSE304707 | 30 October 2026 | All 12 libraries: three per genotype | 17,860 of 49,714 | [LHON report](docs/lhon-precheck.md) |
+| Diabetic retinopathy, GSE87433 | 31 October 2026 | All 17 arrays: six normal, six diabetic, five treated | All 24,973 supplied features | [DR report](docs/diabetic-retinopathy-precheck.md) |
 
 The glaucoma decision retains R-08 with its distinct profile documented and omits the optional correlation check. Glaucoma stages and sex remain recorded; each condition/time pair consists of one male pool and one female pool. The RP decision retains all seven libraries and preserves sex for later genotype modelling. The RP report includes the recorded checkpoint audit and stored TMM-factor table. LHON retains all 12 libraries across WT, YARS2, COI and YARS2/COI, with its final metadata, scaling factors, session record and restore verification documented.
 
-These prechecks concern deposited counts and metadata. Raw sequence QC was not repeated, and disease–spaceflight similarity has not yet been calculated. The seven-dataset panel remains the agreed project scope.
+DR retains all 17 arrays for exploratory QC, with the six-versus-six untreated disease contrast and five treated arrays kept conceptually separate. Its native Entrez IDs were aligned with supplied platform gene symbols/names. The boxplot and density plots were reviewed as correct; the author verified all 17 density curves against their corresponding sample columns.
 
-## Latest completed precheck: LHON-linked mitochondrial optic neuropathy model
+These prechecks concern deposited expression measurements and metadata. Raw sequence or CEL processing was not repeated, and disease–spaceflight similarity has not yet been calculated. The seven-dataset panel remains the agreed project scope.
 
-The saved LHON PCA uses one common set of 500 variable genes after TMM. Genotype clustering is incomplete, with variation within the labelled groups. All 12 libraries are retained. These are within-study expression-profile views; separate studies' PCA axes are not a common disease–spaceflight similarity scale.
+## Latest completed precheck: diabetic retinopathy
 
-![LHON retinal-library PCA after TMM using a common set of 500 variable genes](figures/lhon/LHON_GSE304707_TMM_PCA_top500.png)
+The DR PCA uses the supplied processed microarray values and one common set of 500 variable features. The treated group is distinct, while normal and diabetic controls overlap substantially in this view. These observations do not establish recovery, treatment failure or absence of a disease response. No additional log2, CPM or TMM was applied.
 
-The [LHON report](docs/lhon-precheck.md) includes all four figures and the recorded completion decision. Earlier completed records remain available in the [RP report](docs/retinitis-pigmentosa-precheck.md) and [glaucoma report](docs/glaucoma-precheck.md).
+![DR retinal-array PCA on supplied processed microarray values](figures/diabetic_retinopathy/DR_GSE87433_PCA_top500.png)
+
+The [DR report](docs/diabetic-retinopathy-precheck.md) includes all five figures, verified distribution checks, annotation details and the recorded precheck endpoint. Earlier completed records remain available for [LHON](docs/lhon-precheck.md), [RP](docs/retinitis-pigmentosa-precheck.md) and [glaucoma](docs/glaucoma-precheck.md).
 
 ## Explore the repository
 
@@ -42,6 +45,7 @@ The [LHON report](docs/lhon-precheck.md) includes all four figures and the recor
 - [Glaucoma metadata](metadata/GSE241782_samples_all.csv) and [RP metadata](metadata/GSE156533_samples_matched.csv), both derived from public source records.
 - [LHON teaching script](scripts/05_LHON_GSE304707_precheck.R), [reload helper](scripts/06_LHON_GSE304707_reload.R), [style helper](scripts/07_LHON_projection_style.R), [save/export helper](scripts/08_LHON_GSE304707_save_final.R) and [execution guide](docs/running-the-lhon-precheck.md).
 - [LHON matched metadata](metadata/GSE304707_samples_matched.csv), [saved TMM factors](tables/lhon/LHON_GSE304707_TMM_summary_2026-10-30.csv) and [session record](docs/lhon-sessionInfo_2026-10-30.txt).
+- [DR teaching script](scripts/09_Diabetic_Retinopathy_precheck.R), [resume helper](scripts/10_Diabetic_Retinopathy_GSE87433_resume.R), [style helper](scripts/11_DR_projection_style.R) and [execution guide](docs/running-the-dr-precheck.md).
 - [Dataset panel and input sources](docs/datasets.md).
 - [GitHub first steps](docs/github-first-steps.md).
 
@@ -55,4 +59,4 @@ The panel contains RNA-seq counts and microarray measurements. Exact statistical
 
 The precheck scripts are designed for interactive execution one block at a time. Recorded numerical observations and figures come from the author's interactive R runs. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
-Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded counts, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.
+Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded expression inputs, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.

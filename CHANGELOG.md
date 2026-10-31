@@ -1,5 +1,17 @@
 # Project progress
 
+## 31 October 2026 — DR processed-microarray precheck complete
+
+- Added portable DR teaching/resume/style scripts, completion report and execution guide, with five unchanged saved QC PNGs.
+- Recorded all 17 arrays and 24,973 supplied features used for exploratory QC; the six-versus-six untreated disease comparison remains separate from five treated arrays.
+- Made the platform distinction explicit: no additional log2 transformation, CPM calculation, TMM normalization or RNA-seq feature filtering was applied.
+- Documented Entrez row IDs and corresponding gene symbols/names from supplied platform annotation.
+- Preserved the reviewed boxplot and overlapping density views, including the author's successful check of all 17 curves against their own expression columns.
+- Confirmed the new 31 October checkpoint file exists locally without loading it; originals and large inputs/annotation remain outside Git.
+- Updated the overview to four completed prechecks.
+
+Synchronization did not import expression inputs, inspect unreviewed metadata, load RData, rerun analysis or regenerate figures.
+
 ## 30 October 2026 — LHON-linked model precheck complete
 
 - Added the main LHON teaching script, completed-state reload helper, projection-formatting helper and final save/export helper with portable paths.

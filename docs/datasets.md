@@ -1,6 +1,6 @@
 # Dataset panel and sources
 
-Panel recorded on 26 October 2026; progress updated on 30 October 2026.
+Panel recorded on 26 October 2026; progress updated on 31 October 2026.
 
 The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
@@ -18,7 +18,7 @@ The seven terrestrial datasets below are selected for retrieval and individual p
 
 All entries concern mouse retinal measurements. LHON and AMD entries are specific experimental models; light damage is an experimental injury. These labels should be retained when presenting future results.
 
-This snapshot contains completed glaucoma, RP and LHON-linked model processed-data prechecks, each with four saved QC figures. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
+This snapshot contains completed glaucoma, RP, LHON-linked model and DR processed-data prechecks. The RNA-seq datasets each have four saved QC figures; DR has five, including a density close-up. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. DR uses all 17 arrays for exploratory QC, with 24,973 supplied features and Entrez-based platform IDs. No additional log2, CPM or TMM was applied to its processed microarray values. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
 
 ## Glaucoma inputs
 
@@ -53,3 +53,11 @@ The source is [GSE304707](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
 The portable default directory is `data/raw/LHON_GSE304707/`; `LHON_DATA_DIR` can point to existing storage. Preserve downloaded filenames, adjusting the archive assignment if your download uses a different name.
 
 The repository includes the final exported matched metadata and TMM table from the completed session. They retain the sample IDs WT-1–3, Y-1–3, C-1–3 and YC-1–3 in count-column order. No original expression input or unreviewed metadata was imported during synchronization. The principal genotype contrast and cross-study gene-name harmonization remain later analysis decisions. See the [LHON report](lhon-precheck.md) and [execution guide](running-the-lhon-precheck.md).
+
+## Diabetic retinopathy inputs
+
+The source is [GSE87433](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87433). The reviewed local filenames are `GSE87433_series_matrix` and `GSE87433_family`; the family archive supplies `GSE87433_family.xml` and `GPL20710-tbl-1.txt`. Preserve source filenames and adapt the script's filename assignments if your download uses different extensions.
+
+This is a processed microarray matrix, not RNA-seq counts. The precheck uses the supplied values without additional log2 transformation, CPM calculation, TMM normalization or count filtering. Entrez-based feature IDs are matched to gene symbols/names in the supplied platform annotation. The default input directory is `data/raw/Diabetic_Retinopathy_GSE87433/`, or the absolute directory set by `DR_DATA_DIR`.
+
+All 17 arrays were reviewed: six normal controls, six untreated diabetic samples and five treated samples. The six-versus-six disease comparison remains distinct from the treated condition. See the [DR report](diabetic-retinopathy-precheck.md) and [execution guide](running-the-dr-precheck.md). The original processed matrix and large platform annotation file are not uploaded as portfolio outputs.

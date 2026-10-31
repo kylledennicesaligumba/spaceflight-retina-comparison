@@ -38,3 +38,9 @@ No expression analysis was run to prepare this repository. Recorded numerical ob
 The [exported sessionInfo](lhon-sessionInfo_2026-10-30.txt) records the actual R session used for the completed LHON precheck. It includes R 4.5.3, edgeR 4.8.2, limma 3.66.0, xml2 1.5.2, ggplot2 4.0.3 and ggrepel 0.9.8. System-library paths are retained; trailing whitespace was normalized for version control.
 
 The LHON update copies the final metadata and TMM exports, original figures and portable scripts. Syntax and source-expression comparison are performed without running the workflow. The existing completion record reports a restore-verified 47-object checkpoint; the GitHub update confirms its file presence but does not load it. See [the completed LHON report](lhon-precheck.md).
+
+## DR processed-microarray workflow — 31 October 2026
+
+The DR workflow uses base R for continuous-expression import and distributions, `xml2` for GEO metadata/annotation definitions, `limma` for projections and `ggplot2`/`ggrepel` for formatting. The saved handoff records limma 3.66.0, ggplot2 4.0.3 and ggrepel 0.9.8 as available for the projection code. Count-specific packages and methods are not applied to DR: no additional log2 transformation, CPM, TMM or RNA-seq feature filtering was done.
+
+Portable scripts preserve the source calculations, capture the repository directory before the original `setwd()` calls, and use that path for inputs, outputs and the renamed style helper. The dated 31 October checkpoint was confirmed present without loading its contents. All five figures are original local exports, including the reviewed and user-verified overlapping density curves. See the [DR report](diabetic-retinopathy-precheck.md).

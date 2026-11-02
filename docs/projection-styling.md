@@ -33,3 +33,7 @@ This displays and replaces the three named local PNGs under `results/`, at 2400 
 ## DR microarray specialization
 
 [11_DR_projection_style.R](../scripts/11_DR_projection_style.R) defines matching point/repelled-label/outside-legend formatting for normal, diabetic and treated arrays. It is loaded by the portable DR scripts using the captured project folder. DR projections use the supplied processed microarray values without additional log2, CPM or TMM. MDS axes use the generic names MDS1/MDS2, preserving the documented scale limitation. See the [DR execution guide](running-the-dr-precheck.md).
+
+## Autoimmune uveitis specialization
+
+[14_Uveitis_projection_style.R](../scripts/14_Uveitis_projection_style.R) defines the matching appearance for CON/EAU, with sample labels, unchanged calculated coordinates and an outside condition legend. The main script fits pairwise MDS and common-top-500 PCA on filtered TMM log-CPM, then explicitly displays and saves both plots. The reload helper loads the formatting definition without refitting projections. See the [uveitis execution guide](running-the-uveitis-precheck.md).

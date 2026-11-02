@@ -10,10 +10,13 @@ Use these defaults, or set the corresponding R environment variable to an existi
 | RP | `data/raw/Retinitis_Pigmentosa_GSE156533/` | `RP_DATA_DIR` |
 | LHON-linked model | `data/raw/LHON_GSE304707/` | `LHON_DATA_DIR` |
 | DR | `data/raw/Diabetic_Retinopathy_GSE87433/` | `DR_DATA_DIR` |
+| Autoimmune uveitis | `data/raw/Autoimmune_Uveitis_GSE284505/` | `UVEITIS_DATA_DIR` |
 
-See the [glaucoma guide](../docs/running-the-precheck.md), [RP guide](../docs/running-the-rp-precheck.md), [LHON guide](../docs/running-the-lhon-precheck.md) and [DR guide](../docs/running-the-dr-precheck.md).
+See the [glaucoma guide](../docs/running-the-precheck.md), [RP guide](../docs/running-the-rp-precheck.md), [LHON guide](../docs/running-the-lhon-precheck.md), [DR guide](../docs/running-the-dr-precheck.md) and [uveitis guide](../docs/running-the-uveitis-precheck.md).
 
 Downloaded files under `data/` are excluded from Git; this README is the exception. Derived sample descriptions suitable for version control are stored under `metadata/`. Generated outputs and R checkpoints go under `results/`, which is also excluded. Selected reviewed QC PNGs are copied to `figures/glaucoma/`, `figures/retinitis_pigmentosa/`, `figures/lhon/` and `figures/diabetic_retinopathy/` for version control and the completed reports.
+
+The completed uveitis exports are under `figures/autoimmune_uveitis/`, `metadata/GSE284505_samples_selected.csv` and `tables/autoimmune_uveitis/`. The saved annotation preserves original mixed labels and missing lookup results; it contains no expression measurements. Original counts, XML inputs and RData stay local.
 
 This repository documents secondary analysis. Experimental data credit belongs to the original study authors, linked through the public accession records.
 

@@ -1,5 +1,16 @@
 # Project progress
 
+## 2 November 2026 — Experimental autoimmune uveitis precheck complete
+
+- Added four portable teaching/reload/style/save scripts, a completion report and an execution guide, with four unchanged saved QC figures.
+- Recorded the selected three-CON versus three-EAU comparison; both sleep-deprivation groups are excluded by design, while original full-count objects are preserved.
+- Documented the mixed gene-name/Ensembl labels and failed BioMart connections followed by successful Ensembl REST annotation: 1,440 named records, 24 records without names and 84 unresolved IDs; 55,311 other labels were not queried.
+- Added the dated full annotation, selected sample metadata, TMM-factor table and actual session record. Preserved original IDs, missing values and release 116/GRCm39 provenance separately from the source GRCm38 processing notes.
+- Recorded 18,187 retained QC rows, all six selected samples retained, and completed MDS/PCA review.
+- Confirmed the dated final checkpoint is present locally without loading it or testing restoration. Updated the overview to five completed prechecks.
+
+Synchronization preserved original external-drive files and did not import expression inputs, inspect unreviewed metadata, load RData, rerun analysis, make annotation queries or regenerate figures.
+
 ## 31 October 2026 — DR processed-microarray precheck complete
 
 - Added portable DR teaching/resume/style scripts, completion report and execution guide, with five unchanged saved QC PNGs.

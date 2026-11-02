@@ -1,6 +1,6 @@
 # Dataset panel and sources
 
-Panel recorded on 26 October 2026; progress updated on 31 October 2026.
+Panel recorded on 26 October 2026; progress updated on 2 November 2026.
 
 The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
@@ -18,7 +18,7 @@ The seven terrestrial datasets below are selected for retrieval and individual p
 
 All entries concern mouse retinal measurements. LHON and AMD entries are specific experimental models; light damage is an experimental injury. These labels should be retained when presenting future results.
 
-This snapshot contains completed glaucoma, RP, LHON-linked model and DR processed-data prechecks. The RNA-seq datasets each have four saved QC figures; DR has five, including a density close-up. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. DR uses all 17 arrays for exploratory QC, with 24,973 supplied features and Entrez-based platform IDs. No additional log2, CPM or TMM was applied to its processed microarray values. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
+This snapshot contains completed glaucoma, RP, LHON-linked model, DR and autoimmune uveitis processed-data prechecks. The completed RNA-seq prechecks each have four saved QC figures; DR has five, including a density close-up. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. DR uses all 17 arrays for exploratory QC, with 24,973 supplied features and Entrez-based platform IDs. No additional log2, CPM or TMM was applied to its processed microarray values. Uveitis uses three CON and three EAU samples, excluding sleep-deprivation groups by design, with 18,187 rows in its QC copy and mixed-label annotation documented. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
 
 ## Glaucoma inputs
 
@@ -61,3 +61,9 @@ The source is [GSE87433](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8
 This is a processed microarray matrix, not RNA-seq counts. The precheck uses the supplied values without additional log2 transformation, CPM calculation, TMM normalization or count filtering. Entrez-based feature IDs are matched to gene symbols/names in the supplied platform annotation. The default input directory is `data/raw/Diabetic_Retinopathy_GSE87433/`, or the absolute directory set by `DR_DATA_DIR`.
 
 All 17 arrays were reviewed: six normal controls, six untreated diabetic samples and five treated samples. The six-versus-six disease comparison remains distinct from the treated condition. See the [DR report](diabetic-retinopathy-precheck.md) and [execution guide](running-the-dr-precheck.md). The original processed matrix and large platform annotation file are not uploaded as portfolio outputs.
+
+## Autoimmune uveitis inputs
+
+The source is [GSE284505](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284505). The reviewed local files are `GSE284505_R.HTSeq.counts.txt` and `GSE284505_family`, an archive containing `GSE284505_family.xml`. The default input directory is `data/raw/Autoimmune_Uveitis_GSE284505/`, or the absolute directory set by `UVEITIS_DATA_DIR`.
+
+The original count table contains 12 samples across CON, EAU, CSD-CON and CSD-EAU. The selected disease comparison retains only CON and EAU, three samples each; exclusion of sleep-deprivation conditions is by design. Mixed symbol-style/Ensembl labels are preserved. The saved annotation records REST lookup results after failed BioMart connections, including missing names and unmatched IDs; it is not a completed cross-study harmonization. See the [uveitis report](autoimmune-uveitis-precheck.md) and [execution guide](running-the-uveitis-precheck.md).

@@ -1,0 +1,17 @@
+geo_accession,title,organism,source,age_group,genotype,strain,tissue
+GSM947357,NR Young WT rep1,Mus musculus,neuroretina_Young_WT,young,WT,C57BL/6J,neuroretina
+GSM947358,NR Young WT rep2,Mus musculus,neuroretina_Young_WT,young,WT,C57BL/6J,neuroretina
+GSM947359,NR Young WT rep3,Mus musculus,neuroretina_Young_WT,young,WT,C57BL/6J,neuroretina
+GSM947360,NR Young WT rep4,Mus musculus,neuroretina_Young_WT,young,WT,C57BL/6J,neuroretina
+GSM947361,NR Young Cfh-/- rep1,Mus musculus,neuroretina_Young_Cfh-/-,young,Cfh-/-,C57BL/6J,neuroretina
+GSM947362,NR Young Cfh-/- rep2,Mus musculus,neuroretina_Young_Cfh-/-,young,Cfh-/-,C57BL/6J,neuroretina
+GSM947363,NR Young Cfh-/- rep3,Mus musculus,neuroretina_Young_Cfh-/-,young,Cfh-/-,C57BL/6J,neuroretina
+GSM947364,NR Young Cfh-/- rep4,Mus musculus,neuroretina_Young_Cfh-/-,young,Cfh-/-,C57BL/6J,neuroretina
+GSM947365,NR Aged WT rep1,Mus musculus,neuroretina_Aged_WT,aged,WT,C57BL/6J,neuroretina
+GSM947366,NR Aged WT rep2,Mus musculus,neuroretina_Aged_WT,aged,WT,C57BL/6J,neuroretina
+GSM947367,NR Aged WT rep3,Mus musculus,neuroretina_Aged_WT,aged,WT,C57BL/6J,neuroretina
+GSM947368,NR Aged WT rep4,Mus musculus,neuroretina_Aged_WT,aged,WT,C57BL/6J,neuroretina
+GSM947369,NR Aged Cfh-/- rep1,Mus musculus,neuroretina_Aged_Cfh-/-,aged,Cfh-/-,C57BL/6J,neuroretina
+GSM947370,NR Aged Cfh-/- rep2,Mus musculus,neuroretina_Aged_Cfh-/-,aged,Cfh-/-,C57BL/6J,neuroretina
+GSM947371,NR Aged Cfh-/- rep3,Mus musculus,neuroretina_Aged_Cfh-/-,aged,Cfh-/-,C57BL/6J,neuroretina
+GSM947372,NR Aged Cfh-/- rep4,Mus musculus,neuroretina_Aged_Cfh-/-,aged,Cfh-/-,C57BL/6J,neuroretina

@@ -1,0 +1,12 @@
+"check","value"
+"gene_rows",19999
+"sample_columns",10
+"missing_entries",0
+"blank_gene_ids",0
+"duplicate_gene_ids",0
+"finite_counts",1
+"nonnegative_counts",1
+"whole_counts",1
+"minimum_count",0
+"maximum_count",1008714
+"all_zero_genes",36

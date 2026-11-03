@@ -1,10 +1,10 @@
 # Dataset panel and sources
 
-Panel recorded on 26 October 2026; progress updated on 2 November 2026.
+Panel recorded on 26 October 2026; progress updated on 3 November 2026.
 
 The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
-The seven terrestrial datasets below are selected for retrieval and individual prechecks. Selection does not mean every dataset has passed quality and experimental-design checks.
+All seven terrestrial datasets below have completed processed-data prechecks. Recorded sample flags, design-information gaps and later modelling decisions remain documented in their reports; completion does not mean the disease–spaceflight comparison has been performed.
 
 | Condition/model | Accession | Measurement | Intended comparison to inspect |
 | --- | --- | --- | --- |
@@ -18,7 +18,23 @@ The seven terrestrial datasets below are selected for retrieval and individual p
 
 All entries concern mouse retinal measurements. LHON and AMD entries are specific experimental models; light damage is an experimental injury. These labels should be retained when presenting future results.
 
-This snapshot contains completed glaucoma, RP, LHON-linked model, DR and autoimmune uveitis processed-data prechecks. The completed RNA-seq prechecks each have four saved QC figures; DR has five, including a density close-up. Glaucoma retains all eight selected libraries, including R-08, and omits the optional correlation check. RP retains all seven libraries and records sex for later genotype modelling. LHON retains all 12 libraries in four genotype groups, with 17,860 rows in its QC copy. DR uses all 17 arrays for exploratory QC, with 24,973 supplied features and Entrez-based platform IDs. No additional log2, CPM or TMM was applied to its processed microarray values. Uveitis uses three CON and three EAU samples, excluding sleep-deprivation groups by design, with 18,187 rows in its QC copy and mixed-label annotation documented. Other datasets' prechecks and the formal disease–spaceflight comparison remain separate project stages. Source authors generated the experimental data; this project concerns secondary analysis. Accession links document the source records, not a completed independent validation of every comparison.
+This snapshot contains all seven completed terrestrial prechecks and 29 saved figures. RNA-seq prechecks each have four figures; AMD has four and DR has five, including its density close-up. Every selected sample is currently retained. AMD flags GSM947360 for later inclusion review; light damage preserves the control-like LD-vehicle-5. Source authors generated the experimental measurements; this project concerns secondary analysis.
+
+## Measurement and identifier distinctions
+
+| Dataset | Deposited measurement and native row labels | Precheck treatment and annotation |
+| --- | --- | --- |
+| Glaucoma | RNA-seq counts; combined Ensembl/gene-symbol labels | Expression filter, TMM, log-CPM; preserve supplied labels |
+| RP | RNA-seq counts; Ensembl gene IDs | Expression filter, TMM, log-CPM; supplied workbook annotation kept separate from sample columns |
+| LHON-linked model | RNA-seq counts; symbol-style gene names | Expression filter, TMM, log-CPM; no external identifier lookup in this precheck |
+| DR | Processed microarray; Entrez-based IDs from the custom platform | Supplied values used without additional log2, CPM, TMM or count filtering; supplied platform gene names matched by ID |
+| Autoimmune uveitis | RNA-seq counts; mixed symbol-style labels and Ensembl IDs | Expression filter, TMM, log-CPM; BioMart failed, REST annotated the Ensembl subset; unresolved IDs preserved |
+| AMD-related CFH-deficiency model | Microarray intensities; numeric array feature/transcript-cluster IDs | One log2 QC copy; no CPM/TMM/extra normalization or expression-row filter; multipart platform assignments preserved separately |
+| Light damage | RNA-seq counts; Ensembl gene IDs | Expression filter, TMM, log-CPM; failed REST route replaced by fixed Ensembl release-116 GRCm39 GTF; unnamed/unmatched IDs preserved |
+
+Numeric labels do not imply a shared identifier system: DR's Entrez IDs and AMD's array IDs have different meanings. In AMD, one measured array feature can have several annotation assignments; expanding an annotation table does not create extra expression measurements. Probe groups, gene IDs and symbols have not yet been harmonized across studies. The [AMD report](amd-precheck.md) explains this distinction with examples.
+
+Selection also differs by study: glaucoma uses eight retina libraries across baseline and three stages; RP uses seven P23H/WT libraries; LHON uses 12 libraries in four genotypes; DR explores all 17 arrays while keeping the six-versus-six untreated disease contrast separate from five treated arrays; uveitis excludes both sleep-deprivation groups; AMD excludes RPE/choroid and keeps age-matched genotype comparisons separate; light damage uses all 10 supplied vehicle libraries. These choices do not pool heterogeneous study measurements into one analysis.
 
 ## Glaucoma inputs
 
@@ -67,3 +83,15 @@ All 17 arrays were reviewed: six normal controls, six untreated diabetic samples
 The source is [GSE284505](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284505). The reviewed local files are `GSE284505_R.HTSeq.counts.txt` and `GSE284505_family`, an archive containing `GSE284505_family.xml`. The default input directory is `data/raw/Autoimmune_Uveitis_GSE284505/`, or the absolute directory set by `UVEITIS_DATA_DIR`.
 
 The original count table contains 12 samples across CON, EAU, CSD-CON and CSD-EAU. The selected disease comparison retains only CON and EAU, three samples each; exclusion of sleep-deprivation conditions is by design. Mixed symbol-style/Ensembl labels are preserved. The saved annotation records REST lookup results after failed BioMart connections, including missing names and unmatched IDs; it is not a completed cross-study harmonization. See the [uveitis report](autoimmune-uveitis-precheck.md) and [execution guide](running-the-uveitis-precheck.md).
+
+## AMD-related CFH-deficiency model inputs
+
+Use [GSE38671](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38671). Reviewed local inputs are `GSE38671_series_matrix` and `GSE38671_family`; the archive supplies `GSE38671_family.xml` and `GPL6246-tbl-1.txt`. The portable default is `data/raw/AMD_GSE38671/`, or the absolute folder set by `AMD_DATA_DIR`.
+
+Select only the 16 neuroretina arrays from 32 original arrays, preserving four young/aged WT/Cfh-/- groups. Platform coverage is complete for the 35,556 expression IDs, with one extra unused platform record. The numeric feature IDs remain distinct from gene names/Entrez annotations and the separate 298,709-row assignment table. Large platform/expanded annotation exports remain local. See the [AMD report](amd-precheck.md) and [execution guide](running-the-amd-precheck.md).
+
+## Light-damage inputs
+
+Use [GSE314043](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314043). Reviewed local inputs are the uncompressed `GSE314043_genecount.txt` and extensionless `GSE314043_family` archive containing `GSE314043_family.xml`. The portable default is `data/raw/Light_Damage_GSE314043/`, or the absolute folder set by `LIGHT_DAMAGE_DATA_DIR`.
+
+All 10 supplied CTRL-vehicle/LD-vehicle libraries are used. Final gene annotations come from the fixed official release-116 GRCm39 GTF, rather than the unsuccessful partial REST cache. The GTF itself remains local; its URL and checksum are versioned alongside saved annotations and QC tables. See the [light-damage report](light-damage-precheck.md) and [execution guide](running-the-light-damage-precheck.md).

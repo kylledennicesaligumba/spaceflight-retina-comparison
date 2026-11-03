@@ -1,5 +1,7 @@
 # Retinitis pigmentosa GSE156533: completed processed-data precheck
 
+**Figure update — 3 November 2026:** the boxplot below now uses group colours and revised sample labels/order. Its [sample key](../metadata/boxplot_sample_keys/RP_GSE156533_logCPM_boxplot_sample_key.csv) preserves the original IDs. The saved restyle record confirms unchanged per-sample boxplot statistics; other figures and recorded analysis/sample decisions are preserved. See [boxplot styling](boxplot-styling.md).
+
 **Completed:** 29 October 2026, at the agreed endpoint after MDS and PCA interpretation.
 **Decision:** Retain all seven retinal libraries. Preserve sex as a factor for later genotype comparisons. No sample has been established as a failed library from these checks.
 **Checkpoint status:** Final dated checkpoint confirmed saved: RP_GSE156533_precheck_checkpoint_2026-10-29.RData, 9,637,922 bytes, 29 October 14:06. The recorded checkpoint audit confirmed 49 stored RP objects, including full/filtered data, normalization metadata and final projection plots. The earlier 10:16 checkpoint remains a backup through the initial boxplot stage.

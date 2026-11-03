@@ -1,5 +1,7 @@
 # Experimental autoimmune uveitis GSE284505: completed processed-data precheck
 
+**Figure update — 3 November 2026:** the boxplot below now uses group colours and revised sample labels/order. Its [sample key](../metadata/boxplot_sample_keys/Autoimmune_Uveitis_GSE284505_logCPM_boxplot_sample_key.csv) preserves the original IDs. The saved restyle record confirms unchanged per-sample boxplot statistics; other figures and recorded analysis/sample decisions are preserved. See [boxplot styling](boxplot-styling.md).
+
 **Completed:** 2 November 2026.
 
 **Decision:** Retain the six selected retinal samples: three healthy controls (CON) and three experimental autoimmune uveitis samples (EAU). Exclude both sleep-deprivation groups from this disease comparison by design. The filtered QC copy contains 18,187 gene rows. No selected sample was excluded as a failed library.

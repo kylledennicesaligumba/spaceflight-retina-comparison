@@ -37,3 +37,11 @@ This displays and replaces the three named local PNGs under `results/`, at 2400 
 ## Autoimmune uveitis specialization
 
 [14_Uveitis_projection_style.R](../scripts/14_Uveitis_projection_style.R) defines the matching appearance for CON/EAU, with sample labels, unchanged calculated coordinates and an outside condition legend. The main script fits pairwise MDS and common-top-500 PCA on filtered TMM log-CPM, then explicitly displays and saves both plots. The reload helper loads the formatting definition without refitting projections. See the [uveitis execution guide](running-the-uveitis-precheck.md).
+
+## AMD and light damage
+
+[19_AMD_projection_style.R](../scripts/19_AMD_projection_style.R) defines age/genotype colours and formatting for the 16 selected neuroretina arrays. Its main script calculates pairwise MDS and common-top-500-feature PCA from the single log2 microarray QC copy, without CPM or TMM. Numeric feature IDs retain their measurement identity even when annotation contains multiple gene assignments. See the [AMD execution guide](running-the-amd-precheck.md).
+
+The [light-damage main script](../scripts/20_Light_Damage_GSE314043_precheck.R) contains matching point/repelled-label/outside-legend formatting for CTRL/LD, using filtered TMM log-CPM. Its original PNGs report one decimal place in axis percentages and were copied unchanged. See the [light-damage execution guide](running-the-light-damage-precheck.md).
+
+The separate [boxplot styling guide](boxplot-styling.md) describes the 3 November group-colour update. It changes initial boxplot presentation and does not refit MDS/PCA.

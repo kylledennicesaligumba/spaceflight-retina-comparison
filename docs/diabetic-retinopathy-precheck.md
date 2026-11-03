@@ -1,5 +1,7 @@
 # Diabetic retinopathy GSE87433: completed processed-data precheck
 
+**Figure update — 3 November 2026:** the boxplot below now uses group colours and revised sample labels/order. Its [sample key](../metadata/boxplot_sample_keys/DR_GSE87433_expression_boxplot_sample_key.csv) preserves the original IDs. The saved restyle record confirms unchanged per-sample boxplot statistics; other figures and recorded analysis/sample decisions are preserved. See [boxplot styling](boxplot-styling.md).
+
 **Completed:** 31 October 2026, as reported by the author after the reviewed MDS/PCA outputs and final checkpoint save.
 
 **Input type: processed microarray expression. No additional log2 transformation, CPM calculation or TMM normalization was performed in this precheck.** The deposited values were used as supplied. This statement concerns the current precheck, rather than claiming that the original study supplied untransformed measurements.

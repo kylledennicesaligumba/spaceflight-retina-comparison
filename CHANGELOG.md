@@ -1,5 +1,16 @@
 # Project progress
 
+## 3 November 2026 — All seven terrestrial prechecks complete
+
+- Added AMD and light-damage scripts, reports, execution guides, selected metadata and eight original saved figures.
+- Documented AMD's neuroretina-only selection, age/genotype groups, one log2 QC copy, array feature/transcript-cluster IDs, multiple assignments and source truncation. All 16 arrays remain retained; GSM947360 keeps its recorded review flag. No CPM, TMM, extra normalization or expression-row filtering was added.
+- Documented light damage's five-versus-five vehicle comparison, Ensembl IDs, fixed release-116 GRCm39 GTF annotation after REST failures, 16,852 retained QC genes and all 10 libraries retained, including control-like LD-vehicle-5. Added existing annotation/QC/projection exports, PCA feature list, session information and completion verification record.
+- Replaced the five previously versioned boxplots with their existing group-coloured exports; AMD's newly added boxplot is also restyled and light damage already used group colours. Added the shared restyle script, six sample keys and the saved unchanged-statistics record with portable paths.
+- Updated every completed report's boxplot provenance, the README to seven completed prechecks, and the dataset guide with measurement, identifier, transformation and sample-selection distinctions.
+- Preserved original files. Confirmed both dated checkpoints exist without loading them; AMD's older checkpoint is not represented as a restore-verified completed state. Large AMD annotation, original expression inputs, the full GTF and binary results remain local.
+
+Synchronization checked script syntax/source consistency, saved tables/keys, links and original PNG identity. It did not import expression inputs, inspect unreviewed source metadata, load RData, rerun analysis or annotation, refit projections or regenerate scientific figures.
+
 ## 2 November 2026 — Experimental autoimmune uveitis precheck complete
 
 - Added four portable teaching/reload/style/save scripts, a completion report and an execution guide, with four unchanged saved QC figures.

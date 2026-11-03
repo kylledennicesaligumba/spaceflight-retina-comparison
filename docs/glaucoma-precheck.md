@@ -1,5 +1,7 @@
 # Glaucoma GSE241782: completed processed-data precheck
 
+**Figure update — 3 November 2026:** the boxplot below now uses group colours and revised sample labels/order. Its [sample key](../metadata/boxplot_sample_keys/Glaucoma_GSE241782_logCPM_boxplot_sample_key.csv) preserves the original IDs. The saved restyle record confirms unchanged per-sample boxplot statistics; other figures and recorded analysis/sample decisions are preserved. See [boxplot styling](boxplot-styling.md).
+
 **Completed:** 28 October 2026, at the agreed endpoint.
 
 **Decision:** Retain all eight selected retinal libraries, including R-08, and proceed to the next dataset. R-08's distinctive profile remains documented; it has not been diagnosed as a failed library. The optional sample-correlation check was not performed, by the author’s decision.

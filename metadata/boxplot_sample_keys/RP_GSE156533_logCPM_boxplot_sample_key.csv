@@ -1,0 +1,8 @@
+"plot_position","original_column","original_sample_id","plot_label","plot_group","fill_colour","geo_accession","sample_id","genotype","sex","age","tissue","strain"
+1,2,"WT_7","WT_7 (F)","WT","#0072B2","GSM4733116","WT_7","RhoWT (wild-type)","Female","Postnatal day 90","Whole retina","C57BL/6J"
+2,4,"WT_9","WT_9 (F)","WT","#0072B2","GSM4733117","WT_9","RhoWT (wild-type)","Female","Postnatal day 90","Whole retina","C57BL/6J"
+3,6,"WT_12","WT_12 (M)","WT","#0072B2","GSM4733118","WT_12","RhoWT (wild-type)","Male","Postnatal day 90","Whole retina","C57BL/6J"
+4,1,"P23H_6","P23H_6 (F)","P23H","#D55E00","GSM4733112","P23H_6","RhoP23H/WT (mutant)","Female","Postnatal day 90","Whole retina","C57BL/6J"
+5,3,"P23H_8","P23H_8 (F)","P23H","#D55E00","GSM4733113","P23H_8","RhoP23H/WT (mutant)","Female","Postnatal day 90","Whole retina","C57BL/6J"
+6,5,"P23H_11","P23H_11 (M)","P23H","#D55E00","GSM4733114","P23H_11","RhoP23H/WT (mutant)","Male","Postnatal day 90","Whole retina","C57BL/6J"
+7,7,"P23H_13","P23H_13 (M)","P23H","#D55E00","GSM4733115","P23H_13","RhoP23H/WT (mutant)","Male","Postnatal day 90","Whole retina","C57BL/6J"

@@ -6,6 +6,7 @@
 # R session state, histories, and local project settings
 .RData
 .Rhistory
+*.Rhistory
 .Rapp.history
 *.RData
 *.rda

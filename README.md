@@ -1,10 +1,10 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: five prechecks completed — glaucoma, retinitis pigmentosa, LHON-linked model, diabetic retinopathy and autoimmune uveitis.**
+**Status: all seven terrestrial dataset prechecks completed.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 2 November 2026.
+Last documented update: 3 November 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
@@ -14,7 +14,7 @@ Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The 
 
 ## Current work
 
-Five processed-data prechecks are completed. Each includes input integrity, sample/feature annotation alignment, expression-distribution checks and reviewed MDS/PCA figures. The RNA-seq workflows use count filtering and TMM. **DR is a deposited processed microarray matrix: no additional log2 transformation, CPM calculation or TMM normalization was performed, and no RNA-seq count-filtering step was applied.**
+All seven processed-data prechecks are completed. Each includes input integrity, sample/feature annotation alignment, expression-distribution checks and reviewed MDS/PCA figures. RNA-seq workflows use count filtering and TMM. The microarrays follow distinct branches: **DR uses supplied processed values without additional log2, CPM or TMM; AMD uses a single log2 QC copy of supplied intensities, with no CPM, TMM, extra normalization or expression-row filtering.**
 
 | Dataset | Completed | Samples used for QC | Feature rows used for QC | Record |
 | --- | --- | --- | --- | --- |
@@ -23,6 +23,8 @@ Five processed-data prechecks are completed. Each includes input integrity, samp
 | LHON-linked model, GSE304707 | 30 October 2026 | All 12 libraries: three per genotype | 17,860 of 49,714 | [LHON report](docs/lhon-precheck.md) |
 | Diabetic retinopathy, GSE87433 | 31 October 2026 | All 17 arrays: six normal, six diabetic, five treated | All 24,973 supplied features | [DR report](docs/diabetic-retinopathy-precheck.md) |
 | Experimental autoimmune uveitis, GSE284505 | 2 November 2026 | Six selected samples: three CON and three EAU; sleep-deprivation groups excluded by design | 18,187 of 56,859 | [Uveitis report](docs/autoimmune-uveitis-precheck.md) |
+| AMD-related CFH-deficiency model, GSE38671 | 3 November 2026 | 16 neuroretina arrays: four per young/aged WT/Cfh-/- group | All 35,556 array features | [AMD report](docs/amd-precheck.md) |
+| Light-induced retinal damage, GSE314043 | 3 November 2026 | All 10 libraries: five CTRL-vehicle and five LD-vehicle | 16,852 of 19,999 | [Light-damage report](docs/light-damage-precheck.md) |
 
 The glaucoma decision retains R-08 with its distinct profile documented and omits the optional correlation check. Glaucoma stages and sex remain recorded; each condition/time pair consists of one male pool and one female pool. The RP decision retains all seven libraries and preserves sex for later genotype modelling. The RP report includes the recorded checkpoint audit and stored TMM-factor table. LHON retains all 12 libraries across WT, YARS2, COI and YARS2/COI, with its final metadata, scaling factors, session record and restore verification documented.
 
@@ -30,15 +32,19 @@ DR retains all 17 arrays for exploratory QC, with the six-versus-six untreated d
 
 Autoimmune uveitis retains all six selected CON/EAU samples. Original labels mix gene names and Ensembl IDs. After BioMart connections failed, Ensembl REST returned 1,440 names, 24 records without names and 84 unresolved IDs from the 1,548-ID subset. Original labels and lookup gaps are preserved in a separate annotation table; the 55,311 other labels were not queried. Both sleep-deprivation groups remain outside this comparison.
 
+AMD preserves array feature/transcript-cluster IDs and their multiple supplied gene assignments; its expanded annotation is separate from expression measurements. All 16 arrays remain included, with GSM947360 flagged for later inclusion review. Light damage preserves Ensembl IDs, uses a fixed release-116 GTF after REST failures, and retains all 10 libraries, including the control-like LD-vehicle-5. See the [dataset distinctions](docs/datasets.md#measurement-and-identifier-distinctions).
+
+All seven datasets now have group-coloured boxplots. The [shared restyle script and record](docs/boxplot-styling.md) cover the six revised plots; light damage already used this style. Sample keys preserve original IDs and plot order.
+
 These prechecks concern deposited expression measurements and metadata. Raw sequence or CEL processing was not repeated, and disease–spaceflight similarity has not yet been calculated. The seven-dataset panel remains the agreed project scope.
 
-## Latest completed precheck: autoimmune uveitis
+## Latest completed prechecks: AMD and light damage
 
-The uveitis PCA uses one common set of 500 variable genes from filtered, TMM-adjusted log-CPM. CON and EAU separate on the first axis; CON3 differs along the second. All six selected samples remain retained. This descriptive view does not establish differential expression or resemblance to spaceflight.
+The [AMD report](docs/amd-precheck.md) documents neuroretina-only selection, the log2 microarray branch, probe-group IDs, ambiguous/truncated annotations and the recorded sample flag. The [light-damage report](docs/light-damage-precheck.md) records count normalization, fixed GTF annotation, all 10 retained libraries and existing independent verification.
 
-![Autoimmune uveitis common-top-500 PCA after TMM](figures/autoimmune_uveitis/Autoimmune_Uveitis_GSE284505_TMM_PCA_top500.png)
+![Light-damage common-top-500 PCA after TMM](figures/light_damage/Light_Damage_GSE314043_TMM_PCA_top500.png)
 
-The [uveitis report](docs/autoimmune-uveitis-precheck.md) includes all four figures, sample selection, annotation outcomes and the recorded endpoint. Earlier completed records remain available for [DR](docs/diabetic-retinopathy-precheck.md), [LHON](docs/lhon-precheck.md), [RP](docs/retinitis-pigmentosa-precheck.md) and [glaucoma](docs/glaucoma-precheck.md).
+Light-damage projections show partial condition separation and variation among LD libraries; LD-vehicle-5 is near controls and remains retained. These findings do not establish differential expression or resemblance to spaceflight. Earlier records remain available for [uveitis](docs/autoimmune-uveitis-precheck.md), [DR](docs/diabetic-retinopathy-precheck.md), [LHON](docs/lhon-precheck.md), [RP](docs/retinitis-pigmentosa-precheck.md) and [glaucoma](docs/glaucoma-precheck.md).
 
 ## Explore the repository
 
@@ -51,7 +57,10 @@ The [uveitis report](docs/autoimmune-uveitis-precheck.md) includes all four figu
 - [DR teaching script](scripts/09_Diabetic_Retinopathy_precheck.R), [resume helper](scripts/10_Diabetic_Retinopathy_GSE87433_resume.R), [style helper](scripts/11_DR_projection_style.R) and [execution guide](docs/running-the-dr-precheck.md).
 - [Uveitis teaching script](scripts/12_Autoimmune_Uveitis_GSE284505_precheck.R), [reload helper](scripts/13_Autoimmune_Uveitis_GSE284505_reload.R), [style helper](scripts/14_Uveitis_projection_style.R), [save/export helper](scripts/15_Autoimmune_Uveitis_GSE284505_save.R) and [execution guide](docs/running-the-uveitis-precheck.md).
 - [Uveitis selected metadata](metadata/GSE284505_samples_selected.csv), [gene annotation](tables/autoimmune_uveitis/Autoimmune_Uveitis_GSE284505_gene_annotation_2026-11-02.csv), [TMM summary](tables/autoimmune_uveitis/Autoimmune_Uveitis_GSE284505_TMM_summary_2026-11-02.csv) and [session record](docs/uveitis-sessionInfo_2026-11-02.txt).
-- [Dataset panel and input sources](docs/datasets.md).
+- [AMD teaching script](scripts/16_AMD_GSE38671_precheck.R), [reload](scripts/17_AMD_GSE38671_reload.R), [annotation formatter](scripts/18_AMD_annotation_format.R), [projection helper](scripts/19_AMD_projection_style.R), [save helper](scripts/24_AMD_save_session.R) and [execution guide](docs/running-the-amd-precheck.md).
+- [Light-damage script](scripts/20_Light_Damage_GSE314043_precheck.R), [reload](scripts/21_Light_Damage_GSE314043_reload.R), [verification](scripts/22_Light_Damage_GSE314043_verify.R), [saved result tables](tables/light_damage/) and [execution guide](docs/running-the-light-damage-precheck.md).
+- [Group-coloured boxplots and sample keys](docs/boxplot-styling.md).
+- [Dataset panel, measurement/identifier distinctions and input sources](docs/datasets.md).
 - [GitHub first steps](docs/github-first-steps.md).
 
 ## Planned comparison
@@ -62,6 +71,6 @@ The panel contains RNA-seq counts and microarray measurements. Exact statistical
 
 ## Reproducibility and scope
 
-The precheck scripts are designed for interactive execution one block at a time. Recorded numerical observations and figures come from the author's interactive R runs. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
+The precheck scripts are designed for interactive execution one block at a time. Recorded numerical observations and figures come from the completed project R runs: interactive prechecks and the saved separate-process light-damage workflow. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
 Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded expression inputs, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.

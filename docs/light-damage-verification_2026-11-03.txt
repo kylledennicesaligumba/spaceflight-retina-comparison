@@ -1,0 +1,8 @@
+Verification completed: 3 November 2026, Asia/Manila.
+Checkpoint reload, sample order and gene order: PASS.
+Original count/metadata source checksums: PASS.
+Raw-count CSV and sample-QC CSV agree with checkpoint: PASS.
+No duplicate sample count profiles: PASS.
+PCA agrees with independent prcomp calculation (allowing axis sign and sqrt(500) scaling): PASS.
+Compressed Ensembl GTF passed gzip integrity verification.
+All four exported PNG figures were visually inspected.

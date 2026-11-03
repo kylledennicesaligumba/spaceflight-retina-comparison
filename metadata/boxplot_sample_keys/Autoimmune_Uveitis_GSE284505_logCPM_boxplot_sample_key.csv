@@ -1,0 +1,7 @@
+"plot_position","original_column","original_sample_id","plot_label","plot_group","fill_colour","geo_accession","title","genotype","tissue","treatment","sample_id"
+1,1,"CON1","CON1","CON","#0072B2","GSM8685595","Healthy Control rep1","CON","Retina","Healthy Control rep1","CON1"
+2,2,"CON2","CON2","CON","#0072B2","GSM8685596","Healthy Control rep2","CON","Retina","Healthy Control rep2","CON2"
+3,3,"CON3","CON3","CON","#0072B2","GSM8685597","Healthy Control rep3","CON","Retina","Healthy Control rep3","CON3"
+4,4,"EAU1","EAU1","EAU","#D55E00","GSM8685601","Using  IRBP peptide and CFA for 2 weeks rep1","EAU","Retina","Using  IRBP peptide and CFA for 2 weeks rep1","EAU1"
+5,5,"EAU2","EAU2","EAU","#D55E00","GSM8685602","Using  IRBP peptide and CFA for 2 weeks rep2","EAU","Retina","Using  IRBP peptide and CFA for 2 weeks rep2","EAU2"
+6,6,"EAU3","EAU3","EAU","#D55E00","GSM8685603","Using  IRBP peptide and CFA for 2 weeks rep3","EAU","Retina","Using  IRBP peptide and CFA for 2 weeks rep3","EAU3"

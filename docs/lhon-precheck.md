@@ -1,5 +1,7 @@
 # LHON-linked model GSE304707: completed processed-data precheck
 
+**Figure update — 3 November 2026:** the boxplot below now uses group colours and revised sample labels/order. Its [sample key](../metadata/boxplot_sample_keys/LHON_GSE304707_logCPM_boxplot_sample_key.csv) preserves the original IDs. The saved restyle record confirms unchanged per-sample boxplot statistics; other figures and recorded analysis/sample decisions are preserved. See [boxplot styling](boxplot-styling.md).
+
 **Completed:** 30 October 2026, at the agreed endpoint.
 
 **Decision:** Retain all 12 retinal libraries. The QC copy contains 17,860 gene rows. No library was established as failed by this precheck, and no further QC step is required by the recorded closure decision.

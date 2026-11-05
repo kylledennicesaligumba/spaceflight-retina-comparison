@@ -1,0 +1,5 @@
+"","Young_CfhKO_vs_WT","Aged_CfhKO_vs_WT"
+"(Intercept)",0,0
+"groupYoung_CfhKO",1,0
+"groupAged_WT",0,-1
+"groupAged_CfhKO",0,1

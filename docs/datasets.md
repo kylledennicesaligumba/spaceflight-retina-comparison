@@ -1,17 +1,17 @@
 # Dataset panel and sources
 
-Panel recorded on 26 October 2026; progress updated on 3 November 2026.
+Panel recorded on 26 October 2026; progress updated on 5 November 2026.
 
 The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
-All seven terrestrial datasets below have completed processed-data prechecks. Recorded sample flags, design-information gaps and later modelling decisions remain documented in their reports; completion does not mean the disease–spaceflight comparison has been performed.
+All seven terrestrial datasets below have completed processed-data prechecks and saved within-study result tables. The [within-study overview](withinstudy/README.md) records 12 implemented contrasts. Sample flags and design-information limits remain documented; the disease–spaceflight comparison has not yet been performed.
 
 | Condition/model | Accession | Measurement | Intended comparison to inspect |
 | --- | --- | --- | --- |
 | Experimental glaucoma | [GSE241782](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE241782) | RNA-seq gene counts | Retinal glaucoma versus naïve controls; retain 3-day, 2-week and 6-week stages |
 | Retinitis pigmentosa, P23H rhodopsin model | [GSE156533](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156533) | RNA-seq read counts | Mutant versus wild-type littermate retina at postnatal day 90 |
 | Diabetic retinal injury, STZ diabetes model | [GSE87433](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87433) | Microarray expression | Untreated diabetic versus normoglycemic retina at the 12-week endpoint |
-| LHON-linked mitochondrial optic neuropathy model | [GSE304707](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304707) | RNA-seq gene counts | YARS2 G186V, mitochondrial COI V421A and double-mutant groups versus wild type; principal contrast pending |
+| LHON-linked mitochondrial optic neuropathy model | [GSE304707](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304707) | RNA-seq gene counts | YARS2 G186V, mitochondrial COI V421A and double-mutant groups versus wild type; all three contrasts retained |
 | AMD-related complement-factor-H deficiency model | [GSE38671](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE38671) | Microarray expression | Neural-retina Cfh knockout versus age-matched wild type; keep ages separate |
 | Experimental autoimmune uveitis | [GSE284505](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE284505) | RNA-seq HTSeq counts | EAU-only versus healthy control; exclude sleep-deprivation groups |
 | Light-induced retinal damage | [GSE314043](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE314043) | RNA-seq gene counts | Light-damaged vehicle group versus control vehicle group |
@@ -33,6 +33,8 @@ This snapshot contains all seven completed terrestrial prechecks and 29 saved fi
 | Light damage | RNA-seq counts; Ensembl gene IDs | Expression filter, TMM, log-CPM; failed REST route replaced by fixed Ensembl release-116 GRCm39 GTF; unnamed/unmatched IDs preserved |
 
 Numeric labels do not imply a shared identifier system: DR's Entrez IDs and AMD's array IDs have different meanings. In AMD, one measured array feature can have several annotation assignments; expanding an annotation table does not create extra expression measurements. Probe groups, gene IDs and symbols have not yet been harmonized across studies. The [AMD report](amd-precheck.md) explains this distinction with examples.
+
+The table above describes precheck inputs. AMD's subsequent [within-study analysis](withinstudy/amd.md) applies the recorded conservative mapping rule and selects one maximum-mean feature per eligible Entrez ID, producing 19,825 gene rows. DR's within-study contrast selects 12 untreated arrays from the 17-array QC set. Glaucoma/RP use sex-adjusted models, LHON estimates all three mutant-versus-WT responses, and uveitis/light damage preserve their selected sample sets. Cross-study identifier harmonization remains separate from these within-study operations.
 
 Selection also differs by study: glaucoma uses eight retina libraries across baseline and three stages; RP uses seven P23H/WT libraries; LHON uses 12 libraries in four genotypes; DR explores all 17 arrays while keeping the six-versus-six untreated disease contrast separate from five treated arrays; uveitis excludes both sleep-deprivation groups; AMD excludes RPE/choroid and keeps age-matched genotype comparisons separate; light damage uses all 10 supplied vehicle libraries. These choices do not pool heterogeneous study measurements into one analysis.
 

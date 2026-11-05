@@ -1,0 +1,35 @@
+AMD GSE38671 final gene-level verification — 5 November 2026, Asia/Manila
+PASS: 19,825 gene rows and 16 arrays
+PASS: Sample order matches metadata
+PASS: Gene IDs unique
+PASS: Gene annotation aligned
+PASS: Full-rank design and 12 residual degrees of freedom
+PASS: Selected expression values exactly match precheck
+PASS: Input checkpoint checksum unchanged
+PASS: All candidate means match original values
+PASS: Maximum mean selected for every gene
+PASS: Deterministic feature-ID tie rule
+PASS: One selected representative per eligible gene
+PASS: Conservative annotation eligibility
+PASS: Age-matched contrast effect estimates
+PASS: Young_CfhKO_vs_WT complete finite results
+PASS: Young_CfhKO_vs_WT BH FDR across all tested genes
+PASS: Young_CfhKO_vs_WT DEG membership
+PASS: Young_CfhKO_vs_WT full signed moderated-t ranking
+PASS: Young_CfhKO_vs_WT saved CSV matches checkpoint
+PASS: Young_CfhKO_vs_WT heatmap includes every DEG
+PASS: Young_CfhKO_vs_WT heatmap expression matches input
+PASS: Young_CfhKO_vs_WT heatmap row z-scores
+PASS: Aged_CfhKO_vs_WT complete finite results
+PASS: Aged_CfhKO_vs_WT BH FDR across all tested genes
+PASS: Aged_CfhKO_vs_WT DEG membership
+PASS: Aged_CfhKO_vs_WT full signed moderated-t ranking
+PASS: Aged_CfhKO_vs_WT saved CSV matches checkpoint
+PASS: Aged_CfhKO_vs_WT heatmap includes every DEG
+PASS: Aged_CfhKO_vs_WT heatmap expression matches input
+PASS: Aged_CfhKO_vs_WT heatmap row z-scores
+PASS: 11 genes x 16 exact individual-array dot values
+PASS: All genes shown in both MD panels
+PASS: Five nonempty saved PNG figures
+PASS: Earlier feature-level summary preserved
+Visual inspection of all five figures is recorded separately in the analysis notes.

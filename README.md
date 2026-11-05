@@ -1,10 +1,10 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: all seven terrestrial dataset prechecks completed.**
+**Status: seven terrestrial prechecks completed; within-study results available for all seven datasets and 12 comparisons.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 3 November 2026.
+Last documented update: 5 November 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
@@ -12,7 +12,15 @@ The fixed spaceflight reference is [NASA OSD-758](https://osdr.nasa.gov/bio/repo
 
 Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The measurements are from mouse retina; conclusions will concern resemblance among the tested models. A closest model has not yet been established in this workflow.
 
-## Current work
+## Current work: within-study differential expression
+
+The [within-study results](docs/withinstudy/README.md) now include study-specific models, complete tested-gene tables, FDR-qualified gene lists, full signed rankings and saved result figures. Glaucoma and RP account for sex; LHON retains three genotype-versus-WT contrasts; DR uses the untreated six-versus-six comparison; AMD has two age-matched gene-level contrasts; uveitis and light damage retain their selected disease/injury comparisons.
+
+RNA-seq models reuse the filtered counts and TMM factors with robust edgeR quasi-likelihood testing. The microarrays use robust limma-trend models. AMD's original array features are mapped conservatively to 19,825 recorded Entrez IDs using fixed maximum-mean representatives, with saved mapping/selection audits. The earlier feature-level results remain identifiable as history. Gene-level FDR calls use BH < 0.05, without an extra fold-change threshold; all tested rows remain in the rankings.
+
+The [overview of 12 contrasts](docs/withinstudy/README.md#recorded-comparison-results) links each dataset's results and figures. DEG counts describe each study and do not rank resemblance to spaceflight. Identifier harmonization, pathway analysis and comparison with OSD-758 remain later stages. [Execution instructions](docs/withinstudy/running-the-analysis.md) describe the required local checkpoints; RP's final checkpoint/session export was not present, while its completed tables, rankings and figures are included.
+
+## Completed prechecks
 
 All seven processed-data prechecks are completed. Each includes input integrity, sample/feature annotation alignment, expression-distribution checks and reviewed MDS/PCA figures. RNA-seq workflows use count filtering and TMM. The microarrays follow distinct branches: **DR uses supplied processed values without additional log2, CPM or TMM; AMD uses a single log2 QC copy of supplied intensities, with no CPM, TMM, extra normalization or expression-row filtering.**
 
@@ -26,7 +34,7 @@ All seven processed-data prechecks are completed. Each includes input integrity,
 | AMD-related CFH-deficiency model, GSE38671 | 3 November 2026 | 16 neuroretina arrays: four per young/aged WT/Cfh-/- group | All 35,556 array features | [AMD report](docs/amd-precheck.md) |
 | Light-induced retinal damage, GSE314043 | 3 November 2026 | All 10 libraries: five CTRL-vehicle and five LD-vehicle | 16,852 of 19,999 | [Light-damage report](docs/light-damage-precheck.md) |
 
-The glaucoma decision retains R-08 with its distinct profile documented and omits the optional correlation check. Glaucoma stages and sex remain recorded; each condition/time pair consists of one male pool and one female pool. The RP decision retains all seven libraries and preserves sex for later genotype modelling. The RP report includes the recorded checkpoint audit and stored TMM-factor table. LHON retains all 12 libraries across WT, YARS2, COI and YARS2/COI, with its final metadata, scaling factors, session record and restore verification documented.
+The glaucoma decision retains R-08 with its distinct profile documented and omits the optional correlation check. Glaucoma stages and sex remain recorded; each condition/time pair consists of one male pool and one female pool. The RP decision retains all seven libraries and its later genotype model accounts for sex. The RP precheck report includes the recorded checkpoint audit and stored TMM-factor table. LHON retains all 12 libraries across WT, YARS2, COI and YARS2/COI, with its precheck metadata, scaling factors, session record and restore verification documented.
 
 DR retains all 17 arrays for exploratory QC, with the six-versus-six untreated disease contrast and five treated arrays kept conceptually separate. Its native Entrez IDs were aligned with supplied platform gene symbols/names. The boxplot and density plots were reviewed as correct; the author verified all 17 density curves against their corresponding sample columns.
 
@@ -48,6 +56,7 @@ Light-damage projections show partial condition separation and variation among L
 
 ## Explore the repository
 
+- [Within-study results and 12-comparison summary](docs/withinstudy/README.md), [analysis scripts](scripts/withinstudy/), [result tables](tables/withinstudy/) and [figures](figures/withinstudy/).
 - [Glaucoma script](scripts/01_Glaucoma_GSE241782_precheck.R) and [execution guide](docs/running-the-precheck.md).
 - [RP script](scripts/02_Retinitis_Pigmentosa_GSE156533_precheck.R), [recovery helper](scripts/03_Retinitis_Pigmentosa_GSE156533_reload.R) and [execution guide](docs/running-the-rp-precheck.md).
 - [Shared projection-styling script](scripts/04_Restyle_Retinal_MDS_PCA.R) and [style/reuse instructions](docs/projection-styling.md).
@@ -65,12 +74,12 @@ Light-damage projections show partial condition separation and variation among L
 
 ## Planned comparison
 
-Each study will be assessed against its own controls using a method appropriate to its measurement format. The resulting responses will then be compared against the same spaceflight reference. The objective includes relative resemblance, shared programs and opposing responses; no condition is assumed to be the closest in advance.
+Each terrestrial study has now been assessed against its own controls using its documented within-study model. The resulting responses will be compared against the same spaceflight reference. The objective includes relative resemblance, shared programs and opposing responses; no condition is assumed to be the closest in advance.
 
-The panel contains RNA-seq counts and microarray measurements. Exact statistical models and similarity metrics remain to be finalized after the individual prechecks. Separate studies' raw measurements will not be pooled into one disease/control analysis.
+The panel contains RNA-seq counts and microarray measurements. Within-study models and signed rankings are recorded; cross-study identifier harmonization and similarity metrics remain to be completed. Separate studies' raw measurements are not pooled into one disease/control model.
 
 ## Reproducibility and scope
 
-The precheck scripts are designed for interactive execution one block at a time. Recorded numerical observations and figures come from the completed project R runs: interactive prechecks and the saved separate-process light-damage workflow. Repository synchronization reviewed those records, checked R syntax and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
+The teaching scripts are designed for interactive execution one block at a time; separate complete workflows and restore helpers are documented where provided. Recorded observations and figures come from the completed project R runs. Repository synchronization reviewed those records, checked script syntax/portable paths and saved-table consistency, and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
 Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded expression inputs, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.

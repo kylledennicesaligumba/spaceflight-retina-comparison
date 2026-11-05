@@ -1,0 +1,25 @@
+"geo_accession","title","genotype","sex","age","tissue","strain","description","sample_id","group"
+"GSM9155578","WT, replicate1","WT","male","12 months","retina","C57BL/6J","Library name: Sample 1
+colunm name in gene_count_matrix.csv: WT-1","WT-1","WT"
+"GSM9155579","WT, replicate2","WT","male","12 months","retina","C57BL/6J","Library name: Sample 2
+colunm name in gene_count_matrix.csv: WT-2","WT-2","WT"
+"GSM9155580","WT, replicate3","WT","male","12 months","retina","C57BL/6J","Library name: Sample 3
+colunm name in gene_count_matrix.csv: WT-3","WT-3","WT"
+"GSM9155581","YARS2, replicate1","YARS2","male","12 months","retina","C57BL/6J","Library name: Sample 4
+colunm name in gene_count_matrix.csv: Y-1","Y-1","YARS2"
+"GSM9155582","YARS2, replicate2","YARS2","male","12 months","retina","C57BL/6J","Library name: Sample 5
+colunm name in gene_count_matrix.csv: Y-2","Y-2","YARS2"
+"GSM9155583","YARS2, replicate3","YARS2","male","12 months","retina","C57BL/6J","Library name: Sample 6
+colunm name in gene_count_matrix.csv: Y-3","Y-3","YARS2"
+"GSM9155584","COI, replicate1","COI","male","12 months","retina","C57BL/6J","Library name: Sample 7
+colunm name in gene_count_matrix.csv: C-1","C-1","COI"
+"GSM9155585","COI, replicate2","COI","male","12 months","retina","C57BL/6J","Library name: Sample 8
+colunm name in gene_count_matrix.csv: C-2","C-2","COI"
+"GSM9155586","COI, replicate3","COI","male","12 months","retina","C57BL/6J","Library name: Sample 9
+colunm name in gene_count_matrix.csv: C-3","C-3","COI"
+"GSM9155587","YARS2/COI, replicate1","YARS2/COI","male","12 months","retina","C57BL/6J","Library name: Sample 10
+colunm name in gene_count_matrix.csv: YC-1","YC-1","YARS2/COI"
+"GSM9155588","YARS2/COI, replicate2","YARS2/COI","male","12 months","retina","C57BL/6J","Library name: Sample 11
+colunm name in gene_count_matrix.csv: YC-2","YC-2","YARS2/COI"
+"GSM9155589","YARS2/COI, replicate3","YARS2/COI","male","12 months","retina","C57BL/6J","Library name: Sample 12
+colunm name in gene_count_matrix.csv: YC-3","YC-3","YARS2/COI"

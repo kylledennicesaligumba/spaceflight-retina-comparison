@@ -1,0 +1,4 @@
+"Comparison","Tested","DEGs","Higher","Lower"
+"YARS2_vs_WT",17860,3,0,3
+"COI_vs_WT",17860,1,0,1
+"YARS2_COI_vs_WT",17860,1209,324,885

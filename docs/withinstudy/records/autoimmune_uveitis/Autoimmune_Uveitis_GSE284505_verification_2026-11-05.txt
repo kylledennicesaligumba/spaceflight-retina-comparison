@@ -1,0 +1,10 @@
+Fresh-process checkpoint restoration and reload helper: PASS.
+Counts and TMM factors identical to precheck: PASS.
+Sample/gene alignment, QL statistics, BH FDR and DEG membership: PASS.
+Signed full-gene ranking: PASS.
+Heatmap row z-scores and DEG selection: PASS.
+Dot-plot keys, gene selection and normalized CPM values: PASS.
+Result CSV agrees with saved objects: PASS.
+Input checkpoint checksum unchanged: PASS.
+All four PNG files present and nonempty: PASS.
+No saved precheck environment or unrelated study objects: PASS.

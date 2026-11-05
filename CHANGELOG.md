@@ -1,5 +1,16 @@
 # Project progress
 
+## 5 November 2026 — Within-study results for all seven terrestrial datasets
+
+- Added 46 portable source-preserving scripts under `scripts/withinstudy/`, complete/DEG/ranked result tables, exact figure data, available mapping/design/sample audits, session/verification records, and 30 unchanged saved PNGs (29 current plus one earlier AMD feature-level diagnostic).
+- Added a 12-comparison overview, seven dataset reports and execution/restoration instructions. RNA-seq uses the saved filtered/TMM objects with robust edgeR QL; microarrays use robust limma-trend. BH FDR < 0.05 defines DEG lists without an extra fold-change cutoff, and all tested rows remain ranked.
+- Preserved sex-adjusted glaucoma/RP designs, all three LHON genotype contrasts, DR's untreated 6-versus-6 selection, AMD's age-matched gene-level contrasts, and the selected uveitis/light-damage comparisons.
+- Recorded AMD's conservative annotation eligibility and fixed maximum-mean feature selection, resulting in 19,825 recorded Entrez gene rows. Earlier feature-level summaries/subsets remain identifiable as history; two large complete legacy feature tables stay local.
+- Confirmed six final within-study checkpoints are present without loading them. RP's final checkpoint/session export were not present; its completed result tables, rankings, figures and prepared save/reload code are included.
+- Updated the repository overview, dataset guide, local-input instructions and environment record to distinguish completed within-study modelling from future identifier harmonization/pathway/spaceflight comparisons.
+
+Synchronization validated syntax and reversible path adaptations, result/DEG/ranking consistency, local links and original PNG identity. It did not import expression inputs, load saved models, repeat annotation, refit tests or rerun existing verification scripts. Original external-drive files were preserved.
+
 ## 3 November 2026 — All seven terrestrial prechecks complete
 
 - Added AMD and light-damage scripts, reports, execution guides, selected metadata and eight original saved figures.

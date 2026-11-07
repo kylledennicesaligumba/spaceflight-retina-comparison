@@ -1,4 +1,4 @@
-# Spaceflight retina and terrestrial disease responses
+# Comparative transcriptomics of mouse retinal responses to spaceflight, disease, and injury
 
 **Status: the exploratory comparison of 12 terrestrial contrasts with OSD-758 is complete.**
 

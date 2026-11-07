@@ -1,22 +1,47 @@
 # Comparative transcriptomics of mouse retinal responses to spaceflight, disease, and injury
 
-**Status: the exploratory comparison of 12 terrestrial contrasts with OSD-758 is complete.**
+Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba) · Completed 7 November 2026
 
-Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
+This exploratory study compares the mouse retinal response to spaceflight with **12 disease and injury contrasts from seven terrestrial studies** to identify which models show similar gene-expression changes and where their responses differ. The comparison uses 12,127 shared mouse genes and 799 matched Reactome pathways.
 
-Last documented update: 7 November 2026.
+## Main findings
 
-This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
+**Two-week experimental glaucoma showed the closest observed resemblance to the flight response**, with the highest rank correlation across both gene scores (Spearman ρ = 0.243) and pathway profiles (ρ = 0.302). [Full comparison table](tables/main_analysis/Main_analysis_final_comparison_summary.csv)
 
-The fixed spaceflight reference is [NASA OSD-758](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758), associated with [Kremsky et al. (2024)](https://doi.org/10.3390/ijms252212041). The reference contrast is flight 0 g versus habitat ground controls. The study collected tissue after the mice returned to Earth, so this contrast represents a flight-associated response with recovery exposures included.
+### Gene-level resemblance across all 12 contrasts
 
-Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The measurements are from mouse retina, and the analysis estimates resemblance among the tested models.
+![Rank correlations between the flight gene scores and each of the 12 terrestrial contrasts, with two-week glaucoma highest and light damage lowest](figures/main_analysis/Main_analysis_OSD758_gene_Spearman_common.png)
 
-## Completed comparison
+Each point compares a terrestrial contrast with the same flight reference using the same 12,127 genes. Positive values indicate similar gene-score rankings and negative values indicate opposing rankings.
 
-Two-week experimental glaucoma had the highest observed correlation with the flight response across the shared gene scores (Spearman ρ = 0.243) and Reactome pathway profiles (ρ = 0.302). It ranked first in 545 of 552 pathway neighborhood deletions and second in the other seven. These ranges describe sensitivity to pathway selection. Biological sampling uncertainty remains open. [Final analysis and saved outputs](docs/main_analysis/README.md)
+### Shared and opposing pathway responses
+
+Flight, two-week glaucoma and autoimmune uveitis shared positive enrichment in extracellular matrix and collagen programs and negative enrichment in neuronal and synaptic programs. The P23H retinitis pigmentosa model shared the matrix pattern and showed positive enrichment in the neuronal and synaptic pathways that were negatively enriched in flight.
+
+![Positive flight pathway heatmap showing shared matrix and collagen enrichment across several models](figures/main_analysis/Main_analysis_OSD758_positive_programs_full_panel.png)
+
+![Negative flight pathway heatmap showing matching neuronal enrichment directions in glaucoma and uveitis and opposing directions in retinitis pigmentosa and light damage](figures/main_analysis/Main_analysis_OSD758_negative_programs_full_panel.png)
+
+The first column in both heatmaps is the flight reference. Orange indicates positive enrichment and blue indicates negative enrichment. Stars mark pathways with a false discovery rate below 5% in that contrast.
+
+### How stable was the ranking?
+
+Two-week glaucoma also ranked first in the gene comparison when each model was compared on all eligible genes it shared with flight. It ranked first in 545 of 552 pathway sensitivity checks that removed groups of overlapping pathways, and second in the other seven. These checks measure sensitivity to which genes and pathways are included. Biological sampling uncertainty in the ranking remains unquantified. [Gene coverage check](figures/main_analysis/Main_analysis_OSD758_gene_coverage_sensitivity.png) · [Pathway rank stability](figures/main_analysis/Main_analysis_OSD758_pathway_rank_stability.png) · [Full results and limitations](docs/main_analysis/records/Main_analysis_results_and_limits_2026-11-07.md)
+
+## Study design and workflow
+
+Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The fixed reference compares mice flown at 0 g with habitat ground controls. The researchers collected the retinal tissue after the mice returned to Earth, so the measured response includes recovery exposures. [NASA OSD-758](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758) · [Kremsky et al. (2024)](https://doi.org/10.3390/ijms252212041)
+
+| Stage | Start here |
+| --- | --- |
+| Dataset selection and quality checks | [Dataset panel and measurement differences](docs/datasets.md) · [Terrestrial prechecks](#completed-prechecks) · [OSD-758 precheck](docs/osdr758/README.md) |
+| Differential expression within each study | [Results for all 12 terrestrial contrasts](docs/withinstudy/README.md#recorded-comparison-results) · [Flight reference results](docs/withinstudy/osdr758.md) · [Scripts](scripts/withinstudy/) |
+| Flight-to-terrestrial comparison | [Final analysis and reproduction instructions](docs/main_analysis/README.md) · [Scripts](scripts/main_analysis/) · [Tables](tables/main_analysis/) · [Figures](figures/main_analysis/) |
 
 ## Within-study differential expression
+
+<details>
+<summary>Study models, gene rankings and execution records</summary>
 
 The [within-study results](docs/withinstudy/README.md) now include study-specific models, complete tested-gene tables, FDR-qualified gene lists, full signed rankings and saved result figures. Glaucoma and RP account for sex; LHON retains three genotype-versus-WT contrasts; DR uses the untreated six-versus-six comparison; AMD has two age-matched gene-level contrasts; uveitis and light damage retain their selected disease/injury comparisons.
 
@@ -24,7 +49,12 @@ RNA-seq models reuse the filtered counts and TMM factors with robust edgeR quasi
 
 The [overview of 12 contrasts](docs/withinstudy/README.md#recorded-comparison-results) links each dataset's results and figures. The final comparison uses harmonized ranks and pathway profiles. The [OSD-758 result](docs/withinstudy/osdr758.md) supplies the flight reference. [Execution instructions](docs/withinstudy/running-the-analysis.md) describe the required local checkpoints; RP's final checkpoint/session export was not present, while its completed tables, rankings and figures are included.
 
+</details>
+
 ## Completed prechecks
+
+<details>
+<summary>Quality-check decisions, dataset distinctions and figures</summary>
 
 All seven processed-data prechecks are completed. Each includes input integrity, sample/feature annotation alignment, expression-distribution checks and reviewed MDS/PCA figures. RNA-seq workflows use count filtering and TMM. The microarrays follow distinct branches: **DR uses supplied processed values without additional log2, CPM or TMM; AMD uses a single log2 QC copy of supplied intensities, with no CPM, TMM, extra normalization or expression-row filtering.**
 
@@ -50,17 +80,19 @@ All seven datasets now have group-coloured boxplots. The [shared restyle script 
 
 These prechecks use deposited expression measurements and metadata for the seven terrestrial datasets. The separate flight precheck records 17 selected libraries. [OSD-758 precheck](docs/osdr758/README.md)
 
-## AMD and light damage prechecks
+### AMD and light damage prechecks
 
 The [AMD report](docs/amd-precheck.md) documents neuroretina-only selection, the log2 microarray branch, probe-group IDs, ambiguous/truncated annotations and the recorded sample flag. The [light-damage report](docs/light-damage-precheck.md) records count normalization, fixed GTF annotation, all 10 retained libraries and existing independent verification.
 
-![Light-damage common-top-500 PCA after TMM](figures/light_damage/Light_Damage_GSE314043_TMM_PCA_top500.png)
+Light-damage projections show partial condition separation and variation among LD libraries. LD-vehicle-5 is near controls and remains retained. [Light-damage PCA](figures/light_damage/Light_Damage_GSE314043_TMM_PCA_top500.png)
 
-Light-damage projections show partial condition separation and variation among LD libraries; LD-vehicle-5 is near controls and remains retained. These findings do not establish differential expression or resemblance to spaceflight. Earlier records remain available for [uveitis](docs/autoimmune-uveitis-precheck.md), [DR](docs/diabetic-retinopathy-precheck.md), [LHON](docs/lhon-precheck.md), [RP](docs/retinitis-pigmentosa-precheck.md) and [glaucoma](docs/glaucoma-precheck.md).
+</details>
 
 ## Explore the repository
 
-- [Final comparison scripts](scripts/main_analysis/), [tables](tables/main_analysis/) and [figures](figures/main_analysis/).
+<details>
+<summary>Script index, metadata and dataset-specific guides</summary>
+
 - [Earlier analysis scripts and dated backups](scripts/archive/).
 - [Within-study results and 12-comparison summary](docs/withinstudy/README.md), [analysis scripts](scripts/withinstudy/), [result tables](tables/withinstudy/) and [figures](figures/withinstudy/).
 - [Glaucoma script](scripts/01_Glaucoma_GSE241782_precheck.R) and [execution guide](docs/running-the-precheck.md).
@@ -77,6 +109,8 @@ Light-damage projections show partial condition separation and variation among L
 - [Group-coloured boxplots and sample keys](docs/boxplot-styling.md).
 - [Dataset panel, measurement/identifier distinctions and input sources](docs/datasets.md).
 - [GitHub first steps](docs/github-first-steps.md).
+
+</details>
 
 ## Reproducibility and scope
 

@@ -1,0 +1,35 @@
+$selection
+[1] "Every pathway with original FDR < 0.05 in both flight and each terrestrial contrast; all 12 contrasts retained"
+
+$shared_gene
+[1] "The same Entrez gene belongs to both leading edges of the same pathway"
+
+$direction
+[1] "Pathway NES Same/Opposite/Zero_NES is recorded separately from the actual gene logFC signs"
+
+$gene_filter
+[1] "None; retain contributors with any original gene FDR and label Both/Flight only/Terrestrial only/Neither at .05"
+
+$gene_statistics
+[1] "Original full-tested-family within-study logFC, signed score and gene FDR; no recalculation"
+
+$counting
+[1] "Unique genes counted once within each contrast and pathway-direction group; groups/contrasts can overlap and are not additive independent evidence"
+
+$cross_model_table
+[1] "One row per pathway plus Entrez ID shared in at least one contrast; cells indicate shared/not-shared leading edges or pathway not both-enriched"
+
+$missing_overlap
+[1] "Zero shared leading-edge genes in an opposing pathway can reflect different contributing subsets; not absence of pathway-level opposition"
+
+$exclusions
+[1] "A pathway not both-enriched or a gene outside a leading edge is not evidence of absent expression or no response"
+
+$inference
+[1] "Descriptive contributor overlap and original FDR flags only; no joint FDR, overlap P value, causal ranking or new disease similarity measure"
+
+$provenance
+[1] "Frozen comparison/enrichment/common-response/annotation/pathway records and exact reproduction of reviewed glaucoma2W shared genes"
+
+$documentation
+[1] "https://docs.gsea-msigdb.org/GSEA/GSEA_User_Guide/#running-a-leading-edge-analysis"

@@ -1,0 +1,25 @@
+"Deleted_neighborhood","Removed_pathways","Retained_pathways","Study","Comparison","Spearman_rho","Observed_rank"
+"Extracellular matrix organization",15,784,"Glaucoma","3D_vs_Naive",0.0863874206861256,6
+"Extracellular matrix organization",15,784,"Glaucoma","2W_vs_Naive",0.263993703729249,1
+"Extracellular matrix organization",15,784,"Glaucoma","6W_vs_Naive",0.134185507066325,5
+"Extracellular matrix organization",15,784,"RP","P23H_vs_WT",0.224278977770778,3
+"Extracellular matrix organization",15,784,"LHON","YARS2_vs_WT",-0.0833513670483589,10
+"Extracellular matrix organization",15,784,"LHON","COI_vs_WT",-0.0770217156497461,9
+"Extracellular matrix organization",15,784,"LHON","YARS2_COI_vs_WT",-0.0867795751852521,11
+"Extracellular matrix organization",15,784,"DR","Diabetic_vs_Normal",0.0415744818079612,7
+"Extracellular matrix organization",15,784,"AMD","Young_CfhKO_vs_WT",-0.117735733370383,12
+"Extracellular matrix organization",15,784,"AMD","Aged_CfhKO_vs_WT",0.180168215107087,4
+"Extracellular matrix organization",15,784,"Autoimmune_uveitis","EAU_vs_CON",0.245298741072689,2
+"Extracellular matrix organization",15,784,"Light_damage","LD_vs_CTRL",-0.0551594301494219,8
+"Neuronal System",55,744,"Glaucoma","3D_vs_Naive",0.0662044381262328,6
+"Neuronal System",55,744,"Glaucoma","2W_vs_Naive",0.318585737092545,2
+"Neuronal System",55,744,"Glaucoma","6W_vs_Naive",0.190681654777418,5
+"Neuronal System",55,744,"RP","P23H_vs_WT",0.320383101727483,1
+"Neuronal System",55,744,"LHON","YARS2_vs_WT",-0.0773888380535463,10
+"Neuronal System",55,744,"LHON","COI_vs_WT",0.00913723495653373,8
+"Neuronal System",55,744,"LHON","YARS2_COI_vs_WT",-0.10638090014229,11
+"Neuronal System",55,744,"DR","Diabetic_vs_Normal",0.0124668059635914,7
+"Neuronal System",55,744,"AMD","Young_CfhKO_vs_WT",-0.178315973156696,12
+"Neuronal System",55,744,"AMD","Aged_CfhKO_vs_WT",0.247254146649864,3
+"Neuronal System",55,744,"Autoimmune_uveitis","EAU_vs_CON",0.243913124238758,4
+"Neuronal System",55,744,"Light_damage","LD_vs_CTRL",-0.0710416210152032,9

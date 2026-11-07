@@ -1,0 +1,46 @@
+$status
+[1] "Exploratory post-primary robustness follow-up; numerical rules fixed before new deletion outcomes"
+
+$purpose
+[1] "Check whether the observed pathway ranking depends on particular groups of overlapping gene sets"
+
+$neighborhoods
+[1] "For each retained pathway, delete it and all direct neighbors with intersection size / smaller matched-set size >= 0.5"
+
+$no_transitive_expansion
+[1] "Direct neighborhoods only; no connected-component closure or outcome-based manual grouping"
+
+$duplicate_handling
+[1] "Identical removed-pathway sets evaluated once; all anchor identities retained"
+
+$scope
+[1] "All retained pathways, regardless of FDR; same retained set for all13 contrast columns within each scenario"
+
+$score
+[1] "Recompute descriptive Spearman correlations of the saved NES values after deletion; do not rerun enrichment"
+
+$minimum
+[1] "At least3 retained pathways and nonconstant profiles are required to estimate correlations"
+
+$principal_display
+[1] "Summaries/figure use valid deletions retaining at least half of the original pathways; heavier deletions remain separately saved"
+
+$inference
+[1] "Finite deterministic sensitivity ranges; not biological confidence intervals, P values, independence-based bootstrap or probabilities of a winning disease"
+
+$counts
+[1] "Top counts refer to distinct predefined deletion scenarios; neighborhoods are not independent trials and top counts do not have a sampling probability interpretation"
+
+$biological_uncertainty
+[1] "Not quantified: original biological units would require design-aware resampling/refitting; glaucoma has one pooled library per sex/group, shared controls and nominal residual df3"
+
+$decision
+[1] "Keep conclusions descriptive as highest observed resemblance, not a statistically demonstrated closest model"
+
+$literature_component
+[1] "Merico2010 supports overlap-coefficient representation of related sets, not this project's deletion protocol or confidence intervals"
+
+$references
+[1] "https://pmc.ncbi.nlm.nih.gov/articles/PMC2981572/"
+[2] "https://pmc.ncbi.nlm.nih.gov/articles/PMC3458527/"
+[3] "https://pubmed.ncbi.nlm.nih.gov/17303618/"

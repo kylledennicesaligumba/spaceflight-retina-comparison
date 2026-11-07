@@ -1,0 +1,44 @@
+$measure
+[1] "Descriptive Spearman correlation of the complete retained-pathway NES profiles"
+
+$reference
+[1] "OSD758__FLT_0G_vs_HGC"
+
+$pathways
+[1] 799
+
+$pathway_selection
+[1] "Same complete retained pathway set in every contrast; no pathway-FDR filtering"
+
+$input_proposal
+[1] "Descriptive Spearman correlation of all retained-pathway NES values against the fixed OSD-758 profile, without pathway-FDR filtering; resolve missing estimates before that comparison"
+
+$ties
+[1] "Average ranks as used by stats::cor(method = 'spearman')"
+
+$inference
+[1] "Descriptive point estimates only; no correlation P values, confidence intervals or independent-pathway assumption"
+
+$dependency
+[1] "Reactome pathways can overlap or be nested; enrichment counts are not independent mechanisms"
+
+$evidence_flags
+[1] "FDR < 0.05 separately within each contrast, unchanged from enrichment"
+
+$one_contrast_flags
+[1] "Passing FDR only in one contrast does not establish biological exclusivity or a significant between-study difference"
+
+$direction_flags
+[1] "Same/opposite nonzero NES signs; a zero NES is labelled separately"
+
+$overlap_interpretation
+[1] "Both-enriched flags intersect separately adjusted results; no joint FDR or test of differential enrichment between studies"
+
+$observed_order
+[1] "Sort rho decreasing; exact ties share a minimum observed rank; keep every terrestrial contrast separate"
+
+$R_version
+[1] "4.5.3"
+
+$documentation
+[1] "https://www.stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html"

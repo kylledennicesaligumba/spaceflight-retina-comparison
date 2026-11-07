@@ -2,9 +2,9 @@
 
 Panel recorded on 26 October 2026; progress updated on 5 November 2026.
 
-The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The planned primary contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
+The fixed reference is **[OSD-758, mouse retina](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758)**. The reference contrast is flight 0 g versus habitat ground controls. [Kremsky et al. (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11593819/) describes the flight experiment.
 
-All seven terrestrial datasets below have completed processed-data prechecks and saved within-study result tables. The [within-study overview](withinstudy/README.md) records 12 implemented contrasts. Sample flags and design-information limits remain documented; the disease–spaceflight comparison has not yet been performed.
+All seven terrestrial datasets below have completed processed-data prechecks and saved within-study result tables. The [within-study overview](withinstudy/README.md) records 12 implemented contrasts. Sample flags and design information are recorded in the study reports. The completed comparison includes all 12 contrasts. [Final analysis](main_analysis/README.md)
 
 | Condition/model | Accession | Measurement | Intended comparison to inspect |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ This snapshot contains all seven completed terrestrial prechecks and 29 saved fi
 | AMD-related CFH-deficiency model | Microarray intensities; numeric array feature/transcript-cluster IDs | One log2 QC copy; no CPM/TMM/extra normalization or expression-row filter; multipart platform assignments preserved separately |
 | Light damage | RNA-seq counts; Ensembl gene IDs | Expression filter, TMM, log-CPM; failed REST route replaced by fixed Ensembl release-116 GRCm39 GTF; unnamed/unmatched IDs preserved |
 
-Numeric labels do not imply a shared identifier system: DR's Entrez IDs and AMD's array IDs have different meanings. In AMD, one measured array feature can have several annotation assignments; expanding an annotation table does not create extra expression measurements. Probe groups, gene IDs and symbols have not yet been harmonized across studies. The [AMD report](amd-precheck.md) explains this distinction with examples.
+Numeric labels do not imply a shared identifier system: DR's Entrez IDs and AMD's array IDs have different meanings. In AMD, one measured array feature can have several annotation assignments; expanding an annotation table does not create extra expression measurements. The final analysis records the mappings to mouse Entrez Gene IDs and the shared gene set. The [AMD report](amd-precheck.md) explains this distinction with examples.
 
 The table above describes precheck inputs. AMD's subsequent [within-study analysis](withinstudy/amd.md) applies the recorded conservative mapping rule and selects one maximum-mean feature per eligible Entrez ID, producing 19,825 gene rows. DR's within-study contrast selects 12 untreated arrays from the 17-array QC set. Glaucoma/RP use sex-adjusted models, LHON estimates all three mutant-versus-WT responses, and uveitis/light damage preserve their selected sample sets. Cross-study identifier harmonization remains separate from these within-study operations.
 
@@ -70,7 +70,7 @@ The source is [GSE304707](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
 
 The portable default directory is `data/raw/LHON_GSE304707/`; `LHON_DATA_DIR` can point to existing storage. Preserve downloaded filenames, adjusting the archive assignment if your download uses a different name.
 
-The repository includes the final exported matched metadata and TMM table from the completed session. They retain the sample IDs WT-1–3, Y-1–3, C-1–3 and YC-1–3 in count-column order. No original expression input or unreviewed metadata was imported during synchronization. The principal genotype contrast and cross-study gene-name harmonization remain later analysis decisions. See the [LHON report](lhon-precheck.md) and [execution guide](running-the-lhon-precheck.md).
+The repository includes the final exported matched metadata and TMM table from the completed session. They retain the sample IDs WT-1–3, Y-1–3, C-1–3 and YC-1–3 in count-column order. No original expression input or unreviewed metadata was imported during synchronization. All three LHON contrasts appear in the final comparison, with recorded symbol-to-Entrez mapping audits. See the [LHON report](lhon-precheck.md) and [execution guide](running-the-lhon-precheck.md).
 
 ## Diabetic retinopathy inputs
 

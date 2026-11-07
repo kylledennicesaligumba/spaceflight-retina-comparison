@@ -1,0 +1,6 @@
+"Study","Comparison","Source_rows","One_match","Multiple_matches","No_match","Missing_ID","Rows_sharing_target"
+"Glaucoma","3D_vs_Naive",23301,17653,109,5539,0,33
+"Glaucoma","2W_vs_Naive",23301,17653,109,5539,0,33
+"Glaucoma","6W_vs_Naive",23301,17653,109,5539,0,33
+"RP","P23H_vs_WT",17351,15208,81,2062,0,6
+"Light_damage","LD_vs_CTRL",16852,15021,81,1750,0,6

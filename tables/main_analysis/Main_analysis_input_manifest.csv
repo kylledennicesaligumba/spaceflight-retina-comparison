@@ -1,0 +1,14 @@
+"Study","Comparison","Role","File","Exists"
+"OSD758","FLT_0G_vs_HGC","Reference","tables/withinstudy/osdr758/OSD758_FLT_0G_vs_HGC_ranked_all_genes.csv",TRUE
+"Glaucoma","3D_vs_Naive","Terrestrial","tables/withinstudy/glaucoma/Glaucoma_GSE241782_3D_vs_Naive_ranked_all_genes.csv",TRUE
+"Glaucoma","2W_vs_Naive","Terrestrial","tables/withinstudy/glaucoma/Glaucoma_GSE241782_2W_vs_Naive_ranked_all_genes.csv",TRUE
+"Glaucoma","6W_vs_Naive","Terrestrial","tables/withinstudy/glaucoma/Glaucoma_GSE241782_6W_vs_Naive_ranked_all_genes.csv",TRUE
+"RP","P23H_vs_WT","Terrestrial","tables/withinstudy/retinitis_pigmentosa/RP_GSE156533_P23H_vs_WT_ranked_all_genes.csv",TRUE
+"LHON","YARS2_vs_WT","Terrestrial","tables/withinstudy/lhon/LHON_GSE304707_YARS2_vs_WT_ranked_all_genes.csv",TRUE
+"LHON","COI_vs_WT","Terrestrial","tables/withinstudy/lhon/LHON_GSE304707_COI_vs_WT_ranked_all_genes.csv",TRUE
+"LHON","YARS2_COI_vs_WT","Terrestrial","tables/withinstudy/lhon/LHON_GSE304707_YARS2_COI_vs_WT_ranked_all_genes.csv",TRUE
+"DR","Diabetic_vs_Normal","Terrestrial","tables/withinstudy/diabetic_retinopathy/DR_GSE87433_Diabetic_vs_Normal_ranked_all_genes.csv",TRUE
+"AMD","Young_CfhKO_vs_WT","Terrestrial","tables/withinstudy/amd/AMD_GSE38671_gene_level_Young_CfhKO_vs_WT_ranked_all_genes.csv",TRUE
+"AMD","Aged_CfhKO_vs_WT","Terrestrial","tables/withinstudy/amd/AMD_GSE38671_gene_level_Aged_CfhKO_vs_WT_ranked_all_genes.csv",TRUE
+"Autoimmune_uveitis","EAU_vs_CON","Terrestrial","tables/withinstudy/autoimmune_uveitis/Autoimmune_Uveitis_GSE284505_EAU_vs_CON_ranked_all_genes.csv",TRUE
+"Light_damage","LD_vs_CTRL","Terrestrial","tables/withinstudy/light_damage/Light_Damage_GSE314043_LD_vs_CTRL_ranked_all_genes.csv",TRUE

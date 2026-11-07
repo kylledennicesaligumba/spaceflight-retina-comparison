@@ -1,0 +1,14 @@
+"Study","Comparison","Tested_rows","Eligible_unique","Flagged_rows","Shared_with_OSD"
+"OSD758","FLT_0G_vs_HGC",21335,16586,4749,16586
+"Glaucoma","3D_vs_Naive",23301,17620,5681,15841
+"Glaucoma","2W_vs_Naive",23301,17620,5681,15841
+"Glaucoma","6W_vs_Naive",23301,17620,5681,15841
+"RP","P23H_vs_WT",17351,15202,2149,14777
+"LHON","YARS2_vs_WT",17860,17084,776,14487
+"LHON","COI_vs_WT",17860,17084,776,14487
+"LHON","YARS2_COI_vs_WT",17860,17084,776,14487
+"DR","Diabetic_vs_Normal",24973,24685,288,15215
+"AMD","Young_CfhKO_vs_WT",19825,19743,82,13934
+"AMD","Aged_CfhKO_vs_WT",19825,19743,82,13934
+"Autoimmune_uveitis","EAU_vs_CON",18187,16555,1632,14609
+"Light_damage","LD_vs_CTRL",16852,15015,1837,14717

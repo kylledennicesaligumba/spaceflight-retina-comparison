@@ -1,0 +1,41 @@
+$measure
+[1] "Spearman rank correlation of existing signed within-study gene scores"
+
+$reference
+[1] "OSD758__FLT_0G_vs_HGC"
+
+$common_genes
+[1] 12127
+
+$gene_basis
+[1] "Same all-13 common genes in identical order; all included regardless of FDR"
+
+$direction
+[1] "Positive input scores denote higher expression in flight or disease versus its own controls"
+
+$ties
+[1] "Average ranks for tied gene scores, as used by stats::cor(method = 'spearman')"
+
+$contrast_handling
+[1] "Report every terrestrial stage/genotype/age separately; no pooling or best-stage selection"
+
+$inference
+[1] "Descriptive point estimates; no correlation P values or confidence intervals calculated"
+
+$interpretation
+[1] "Positive rho: agreement in signed-score ordering; negative: opposing ordering; near zero: weak overall ordering agreement"
+
+$observed_order
+[1] "Sort rho decreasing; exactly equal rho values share an observed rank"
+
+$planned_followup
+[1] "Review magnitudes, available-pairwise coverage sensitivity and biological programs before final conclusions"
+
+$R_version
+[1] "4.5.3"
+
+$stats_version
+[1] "4.5.3"
+
+$documentation
+[1] "https://www.stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html"

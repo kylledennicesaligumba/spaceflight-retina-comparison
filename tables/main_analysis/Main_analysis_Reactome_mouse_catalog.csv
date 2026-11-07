@@ -1,0 +1,1823 @@
+"Pathway_ID","Pathway_name","Species","Entrez_genes_in_resource"
+"R-MMU-73843","5-Phosphoribose 1-diphosphate biosynthesis","Mus musculus",2
+"R-MMU-1369062","ABC transporters in lipid homeostasis","Mus musculus",16
+"R-MMU-382556","ABC-family proteins mediated transport","Mus musculus",85
+"R-MMU-9033807","ABO blood group biosynthesis","Mus musculus",3
+"R-MMU-418592","ADP signalling through P2Y purinoceptor 1","Mus musculus",24
+"R-MMU-392170","ADP signalling through P2Y purinoceptor 12","Mus musculus",22
+"R-MMU-198323","AKT phosphorylates targets in the cytosol","Mus musculus",8
+"R-MMU-198693","AKT phosphorylates targets in the nucleus","Mus musculus",10
+"R-MMU-211163","AKT-mediated inactivation of FOXO1A","Mus musculus",4
+"R-MMU-163680","AMPK inhibits chREBP transcriptional activation activity","Mus musculus",6
+"R-MMU-9931269","AMPK-induced ERAD and lysosome mediated degradation of PD-L1(CD274)","Mus musculus",54
+"R-MMU-179409","APC-Cdc20 mediated degradation of Nek2A","Mus musculus",26
+"R-MMU-174143","APC/C-mediated degradation of cell cycle proteins","Mus musculus",73
+"R-MMU-174048","APC/C:Cdc20 mediated degradation of Cyclin B","Mus musculus",24
+"R-MMU-174154","APC/C:Cdc20 mediated degradation of Securin","Mus musculus",54
+"R-MMU-176409","APC/C:Cdc20 mediated degradation of mitotic proteins","Mus musculus",62
+"R-MMU-174178","APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1","Mus musculus",60
+"R-MMU-179419","APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint","Mus musculus",60
+"R-MMU-5649702","APEX1-Independent Resolution of AP Sites via the Single Nucleotide Replacement Pathway","Mus musculus",5
+"R-MMU-5624958","ARL13B-mediated ciliary trafficking of INPP5E","Mus musculus",3
+"R-MMU-170984","ARMS-mediated activation","Mus musculus",5
+"R-MMU-381033","ATF6 (ATF6-alpha) activates chaperones","Mus musculus",3
+"R-MMU-8874177","ATF6B (ATF6-beta) activates chaperones","Mus musculus",2
+"R-MMU-1296025","ATP sensitive Potassium channels","Mus musculus",4
+"R-MMU-9932444","ATP-dependent chromatin remodelers","Mus musculus",28
+"R-MMU-450408","AUF1 (hnRNP D0) binds and destabilizes mRNA","Mus musculus",42
+"R-MMU-8854518","AURKA Activation by TPX2","Mus musculus",70
+"R-MMU-2161522","Abacavir ADME","Mus musculus",6
+"R-MMU-2161541","Abacavir metabolism","Mus musculus",3
+"R-MMU-2161517","Abacavir transmembrane transport","Mus musculus",3
+"R-MMU-73930","Abasic sugar-phosphate removal via the single-nucleotide replacement pathway","Mus musculus",2
+"R-MMU-156582","Acetylation","Mus musculus",3
+"R-MMU-264642","Acetylcholine Neurotransmitter Release Cycle","Mus musculus",15
+"R-MMU-181431","Acetylcholine binding and downstream events","Mus musculus",13
+"R-MMU-399997","Acetylcholine regulates insulin secretion","Mus musculus",8
+"R-MMU-1300645","Acrosome Reaction and Sperm:Oocyte Membrane Binding","Mus musculus",6
+"R-MMU-2122948","Activated NOTCH1 Transmits Signal to the Nucleus","Mus musculus",10
+"R-MMU-9028731","Activated NTRK2 signals through FRS2 and FRS3","Mus musculus",6
+"R-MMU-9032500","Activated NTRK2 signals through FYN","Mus musculus",4
+"R-MMU-9026527","Activated NTRK2 signals through PLCG1","Mus musculus",4
+"R-MMU-9603381","Activated NTRK3 signals through PI3K","Mus musculus",3
+"R-MMU-9034793","Activated NTRK3 signals through PLCG1","Mus musculus",3
+"R-MMU-5625886","Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3","Mus musculus",3
+"R-MMU-111452","Activation and oligomerization of BAK protein","Mus musculus",0
+"R-MMU-165158","Activation of AKT2","Mus musculus",4
+"R-MMU-399710","Activation of AMPA receptors","Mus musculus",2
+"R-MMU-176814","Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins","Mus musculus",63
+"R-MMU-176187","Activation of ATR in response to replication stress","Mus musculus",35
+"R-MMU-111447","Activation of BAD and translocation to mitochondria","Mus musculus",11
+"R-MMU-114452","Activation of BH3-only proteins","Mus musculus",17
+"R-MMU-111446","Activation of BIM and translocation to mitochondria","Mus musculus",3
+"R-MMU-139910","Activation of BMF and translocation to mitochondria","Mus musculus",3
+"R-MMU-174577","Activation of C3 and C5","Mus musculus",5
+"R-MMU-451308","Activation of Ca-permeable Kainate Receptor","Mus musculus",9
+"R-MMU-1296041","Activation of G protein gated Potassium channels","Mus musculus",28
+"R-MMU-991365","Activation of GABAB receptors","Mus musculus",40
+"R-MMU-936964","Activation of IRF3, IRF7 mediated by TBK1, IKKε (IKBKE)","Mus musculus",18
+"R-MMU-1592389","Activation of Matrix Metalloproteinases","Mus musculus",33
+"R-MMU-1169091","Activation of NF-kappaB in B cells","Mus musculus",46
+"R-MMU-2980767","Activation of NIMA Kinases NEK9, NEK6, NEK7","Mus musculus",5
+"R-MMU-442755","Activation of NMDA receptors and postsynaptic events","Mus musculus",33
+"R-MMU-111448","Activation of NOXA and translocation to mitochondria","Mus musculus",1
+"R-MMU-451307","Activation of Na-permeable kainate receptors","Mus musculus",1
+"R-MMU-9619229","Activation of RAC1 downstream of NMDARs","Mus musculus",4
+"R-MMU-1169092","Activation of RAS in B cells","Mus musculus",4
+"R-MMU-5635838","Activation of SMO","Mus musculus",14
+"R-MMU-187015","Activation of TRKA receptors","Mus musculus",2
+"R-MMU-111459","Activation of caspases through apoptosome-mediated cleavage","Mus musculus",1
+"R-MMU-451326","Activation of kainate receptors upon glutamate binding","Mus musculus",29
+"R-MMU-450341","Activation of the AP-1 family of transcription factors","Mus musculus",10
+"R-MMU-8866907","Activation of the TFAP2 (AP-2) family of transcription factors","Mus musculus",11
+"R-MMU-72662","Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S","Mus musculus",60
+"R-MMU-2485179","Activation of the phototransduction cascade","Mus musculus",8
+"R-MMU-68962","Activation of the pre-replicative complex","Mus musculus",31
+"R-MMU-75108","Activation, myristolyation of BID and translocation to mitochondria","Mus musculus",1
+"R-MMU-114294","Activation, translocation and oligomerization of BAX","Mus musculus",0
+"R-MMU-1482798","Acyl chain remodeling of CL","Mus musculus",5
+"R-MMU-1482883","Acyl chain remodeling of DAG and TAG","Mus musculus",7
+"R-MMU-1482788","Acyl chain remodelling of PC","Mus musculus",27
+"R-MMU-1482839","Acyl chain remodelling of PE","Mus musculus",27
+"R-MMU-1482925","Acyl chain remodelling of PG","Mus musculus",18
+"R-MMU-1482922","Acyl chain remodelling of PI","Mus musculus",17
+"R-MMU-1482801","Acyl chain remodelling of PS","Mus musculus",22
+"R-MMU-1280218","Adaptive Immune System","Mus musculus",726
+"R-MMU-417973","Adenosine P1 receptors","Mus musculus",3
+"R-MMU-170660","Adenylate cyclase activating pathway","Mus musculus",8
+"R-MMU-170670","Adenylate cyclase inhibitory pathway","Mus musculus",12
+"R-MMU-418990","Adherens junctions interactions","Mus musculus",200
+"R-MMU-9843745","Adipogenesis","Mus musculus",4
+"R-MMU-392023","Adrenaline signalling through Alpha-2 adrenergic receptor","Mus musculus",3
+"R-MMU-400042","Adrenaline,noradrenaline inhibits insulin secretion","Mus musculus",22
+"R-MMU-390696","Adrenoceptors","Mus musculus",7
+"R-MMU-879415","Advanced glycosylation endproduct receptor signaling","Mus musculus",5
+"R-MMU-1428517","Aerobic respiration and respiratory electron transport","Mus musculus",229
+"R-MMU-5423646","Aflatoxin activation and detoxification","Mus musculus",25
+"R-MMU-9646399","Aggrephagy","Mus musculus",37
+"R-MMU-351143","Agmatine biosynthesis","Mus musculus",2
+"R-MMU-8964540","Alanine metabolism","Mus musculus",2
+"R-MMU-1462054","Alpha-defensins","Mus musculus",34
+"R-MMU-389599","Alpha-oxidation of phytanate","Mus musculus",6
+"R-MMU-9645460","Alpha-protein kinase 1 signaling pathway","Mus musculus",10
+"R-MMU-173736","Alternative complement activation","Mus musculus",4
+"R-MMU-140179","Amine Oxidase reactions","Mus musculus",4
+"R-MMU-375280","Amine ligand-binding receptors","Mus musculus",41
+"R-MMU-156587","Amino Acid conjugation","Mus musculus",6
+"R-MMU-352230","Amino acid transport across the plasma membrane","Mus musculus",29
+"R-MMU-9639288","Amino acids regulate mTORC1","Mus musculus",53
+"R-MMU-141444","Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal","Mus musculus",91
+"R-MMU-141424","Amplification of signal from the kinetochores","Mus musculus",91
+"R-MMU-2214320","Anchoring fibril formation","Mus musculus",3
+"R-MMU-5620912","Anchoring of the basal body to the plasma membrane","Mus musculus",94
+"R-MMU-193048","Androgen biosynthesis","Mus musculus",16
+"R-MMU-2473224","Antagonism of Activin by Follistatin","Mus musculus",4
+"R-MMU-983170","Antigen Presentation: Folding, assembly and peptide loading of class I MHC","Mus musculus",32
+"R-MMU-983695","Antigen activates B Cell Receptor (BCR) leading to generation of second messengers","Mus musculus",24
+"R-MMU-1236975","Antigen processing-Cross presentation","Mus musculus",68
+"R-MMU-9912633","Antigen processing: Ub, ATP-independent proteasomal degradation","Mus musculus",19
+"R-MMU-983168","Antigen processing: Ubiquitination & Proteasome degradation","Mus musculus",274
+"R-MMU-1169410","Antimicrobial mechanism of IFN-stimulated genes","Mus musculus",94
+"R-MMU-6803157","Antimicrobial peptides","Mus musculus",89
+"R-MMU-109581","Apoptosis","Mus musculus",55
+"R-MMU-140342","Apoptosis induced DNA fragmentation","Mus musculus",3
+"R-MMU-351906","Apoptotic cleavage of cell adhesion  proteins","Mus musculus",2
+"R-MMU-111465","Apoptotic cleavage of cellular proteins","Mus musculus",17
+"R-MMU-75153","Apoptotic execution phase","Mus musculus",21
+"R-MMU-111471","Apoptotic factor-mediated response","Mus musculus",6
+"R-MMU-445717","Aquaporin-mediated transport","Mus musculus",38
+"R-MMU-2142753","Arachidonate metabolism","Mus musculus",66
+"R-MMU-426048","Arachidonate production from DAG","Mus musculus",5
+"R-MMU-211957","Aromatic amines can be N-hydroxylated or N-dealkylated by CYP1A2","Mus musculus",1
+"R-MMU-8937144","Aryl hydrocarbon receptor signalling","Mus musculus",6
+"R-MMU-446203","Asparagine N-linked glycosylation","Mus musculus",257
+"R-MMU-8963693","Aspartate and asparagine metabolism","Mus musculus",11
+"R-MMU-9749641","Aspirin ADME","Mus musculus",46
+"R-MMU-9609736","Assembly and cell surface presentation of NMDA receptors","Mus musculus",6
+"R-MMU-8963889","Assembly of active LPL and LIPC lipase complexes","Mus musculus",11
+"R-MMU-2022090","Assembly of collagen fibrils and other multimeric structures","Mus musculus",42
+"R-MMU-68616","Assembly of the ORC complex at the origin of replication","Mus musculus",8
+"R-MMU-68867","Assembly of the pre-replicative complex","Mus musculus",71
+"R-MMU-390471","Association of TriC/CCT with target proteins during biosynthesis","Mus musculus",10
+"R-MMU-210455","Astrocytic Glutamate-Glutamine Uptake And Metabolism","Mus musculus",4
+"R-MMU-4608870","Asymmetric localization of PCP proteins","Mus musculus",48
+"R-MMU-9754706","Atorvastatin ADME","Mus musculus",17
+"R-MMU-162791","Attachment of GPI anchor to uPAR","Mus musculus",6
+"R-MMU-3371568","Attenuation phase","Mus musculus",13
+"R-MMU-174084","Autodegradation of Cdh1 by Cdh1:APC/C","Mus musculus",53
+"R-MMU-349425","Autodegradation of the E3 ubiquitin ligase COP1","Mus musculus",38
+"R-MMU-9612973","Autophagy","Mus musculus",129
+"R-MMU-422475","Axon guidance","Mus musculus",244
+"R-MMU-193634","Axonal growth inhibition (RHOA activation)","Mus musculus",7
+"R-MMU-209563","Axonal growth stimulation","Mus musculus",3
+"R-MMU-9748787","Azathioprine ADME","Mus musculus",26
+"R-MMU-5250924","B-WICH complex positively regulates rRNA expression","Mus musculus",29
+"R-MMU-5620922","BBSome-mediated cargo-targeting to cilium","Mus musculus",23
+"R-MMU-9859138","BCKDH synthesizes BCAA-CoA from KIC, KMVA, KIV","Mus musculus",3
+"R-MMU-111453","BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members","Mus musculus",6
+"R-MMU-73884","Base Excision Repair","Mus musculus",91
+"R-MMU-73929","Base-Excision Repair, AP Site Formation","Mus musculus",68
+"R-MMU-210991","Basigin interactions","Mus musculus",23
+"R-MMU-1461957","Beta defensins","Mus musculus",18
+"R-MMU-77352","Beta oxidation of butanoyl-CoA to acetyl-CoA","Mus musculus",3
+"R-MMU-77346","Beta oxidation of decanoyl-CoA to octanoyl-CoA-CoA","Mus musculus",6
+"R-MMU-77350","Beta oxidation of hexanoyl-CoA to butanoyl-CoA","Mus musculus",5
+"R-MMU-77310","Beta oxidation of lauroyl-CoA to decanoyl-CoA-CoA","Mus musculus",5
+"R-MMU-77285","Beta oxidation of myristoyl-CoA to lauroyl-CoA","Mus musculus",3
+"R-MMU-77348","Beta oxidation of octanoyl-CoA to hexanoyl-CoA","Mus musculus",5
+"R-MMU-77305","Beta oxidation of palmitoyl-CoA to myristoyl-CoA","Mus musculus",3
+"R-MMU-3858494","Beta-catenin independent WNT signaling","Mus musculus",108
+"R-MMU-196299","Beta-catenin phosphorylation cascade","Mus musculus",16
+"R-MMU-389887","Beta-oxidation of pristanoyl-CoA","Mus musculus",9
+"R-MMU-390247","Beta-oxidation of very long chain fatty acids","Mus musculus",11
+"R-MMU-425381","Bicarbonate transporters","Mus musculus",8
+"R-MMU-194068","Bile acid and bile salt metabolism","Mus musculus",48
+"R-MMU-2173782","Binding and Uptake of Ligands by Scavenger Receptors","Mus musculus",37
+"R-MMU-141333","Biogenic amines are oxidatively deaminated to aldehydes by MAOA and MAOB","Mus musculus",2
+"R-MMU-211859","Biological oxidations","Mus musculus",204
+"R-MMU-9018676","Biosynthesis of D-series resolvins","Mus musculus",4
+"R-MMU-9018677","Biosynthesis of DHA-derived SPMs","Mus musculus",25
+"R-MMU-9026395","Biosynthesis of DHA-derived sulfido conjugates","Mus musculus",2
+"R-MMU-9018683","Biosynthesis of DPA-derived SPMs","Mus musculus",4
+"R-MMU-9025094","Biosynthesis of DPAn-3 SPMs","Mus musculus",4
+"R-MMU-9026403","Biosynthesis of DPAn-3-derived 13-series resolvins","Mus musculus",1
+"R-MMU-9026290","Biosynthesis of DPAn-3-derived maresins","Mus musculus",2
+"R-MMU-9026286","Biosynthesis of DPAn-3-derived protectins and resolvins","Mus musculus",2
+"R-MMU-9025106","Biosynthesis of DPAn-6 SPMs","Mus musculus",2
+"R-MMU-9023661","Biosynthesis of E-series 18(R)-resolvins","Mus musculus",4
+"R-MMU-9018896","Biosynthesis of E-series 18(S)-resolvins","Mus musculus",5
+"R-MMU-9018679","Biosynthesis of EPA-derived SPMs","Mus musculus",6
+"R-MMU-2142700","Biosynthesis of Lipoxins (LX)","Mus musculus",5
+"R-MMU-9020265","Biosynthesis of aspirin-triggered D-series resolvins","Mus musculus",3
+"R-MMU-9027604","Biosynthesis of electrophilic ω-3 PUFA oxo-derivatives","Mus musculus",2
+"R-MMU-9026762","Biosynthesis of maresin conjugates in tissue regeneration (MCTR)","Mus musculus",2
+"R-MMU-9027307","Biosynthesis of maresin-like SPMs","Mus musculus",14
+"R-MMU-9018682","Biosynthesis of maresins","Mus musculus",16
+"R-MMU-9026766","Biosynthesis of protectin and resolvin conjugates in tissue regeneration (PCTR and RCTR)","Mus musculus",1
+"R-MMU-9018681","Biosynthesis of protectins","Mus musculus",4
+"R-MMU-9018678","Biosynthesis of specialized proresolving mediators (SPMs)","Mus musculus",26
+"R-MMU-446193","Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein","Mus musculus",73
+"R-MMU-196780","Biotin transport and metabolism","Mus musculus",10
+"R-MMU-9033658","Blood group systems biosynthesis","Mus musculus",15
+"R-MMU-70895","Branched-chain amino acid catabolism","Mus musculus",18
+"R-MMU-352238","Breakdown of the nuclear lamina","Mus musculus",2
+"R-MMU-450385","Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA","Mus musculus",16
+"R-MMU-8851680","Butyrophilin (BTN) family interactions","Mus musculus",7
+"R-MMU-5621481","C-type lectin receptors (CLRs)","Mus musculus",89
+"R-MMU-75102","C6 deamination of adenosine","Mus musculus",2
+"R-MMU-9948001","CASP4 inflammasome assembly","Mus musculus",2
+"R-MMU-9960519","CASP4-mediated substrate cleavage","Mus musculus",4
+"R-MMU-9948011","CASP5 inflammasome assembly","Mus musculus",1
+"R-MMU-9960525","CASP5-mediated substrate cleavage","Mus musculus",4
+"R-MMU-5218900","CASP8 activity is inhibited","Mus musculus",4
+"R-MMU-5621575","CD209 (DC-SIGN) signaling","Mus musculus",16
+"R-MMU-5690714","CD22 mediated BCR regulation","Mus musculus",6
+"R-MMU-389357","CD28 dependent PI3K/Akt signaling","Mus musculus",27
+"R-MMU-389359","CD28 dependent Vav1 pathway","Mus musculus",11
+"R-MMU-9013148","CDC42 GTPase cycle","Mus musculus",85
+"R-MMU-68689","CDC6 association with the ORC:origin complex","Mus musculus",7
+"R-MMU-69017","CDK-mediated phosphorylation and removal of Cdc6","Mus musculus",59
+"R-MMU-5607763","CLEC7A (Dectin-1) induces NFAT activation","Mus musculus",5
+"R-MMU-5607764","CLEC7A (Dectin-1) signaling","Mus musculus",71
+"R-MMU-5660668","CLEC7A/inflammasome pathway","Mus musculus",3
+"R-MMU-6811434","COPI-dependent Golgi-to-ER retrograde traffic","Mus musculus",90
+"R-MMU-6811436","COPI-independent Golgi-to-ER retrograde traffic","Mus musculus",45
+"R-MMU-6807878","COPI-mediated anterograde transport","Mus musculus",90
+"R-MMU-204005","COPII-mediated vesicle transport","Mus musculus",67
+"R-MMU-140180","COX reactions","Mus musculus",1
+"R-MMU-199920","CREB phosphorylation","Mus musculus",7
+"R-MMU-442742","CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling","Mus musculus",5
+"R-MMU-442720","CREB1 phosphorylation through the activation of Adenylate Cyclase","Mus musculus",5
+"R-MMU-442729","CREB1 phosphorylation through the activation of CaMKII/CaMKK/CaMKIV cascasde","Mus musculus",3
+"R-MMU-8874211","CREB3 factors activate genes","Mus musculus",4
+"R-MMU-399956","CRMPs in Sema3A signaling","Mus musculus",15
+"R-MMU-2022870","CS-GAG biosynthesis","Mus musculus",20
+"R-MMU-2024101","CS/DS degradation","Mus musculus",18
+"R-MMU-211999","CYP2E1 reactions","Mus musculus",9
+"R-MMU-111996","Ca-dependent events","Mus musculus",24
+"R-MMU-1296052","Ca2+ activated K+ channels","Mus musculus",9
+"R-MMU-4086398","Ca2+ pathway","Mus musculus",42
+"R-MMU-111997","CaM pathway","Mus musculus",22
+"R-MMU-111932","CaMK IV-mediated phosphorylation of CREB","Mus musculus",3
+"R-MMU-2025928","Calcineurin activates NFAT","Mus musculus",6
+"R-MMU-419812","Calcitonin-like ligand receptors","Mus musculus",9
+"R-MMU-111933","Calmodulin induced events","Mus musculus",22
+"R-MMU-901042","Calnexin/calreticulin cycle","Mus musculus",7
+"R-MMU-111957","Cam-PDE 1 activation","Mus musculus",4
+"R-MMU-72737","Cap-dependent Translation Initiation","Mus musculus",115
+"R-MMU-8955332","Carboxyterminal post-translational modifications of tubulin","Mus musculus",27
+"R-MMU-5576891","Cardiac conduction","Mus musculus",96
+"R-MMU-5694530","Cargo concentration in the ER","Mus musculus",32
+"R-MMU-8856825","Cargo recognition for clathrin-mediated endocytosis","Mus musculus",97
+"R-MMU-5620920","Cargo trafficking to the periciliary membrane","Mus musculus",66
+"R-MMU-200425","Carnitine shuttle","Mus musculus",14
+"R-MMU-71262","Carnitine synthesis","Mus musculus",3
+"R-MMU-140534","Caspase activation via Death Receptors in the presence of ligand","Mus musculus",9
+"R-MMU-418889","Caspase activation via Dependence Receptors in the absence of ligand","Mus musculus",1
+"R-MMU-5357769","Caspase activation via extrinsic apoptotic signalling pathway","Mus musculus",10
+"R-MMU-264870","Caspase-mediated cleavage of cytoskeletal proteins","Mus musculus",3
+"R-MMU-209905","Catecholamine biosynthesis","Mus musculus",4
+"R-MMU-426117","Cation-coupled Chloride cotransporters","Mus musculus",7
+"R-MMU-174184","Cdc20:Phospho-APC/C mediated degradation of Cyclin A","Mus musculus",59
+"R-MMU-1640170","Cell Cycle","Mus musculus",602
+"R-MMU-69620","Cell Cycle Checkpoints","Mus musculus",275
+"R-MMU-69278","Cell Cycle, Mitotic","Mus musculus",512
+"R-MMU-204998","Cell death signalling via NRAGE, NRIF and NADE","Mus musculus",66
+"R-MMU-446728","Cell junction organization","Mus musculus",231
+"R-MMU-202733","Cell surface interactions at the vascular wall","Mus musculus",92
+"R-MMU-1500931","Cell-Cell communication","Mus musculus",247
+"R-MMU-421270","Cell-cell junction organization","Mus musculus",208
+"R-MMU-446353","Cell-extracellular matrix interactions","Mus musculus",17
+"R-MMU-2559583","Cellular Senescence","Mus musculus",142
+"R-MMU-189200","Cellular hexose transport","Mus musculus",18
+"R-MMU-9711123","Cellular response to chemical stress","Mus musculus",138
+"R-MMU-3371556","Cellular response to heat stress","Mus musculus",80
+"R-MMU-1234174","Cellular response to hypoxia","Mus musculus",56
+"R-MMU-9840373","Cellular response to mitochondrial stress","Mus musculus",9
+"R-MMU-9711097","Cellular response to starvation","Mus musculus",53
+"R-MMU-9855142","Cellular responses to mechanical stimuli","Mus musculus",65
+"R-MMU-8953897","Cellular responses to stimuli","Mus musculus",543
+"R-MMU-2262752","Cellular responses to stress","Mus musculus",479
+"R-MMU-380287","Centrosome maturation","Mus musculus",77
+"R-MMU-390466","Chaperonin-mediated protein folding","Mus musculus",37
+"R-MMU-380108","Chemokine receptors bind chemokines","Mus musculus",52
+"R-MMU-75035","Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex","Mus musculus",14
+"R-MMU-191273","Cholesterol biosynthesis","Mus musculus",27
+"R-MMU-9969901","Cholesterol biosynthesis from zymosterol (modified Kandutsch-Russell pathway)","Mus musculus",3
+"R-MMU-6807047","Cholesterol biosynthesis via desmosterol (Bloch pathway)","Mus musculus",10
+"R-MMU-6798163","Choline catabolism","Mus musculus",6
+"R-MMU-1793185","Chondroitin sulfate/dermatan sulfate metabolism","Mus musculus",35
+"R-MMU-3247509","Chromatin modifying enzymes","Mus musculus",195
+"R-MMU-4839726","Chromatin organization","Mus musculus",211
+"R-MMU-73886","Chromosome Maintenance","Mus musculus",130
+"R-MMU-8963888","Chylomicron assembly","Mus musculus",10
+"R-MMU-8964026","Chylomicron clearance","Mus musculus",5
+"R-MMU-8963901","Chylomicron remodeling","Mus musculus",10
+"R-MMU-5617833","Cilium Assembly","Mus musculus",196
+"R-MMU-9793528","Ciprofloxacin ADME","Mus musculus",4
+"R-MMU-9909396","Circadian clock","Mus musculus",38
+"R-MMU-71403","Citric acid cycle (TCA cycle)","Mus musculus",32
+"R-MMU-373076","Class A/1 (Rhodopsin-like receptors)","Mus musculus",306
+"R-MMU-373080","Class B/2 (Secretin family receptors)","Mus musculus",56
+"R-MMU-420499","Class C/3 (Metabotropic glutamate/pheromone receptors)","Mus musculus",32
+"R-MMU-983169","Class I MHC mediated antigen processing & presentation","Mus musculus",326
+"R-MMU-9603798","Class I peroxisomal membrane protein import","Mus musculus",20
+"R-MMU-1296053","Classical Kir channels","Mus musculus",3
+"R-MMU-173623","Classical antibody-mediated complement activation","Mus musculus",7
+"R-MMU-8856828","Clathrin-mediated endocytosis","Mus musculus",133
+"R-MMU-110331","Cleavage of the damaged purine","Mus musculus",61
+"R-MMU-110329","Cleavage of the damaged pyrimidine","Mus musculus",8
+"R-MMU-9927353","Co-inhibition by BTLA","Mus musculus",5
+"R-MMU-389513","Co-inhibition by CTLA4","Mus musculus",21
+"R-MMU-389948","Co-inhibition by PD-1","Mus musculus",163
+"R-MMU-389356","Co-stimulation by CD28","Mus musculus",47
+"R-MMU-9927354","Co-stimulation by ICOS","Mus musculus",11
+"R-MMU-9759218","Cobalamin (Cbl) metabolism","Mus musculus",7
+"R-MMU-196741","Cobalamin (Cbl, vitamin B12) transport and metabolism","Mus musculus",15
+"R-MMU-196783","Coenzyme A biosynthesis","Mus musculus",7
+"R-MMU-2470946","Cohesin Loading onto Chromatin","Mus musculus",9
+"R-MMU-1650814","Collagen biosynthesis and modifying enzymes","Mus musculus",57
+"R-MMU-8948216","Collagen chain trimerization","Mus musculus",33
+"R-MMU-1442490","Collagen degradation","Mus musculus",46
+"R-MMU-1474290","Collagen formation","Mus musculus",71
+"R-MMU-140875","Common Pathway of Fibrin Clot Formation","Mus musculus",21
+"R-MMU-166658","Complement cascade","Mus musculus",47
+"R-MMU-6799198","Complex I biogenesis","Mus musculus",63
+"R-MMU-9865881","Complex III assembly","Mus musculus",17
+"R-MMU-9864848","Complex IV assembly","Mus musculus",39
+"R-MMU-2514853","Condensation of Prometaphase Chromosomes","Mus musculus",8
+"R-MMU-2299718","Condensation of Prophase Chromosomes","Mus musculus",77
+"R-MMU-177135","Conjugation of benzoate with glycine","Mus musculus",4
+"R-MMU-159424","Conjugation of carboxylic acids","Mus musculus",6
+"R-MMU-177162","Conjugation of phenylacetate with glutamine","Mus musculus",2
+"R-MMU-177128","Conjugation of salicylate with glycine","Mus musculus",5
+"R-MMU-176407","Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase","Mus musculus",20
+"R-MMU-6814122","Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding","Mus musculus",36
+"R-MMU-71288","Creatine metabolism","Mus musculus",9
+"R-MMU-166786","Creation of C4 and C2 activators","Mus musculus",14
+"R-MMU-8949613","Cristae formation","Mus musculus",20
+"R-MMU-1236973","Cross-presentation of particulate exogenous antigens (phagosomes)","Mus musculus",8
+"R-MMU-1236978","Cross-presentation of soluble exogenous antigens (endosomes)","Mus musculus",40
+"R-MMU-2243919","Crosslinking of collagen fibrils","Mus musculus",13
+"R-MMU-69273","Cyclin A/B1/B2 associated events during G2/M transition","Mus musculus",31
+"R-MMU-69656","Cyclin A:Cdk2-associated events at S phase entry","Mus musculus",61
+"R-MMU-69231","Cyclin D associated events in G1","Mus musculus",42
+"R-MMU-69202","Cyclin E associated events during G1/S transition","Mus musculus",59
+"R-MMU-1614603","Cysteine formation from homocysteine","Mus musculus",2
+"R-MMU-211897","Cytochrome P450 - arranged by substrate type","Mus musculus",72
+"R-MMU-111461","Cytochrome c-mediated apoptotic response","Mus musculus",3
+"R-MMU-1280215","Cytokine Signaling in Immune system","Mus musculus",455
+"R-MMU-9707564","Cytoprotection by HMOX1","Mus musculus",44
+"R-MMU-1834949","Cytosolic sensors of pathogen-associated DNA","Mus musculus",30
+"R-MMU-156584","Cytosolic sulfonation of small molecules","Mus musculus",10
+"R-MMU-379716","Cytosolic tRNA aminoacylation","Mus musculus",1
+"R-MMU-1489509","DAG and IP3 signaling","Mus musculus",23
+"R-MMU-8932506","DAG1 core M1 glycosylations","Mus musculus",4
+"R-MMU-8932504","DAG1 core M2 glycosylations","Mus musculus",5
+"R-MMU-8932505","DAG1 core M3 glycosylations","Mus musculus",6
+"R-MMU-8931838","DAG1 glycosylations","Mus musculus",18
+"R-MMU-2172127","DAP12 interactions","Mus musculus",36
+"R-MMU-2424491","DAP12 signaling","Mus musculus",29
+"R-MMU-180024","DARPP-32 events","Mus musculus",17
+"R-MMU-418885","DCC mediated attractive signaling","Mus musculus",8
+"R-MMU-168928","DDX58/IFIH1-mediated induction of interferon-alpha/beta","Mus musculus",32
+"R-MMU-3134963","DEx/H-box helicases activate type I IFN and inflammatory cytokines production","Mus musculus",7
+"R-MMU-73893","DNA Damage Bypass","Mus musculus",48
+"R-MMU-5696394","DNA Damage Recognition in GG-NER","Mus musculus",34
+"R-MMU-73942","DNA Damage Reversal","Mus musculus",2
+"R-MMU-2559586","DNA Damage/Telomere Stress Induced Senescence","Mus musculus",78
+"R-MMU-5693606","DNA Double Strand Break Response","Mus musculus",74
+"R-MMU-5693532","DNA Double-Strand Break Repair","Mus musculus",157
+"R-MMU-73894","DNA Repair","Mus musculus",313
+"R-MMU-69306","DNA Replication","Mus musculus",115
+"R-MMU-69002","DNA Replication Pre-Initiation","Mus musculus",87
+"R-MMU-68952","DNA replication initiation","Mus musculus",8
+"R-MMU-69190","DNA strand elongation","Mus musculus",23
+"R-MMU-2022923","DS-GAG biosynthesis","Mus musculus",11
+"R-MMU-376172","DSCAM interactions","Mus musculus",2
+"R-MMU-3769402","Deactivation of the beta-catenin transactivating complex","Mus musculus",30
+"R-MMU-429947","Deadenylation of mRNA","Mus musculus",23
+"R-MMU-429914","Deadenylation-dependent mRNA decay","Mus musculus",52
+"R-MMU-73887","Death Receptor Signaling","Mus musculus",117
+"R-MMU-5607761","Dectin-1 mediated noncanonical NF-kB signaling","Mus musculus",43
+"R-MMU-5621480","Dectin-2 family","Mus musculus",8
+"R-MMU-1461973","Defensins","Mus musculus",52
+"R-MMU-4641257","Degradation of AXIN","Mus musculus",41
+"R-MMU-9766229","Degradation of CDH1","Mus musculus",51
+"R-MMU-9932298","Degradation of CRY and PER proteins","Mus musculus",38
+"R-MMU-4641258","Degradation of DVL","Mus musculus",43
+"R-MMU-916853","Degradation of GABA","Mus musculus",2
+"R-MMU-5610780","Degradation of GLI1 by the proteasome","Mus musculus",42
+"R-MMU-195253","Degradation of beta-catenin by the destruction complex","Mus musculus",65
+"R-MMU-1614558","Degradation of cysteine and homocysteine","Mus musculus",13
+"R-MMU-1474228","Degradation of the extracellular matrix","Mus musculus",104
+"R-MMU-4419969","Depolymerization of the Nuclear Lamina","Mus musculus",13
+"R-MMU-606279","Deposition of new CENPA-containing nucleosomes at the centromere","Mus musculus",78
+"R-MMU-73927","Depurination","Mus musculus",61
+"R-MMU-73928","Depyrimidination","Mus musculus",8
+"R-MMU-3299685","Detoxification of Reactive Oxygen Species","Mus musculus",32
+"R-MMU-5688426","Deubiquitination","Mus musculus",226
+"R-MMU-1266738","Developmental Biology","Mus musculus",508
+"R-MMU-8935690","Digestion","Mus musculus",21
+"R-MMU-8963743","Digestion and absorption","Mus musculus",24
+"R-MMU-189085","Digestion of dietary carbohydrate","Mus musculus",10
+"R-MMU-192456","Digestion of dietary lipid","Mus musculus",6
+"R-MMU-69416","Dimerization of procaspase-8","Mus musculus",4
+"R-MMU-4641262","Disassembly of the destruction complex and recruitment of AXIN to the membrane","Mus musculus",29
+"R-MMU-114516","Disinhibition of SNARE formation","Mus musculus",5
+"R-MMU-110357","Displacement of DNA glycosylase by APEX1","Mus musculus",9
+"R-MMU-75205","Dissolution of Fibrin Clot","Mus musculus",12
+"R-MMU-212676","Dopamine Neurotransmitter Release Cycle","Mus musculus",23
+"R-MMU-379401","Dopamine clearance from the synaptic cleft","Mus musculus",4
+"R-MMU-390651","Dopamine receptors","Mus musculus",5
+"R-MMU-8863795","Downregulation of ERBB2 signaling","Mus musculus",27
+"R-MMU-1358803","Downregulation of ERBB2:ERBB3 signaling","Mus musculus",12
+"R-MMU-1253288","Downregulation of ERBB4 signaling","Mus musculus",9
+"R-MMU-2173795","Downregulation of SMAD2/3:SMAD4 transcriptional activity","Mus musculus",22
+"R-MMU-2173788","Downregulation of TGF-beta receptor signaling","Mus musculus",15
+"R-MMU-202424","Downstream TCR signaling","Mus musculus",67
+"R-MMU-186763","Downstream signal transduction","Mus musculus",27
+"R-MMU-1168372","Downstream signaling events of B Cell Receptor (BCR)","Mus musculus",56
+"R-MMU-5654687","Downstream signaling of activated FGFR1","Mus musculus",29
+"R-MMU-5654696","Downstream signaling of activated FGFR2","Mus musculus",28
+"R-MMU-5654708","Downstream signaling of activated FGFR3","Mus musculus",23
+"R-MMU-5654716","Downstream signaling of activated FGFR4","Mus musculus",26
+"R-MMU-9748784","Drug ADME","Mus musculus",114
+"R-MMU-9754119","Drug-mediated inhibition of CDK4/CDK6 activity","Mus musculus",5
+"R-MMU-9652282","Drug-mediated inhibition of ERBB2 signaling","Mus musculus",4
+"R-MMU-9734091","Drug-mediated inhibition of MET activation","Mus musculus",1
+"R-MMU-5696400","Dual Incision in GG-NER","Mus musculus",39
+"R-MMU-6782135","Dual incision in TC-NER","Mus musculus",61
+"R-MMU-113510","E2F mediated regulation of DNA replication","Mus musculus",9
+"R-MMU-8866654","E3 ubiquitin ligases ubiquitinate target proteins","Mus musculus",50
+"R-MMU-3000178","ECM proteoglycans","Mus musculus",36
+"R-MMU-2179392","EGFR Transactivation by Gastrin","Mus musculus",8
+"R-MMU-182971","EGFR downregulation","Mus musculus",31
+"R-MMU-212718","EGFR interacts with phospholipase C-gamma","Mus musculus",9
+"R-MMU-9619665","EGR2 and SOX10-mediated initiation of Schwann cell myelination","Mus musculus",1
+"R-MMU-9648025","EML4 and NUDC in mitotic spindle formation","Mus musculus",107
+"R-MMU-2682334","EPH-Ephrin signaling","Mus musculus",62
+"R-MMU-3928665","EPH-ephrin mediated repulsion of cells","Mus musculus",34
+"R-MMU-3928663","EPHA-mediated growth cone collapse","Mus musculus",17
+"R-MMU-3928662","EPHB-mediated forward signaling","Mus musculus",35
+"R-MMU-901032","ER Quality Control Compartment (ERQC)","Mus musculus",4
+"R-MMU-199977","ER to Golgi Anterograde Transport","Mus musculus",142
+"R-MMU-1236974","ER-Phagosome pathway","Mus musculus",35
+"R-MMU-8847993","ERBB2 Activates PTK6 Signaling","Mus musculus",11
+"R-MMU-6785631","ERBB2 Regulates Cell Motility","Mus musculus",13
+"R-MMU-198753","ERK/MAPK targets","Mus musculus",19
+"R-MMU-202670","ERKs are inactivated","Mus musculus",13
+"R-MMU-8939211","ESR-mediated signaling","Mus musculus",157
+"R-MMU-114508","Effects of PIP2 hydrolysis","Mus musculus",23
+"R-MMU-391903","Eicosanoid ligand-binding receptors","Mus musculus",13
+"R-MMU-211979","Eicosanoids","Mus musculus",17
+"R-MMU-1566948","Elastic fibre formation","Mus musculus",39
+"R-MMU-112303","Electric Transmission Across Gap Junctions","Mus musculus",4
+"R-MMU-2395516","Electron transport from NADPH to Ferredoxin","Mus musculus",3
+"R-MMU-139853","Elevation of cytosolic Ca2+ levels","Mus musculus",12
+"R-MMU-211976","Endogenous sterols","Mus musculus",26
+"R-MMU-917729","Endosomal Sorting Complex Required For Transport (ESCRT)","Mus musculus",30
+"R-MMU-1236977","Endosomal/Vacuolar pathway","Mus musculus",16
+"R-MMU-380972","Energy dependent regulation of mTOR by LKB1-AMPK","Mus musculus",27
+"R-MMU-379398","Enzymatic degradation of Dopamine by monoamine oxidase","Mus musculus",2
+"R-MMU-379397","Enzymatic degradation of dopamine by COMT","Mus musculus",3
+"R-MMU-3928664","Ephrin signaling","Mus musculus",16
+"R-MMU-9917777","Epigenetic regulation by WDR5-containing histone modifying complexes","Mus musculus",107
+"R-MMU-9851695","Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes","Mus musculus",73
+"R-MMU-212165","Epigenetic regulation of gene expression","Mus musculus",204
+"R-MMU-9818564","Epigenetic regulation of gene expression by MLL3 and MLL4 complexes","Mus musculus",79
+"R-MMU-1237044","Erythrocytes take up carbon dioxide and release oxygen","Mus musculus",12
+"R-MMU-1247673","Erythrocytes take up oxygen and release carbon dioxide","Mus musculus",8
+"R-MMU-9027276","Erythropoietin activates Phosphoinositide-3-kinase (PI3K)","Mus musculus",12
+"R-MMU-9027284","Erythropoietin activates RAS","Mus musculus",10
+"R-MMU-2468052","Establishment of Sister Chromatid Cohesion","Mus musculus",10
+"R-MMU-193144","Estrogen biosynthesis","Mus musculus",8
+"R-MMU-9018519","Estrogen-dependent gene expression","Mus musculus",88
+"R-MMU-9634638","Estrogen-dependent nuclear events downstream of ESR-membrane signaling","Mus musculus",9
+"R-MMU-9634635","Estrogen-stimulated signaling through PRKCZ","Mus musculus",5
+"R-MMU-71384","Ethanol oxidation","Mus musculus",9
+"R-MMU-156842","Eukaryotic Translation Elongation","Mus musculus",5
+"R-MMU-72613","Eukaryotic Translation Initiation","Mus musculus",115
+"R-MMU-72764","Eukaryotic Translation Termination","Mus musculus",6
+"R-MMU-8941413","Events associated with phagocytolytic activity of PMN cells","Mus musculus",2
+"R-MMU-9036866","Expression and Processing of Neurotrophins","Mus musculus",4
+"R-MMU-180786","Extension of Telomeres","Mus musculus",47
+"R-MMU-9009391","Extra-nuclear estrogen signaling","Mus musculus",68
+"R-MMU-1474244","Extracellular matrix organization","Mus musculus",246
+"R-MMU-140834","Extrinsic Pathway of Fibrin Clot Formation","Mus musculus",5
+"R-MMU-8854050","FBXL7 down-regulates AURKA during mitotic entry and in early mitosis","Mus musculus",40
+"R-MMU-2871809","FCERI mediated Ca+2 mobilization","Mus musculus",24
+"R-MMU-2871796","FCERI mediated MAPK activation","Mus musculus",30
+"R-MMU-2871837","FCERI mediated NF-kB activation","Mus musculus",59
+"R-MMU-2029481","FCGR activation","Mus musculus",11
+"R-MMU-190242","FGFR1 ligand binding and activation","Mus musculus",16
+"R-MMU-190370","FGFR1b ligand binding and activation","Mus musculus",7
+"R-MMU-190374","FGFR1c and Klotho ligand binding and activation","Mus musculus",3
+"R-MMU-190373","FGFR1c ligand binding and activation","Mus musculus",13
+"R-MMU-6803529","FGFR2 alternative splicing","Mus musculus",17
+"R-MMU-190241","FGFR2 ligand binding and activation","Mus musculus",18
+"R-MMU-190377","FGFR2b ligand binding and activation","Mus musculus",8
+"R-MMU-190375","FGFR2c ligand binding and activation","Mus musculus",13
+"R-MMU-190239","FGFR3 ligand binding and activation","Mus musculus",12
+"R-MMU-190371","FGFR3b ligand binding and activation","Mus musculus",6
+"R-MMU-190372","FGFR3c ligand binding and activation","Mus musculus",12
+"R-MMU-190322","FGFR4 ligand binding and activation","Mus musculus",14
+"R-MMU-5658623","FGFRL1 modulation of FGFR1 signaling","Mus musculus",12
+"R-MMU-9607240","FLT3 Signaling","Mus musculus",29
+"R-MMU-9706374","FLT3 signaling through SRC family kinases","Mus musculus",4
+"R-MMU-217271","FMO oxidises nucleophiles","Mus musculus",3
+"R-MMU-9614085","FOXO-mediated transcription","Mus musculus",21
+"R-MMU-9617828","FOXO-mediated transcription of cell cycle genes","Mus musculus",7
+"R-MMU-9615017","FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes","Mus musculus",2
+"R-MMU-5654693","FRS-mediated FGFR1 signaling","Mus musculus",21
+"R-MMU-5654700","FRS-mediated FGFR2 signaling","Mus musculus",23
+"R-MMU-5654706","FRS-mediated FGFR3 signaling","Mus musculus",18
+"R-MMU-5654712","FRS-mediated FGFR4 signaling","Mus musculus",21
+"R-MMU-983231","Factors involved in megakaryocyte development and platelet production","Mus musculus",119
+"R-MMU-6783310","Fanconi Anemia Pathway","Mus musculus",36
+"R-MMU-75157","FasL/ CD95L signaling","Mus musculus",2
+"R-MMU-434316","Fatty Acids bound to GPR40 (FFAR1) regulate insulin secretion","Mus musculus",7
+"R-MMU-8978868","Fatty acid metabolism","Mus musculus",174
+"R-MMU-211935","Fatty acids","Mus musculus",20
+"R-MMU-75105","Fatty acyl-CoA biosynthesis","Mus musculus",32
+"R-MMU-2454202","Fc epsilon receptor (FCERI) signaling","Mus musculus",95
+"R-MMU-2029480","Fcgamma receptor (FCGR) dependent phagocytosis","Mus musculus",73
+"R-MMU-1187000","Fertilization","Mus musculus",24
+"R-MMU-1566977","Fibronectin matrix formation","Mus musculus",14
+"R-MMU-2855086","Ficolins bind to repetitive carbohydrate structures on the target cell surface","Mus musculus",4
+"R-MMU-163210","Formation of ATP by chemiosmotic coupling","Mus musculus",20
+"R-MMU-140877","Formation of Fibrin Clot (Clotting Cascade)","Mus musculus",36
+"R-MMU-5696395","Formation of Incision Complex in GG-NER","Mus musculus",41
+"R-MMU-112382","Formation of RNA Pol II elongation complex","Mus musculus",54
+"R-MMU-2559584","Formation of Senescence-Associated Heterochromatin Foci (SAHF)","Mus musculus",10
+"R-MMU-6781823","Formation of TC-NER Pre-Incision Complex","Mus musculus",49
+"R-MMU-9772755","Formation of WDR5-containing histone-modifying complexes","Mus musculus",34
+"R-MMU-72689","Formation of a pool of free 40S subunits","Mus musculus",97
+"R-MMU-196025","Formation of annular gap junctions","Mus musculus",9
+"R-MMU-111458","Formation of apoptosome","Mus musculus",3
+"R-MMU-77042","Formation of editosomes by ADAR proteins","Mus musculus",2
+"R-MMU-9934037","Formation of neuronal progenitor and neuronal BAF (npBAF and nBAF)","Mus musculus",21
+"R-MMU-113418","Formation of the Early Elongation Complex","Mus musculus",32
+"R-MMU-75094","Formation of the Editosome","Mus musculus",5
+"R-MMU-173599","Formation of the active cofactor, UDP-glucuronate","Mus musculus",4
+"R-MMU-201722","Formation of the beta-catenin:TCF transactivating complex","Mus musculus",24
+"R-MMU-9933937","Formation of the canonical BAF (cBAF) complex","Mus musculus",18
+"R-MMU-6809371","Formation of the cornified envelope","Mus musculus",80
+"R-MMU-9913351","Formation of the dystrophin-glycoprotein complex (DGC)","Mus musculus",25
+"R-MMU-9933946","Formation of the embryonic stem cell BAF (esBAF) complex","Mus musculus",19
+"R-MMU-9933947","Formation of the non-canonical BAF (ncBAF) complex","Mus musculus",17
+"R-MMU-9933939","Formation of the polybromo-BAF (pBAF) complex","Mus musculus",16
+"R-MMU-72695","Formation of the ternary complex, and subsequently, the 43S complex","Mus musculus",52
+"R-MMU-5661270","Formation of xylulose-5-phosphate","Mus musculus",5
+"R-MMU-444473","Formyl peptide receptors bind formyl peptides and many other ligands","Mus musculus",12
+"R-MMU-444209","Free fatty acid receptors","Mus musculus",4
+"R-MMU-400451","Free fatty acids regulate insulin secretion","Mus musculus",10
+"R-MMU-170968","Frs2-mediated activation","Mus musculus",12
+"R-MMU-5652227","Fructose biosynthesis","Mus musculus",2
+"R-MMU-70350","Fructose catabolism","Mus musculus",5
+"R-MMU-5652084","Fructose metabolism","Mus musculus",7
+"R-MMU-416482","G alpha (12/13) signalling events","Mus musculus",71
+"R-MMU-418594","G alpha (i) signalling events","Mus musculus",271
+"R-MMU-416476","G alpha (q) signalling events","Mus musculus",200
+"R-MMU-418555","G alpha (s) signalling events","Mus musculus",131
+"R-MMU-418597","G alpha (z) signalling events","Mus musculus",31
+"R-MMU-8964315","G beta:gamma signalling through BTK","Mus musculus",18
+"R-MMU-8964616","G beta:gamma signalling through CDC42","Mus musculus",19
+"R-MMU-392451","G beta:gamma signalling through PI3Kgamma","Mus musculus",25
+"R-MMU-418217","G beta:gamma signalling through PLC beta","Mus musculus",20
+"R-MMU-1296059","G protein gated Potassium channels","Mus musculus",28
+"R-MMU-202040","G-protein activation","Mus musculus",22
+"R-MMU-397795","G-protein beta:gamma signalling","Mus musculus",31
+"R-MMU-112040","G-protein mediated events","Mus musculus",36
+"R-MMU-1538133","G0 and Early G1","Mus musculus",17
+"R-MMU-69236","G1 Phase","Mus musculus",42
+"R-MMU-69615","G1/S DNA Damage Checkpoints","Mus musculus",62
+"R-MMU-69206","G1/S Transition","Mus musculus",93
+"R-MMU-68911","G2 Phase","Mus musculus",5
+"R-MMU-69481","G2/M Checkpoints","Mus musculus",148
+"R-MMU-69473","G2/M DNA damage checkpoint","Mus musculus",90
+"R-MMU-69478","G2/M DNA replication checkpoint","Mus musculus",7
+"R-MMU-69275","G2/M Transition","Mus musculus",171
+"R-MMU-180292","GAB1 signalosome","Mus musculus",17
+"R-MMU-977444","GABA B receptor activation","Mus musculus",40
+"R-MMU-977443","GABA receptor activation","Mus musculus",56
+"R-MMU-888568","GABA synthesis","Mus musculus",2
+"R-MMU-888590","GABA synthesis, release, reuptake and degradation","Mus musculus",18
+"R-MMU-9953170","GBP-mediated host defense","Mus musculus",5
+"R-MMU-6787639","GDP-fucose biosynthesis","Mus musculus",6
+"R-MMU-5610785","GLI3 is processed to GLI3R by the proteasome","Mus musculus",44
+"R-MMU-430116","GP1b-IX-V activation signalling","Mus musculus",10
+"R-MMU-388396","GPCR downstream signalling","Mus musculus",564
+"R-MMU-500792","GPCR ligand binding","Mus musculus",394
+"R-MMU-9634597","GPER1 signaling","Mus musculus",28
+"R-MMU-114604","GPVI-mediated activation cascade","Mus musculus",33
+"R-MMU-179812","GRB2 events in EGFR signaling","Mus musculus",12
+"R-MMU-1963640","GRB2 events in ERBB2 signaling","Mus musculus",11
+"R-MMU-354194","GRB2:SOS provides linkage to MAPK signaling for Integrins","Mus musculus",15
+"R-MMU-1306955","GRB7 events in ERBB2 signaling","Mus musculus",4
+"R-MMU-9762114","GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2","Mus musculus",40
+"R-MMU-9929356","GSK3B-mediated proteasomal degradation of PD-L1(CD274)","Mus musculus",42
+"R-MMU-72706","GTP hydrolysis and joining of the 60S ribosomal subunit","Mus musculus",108
+"R-MMU-70370","Galactose catabolism","Mus musculus",5
+"R-MMU-163841","Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation","Mus musculus",55
+"R-MMU-159740","Gamma-carboxylation of protein precursors","Mus musculus",9
+"R-MMU-159854","Gamma-carboxylation, transport, and amino-terminal cleavage of proteins","Mus musculus",11
+"R-MMU-190861","Gap junction assembly","Mus musculus",31
+"R-MMU-190873","Gap junction degradation","Mus musculus",10
+"R-MMU-190828","Gap junction trafficking","Mus musculus",40
+"R-MMU-157858","Gap junction trafficking and regulation","Mus musculus",42
+"R-MMU-5696397","Gap-filling DNA repair synthesis and ligation in GG-NER","Mus musculus",22
+"R-MMU-6782210","Gap-filling DNA repair synthesis and ligation in TC-NER","Mus musculus",60
+"R-MMU-881907","Gastrin-CREB signalling pathway via PKC and MAPK","Mus musculus",17
+"R-MMU-9758941","Gastrulation","Mus musculus",3
+"R-MMU-211000","Gene Silencing by RNA","Mus musculus",13
+"R-MMU-74160","Gene expression (Transcription)","Mus musculus",1020
+"R-MMU-202433","Generation of second messenger molecules","Mus musculus",19
+"R-MMU-212436","Generic Transcription Pathway","Mus musculus",805
+"R-MMU-5696399","Global Genome Nucleotide Excision Repair (GG-NER)","Mus musculus",76
+"R-MMU-163359","Glucagon signaling in metabolic regulation","Mus musculus",7
+"R-MMU-381676","Glucagon-like Peptide-1 (GLP1) regulates insulin secretion","Mus musculus",32
+"R-MMU-420092","Glucagon-type ligand receptors","Mus musculus",33
+"R-MMU-194002","Glucocorticoid biosynthesis","Mus musculus",16
+"R-MMU-70263","Gluconeogenesis","Mus musculus",24
+"R-MMU-70326","Glucose metabolism","Mus musculus",71
+"R-MMU-156588","Glucuronidation","Mus musculus",23
+"R-MMU-210500","Glutamate Neurotransmitter Release Cycle","Mus musculus",24
+"R-MMU-8964539","Glutamate and glutamine metabolism","Mus musculus",13
+"R-MMU-399721","Glutamate binding, activation of AMPA receptors and synaptic plasticity","Mus musculus",27
+"R-MMU-156590","Glutathione conjugation","Mus musculus",37
+"R-MMU-174403","Glutathione synthesis and recycling","Mus musculus",12
+"R-MMU-1483206","Glycerophospholipid biosynthesis","Mus musculus",116
+"R-MMU-6814848","Glycerophospholipid catabolism","Mus musculus",3
+"R-MMU-6783984","Glycine degradation","Mus musculus",7
+"R-MMU-70221","Glycogen breakdown (glycogenolysis)","Mus musculus",13
+"R-MMU-8982491","Glycogen metabolism","Mus musculus",17
+"R-MMU-3322077","Glycogen synthesis","Mus musculus",6
+"R-MMU-70171","Glycolysis","Mus musculus",61
+"R-MMU-209822","Glycoprotein hormones","Mus musculus",7
+"R-MMU-1630316","Glycosaminoglycan metabolism","Mus musculus",130
+"R-MMU-1971475","Glycosaminoglycan-protein linkage region biosynthesis","Mus musculus",27
+"R-MMU-9840309","Glycosphingolipid biosynthesis","Mus musculus",19
+"R-MMU-9840310","Glycosphingolipid catabolism","Mus musculus",33
+"R-MMU-1660662","Glycosphingolipid metabolism","Mus musculus",52
+"R-MMU-9845576","Glycosphingolipid transport","Mus musculus",8
+"R-MMU-389661","Glyoxylate metabolism and glycine degradation","Mus musculus",18
+"R-MMU-432722","Golgi Associated Vesicle Biogenesis","Mus musculus",52
+"R-MMU-162658","Golgi Cisternae Pericentriolar Stack Reorganization","Mus musculus",10
+"R-MMU-8856688","Golgi-to-ER retrograde transport","Mus musculus",120
+"R-MMU-982772","Growth hormone receptor signaling","Mus musculus",11
+"R-MMU-3214847","HATs acetylate histones","Mus musculus",70
+"R-MMU-1296061","HCN channels","Mus musculus",4
+"R-MMU-3214815","HDACs deacetylate histones","Mus musculus",24
+"R-MMU-8963896","HDL assembly","Mus musculus",7
+"R-MMU-8964011","HDL clearance","Mus musculus",3
+"R-MMU-8964058","HDL remodeling","Mus musculus",9
+"R-MMU-3214842","HDMs demethylate histones","Mus musculus",46
+"R-MMU-5685942","HDR through Homologous Recombination (HRR)","Mus musculus",57
+"R-MMU-5693567","HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)","Mus musculus",125
+"R-MMU-5685939","HDR through MMEJ (alt-NHEJ)","Mus musculus",8
+"R-MMU-5685938","HDR through Single Strand Annealing (SSA)","Mus musculus",34
+"R-MMU-2022928","HS-GAG biosynthesis","Mus musculus",30
+"R-MMU-2024096","HS-GAG degradation","Mus musculus",18
+"R-MMU-3371511","HSF1 activation","Mus musculus",8
+"R-MMU-3371571","HSF1-dependent transactivation","Mus musculus",22
+"R-MMU-3371497","HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand","Mus musculus",48
+"R-MMU-5610787","Hedgehog 'off' state","Mus musculus",92
+"R-MMU-5632684","Hedgehog 'on' state","Mus musculus",68
+"R-MMU-5358346","Hedgehog ligand biogenesis","Mus musculus",49
+"R-MMU-189451","Heme biosynthesis","Mus musculus",14
+"R-MMU-189483","Heme degradation","Mus musculus",15
+"R-MMU-9707616","Heme signaling","Mus musculus",12
+"R-MMU-109582","Hemostasis","Mus musculus",491
+"R-MMU-1638091","Heparan sulfate/heparin (HS-GAG) metabolism","Mus musculus",37
+"R-MMU-9856530","High laminar flow shear stress activates signaling by PIEZO1 and PECAM1:CDH5:KDR in endothelial cells","Mus musculus",44
+"R-MMU-629597","Highly calcium permeable nicotinic acetylcholine receptors","Mus musculus",9
+"R-MMU-629594","Highly calcium permeable postsynaptic nicotinic acetylcholine receptors","Mus musculus",11
+"R-MMU-629587","Highly sodium permeable postsynaptic acetylcholine nicotinic receptors","Mus musculus",6
+"R-MMU-390650","Histamine receptors","Mus musculus",4
+"R-MMU-70921","Histidine catabolism","Mus musculus",7
+"R-MMU-5693579","Homologous DNA Pairing and Strand Exchange","Mus musculus",25
+"R-MMU-5693538","Homology Directed Repair","Mus musculus",128
+"R-MMU-375281","Hormone ligand-binding receptors","Mus musculus",9
+"R-MMU-450520","HuR (ELAVL1) binds and stabilizes mRNA","Mus musculus",8
+"R-MMU-2160916","Hyaluronan degradation","Mus musculus",16
+"R-MMU-2142845","Hyaluronan metabolism","Mus musculus",20
+"R-MMU-1483115","Hydrolysis of LPC","Mus musculus",8
+"R-MMU-1483152","Hydrolysis of LPE","Mus musculus",1
+"R-MMU-3296197","Hydroxycarboxylic acid-binding receptors","Mus musculus",2
+"R-MMU-204626","Hypusine synthesis from eIF5A-lysine","Mus musculus",4
+"R-MMU-9732724","IFNG signaling activates MAPKs","Mus musculus",7
+"R-MMU-2428924","IGF1R signaling cascade","Mus musculus",47
+"R-MMU-937041","IKK complex recruitment mediated by RIP1","Mus musculus",22
+"R-MMU-6788467","IL-6-type cytokine receptor ligand interactions","Mus musculus",16
+"R-MMU-937039","IRAK1 recruits IKK complex","Mus musculus",13
+"R-MMU-975144","IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation","Mus musculus",13
+"R-MMU-937042","IRAK2 mediated activation of TAK1 complex","Mus musculus",10
+"R-MMU-975163","IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation","Mus musculus",15
+"R-MMU-381070","IRE1alpha activates chaperones","Mus musculus",1
+"R-MMU-1606341","IRF3 mediated activation of type 1 IFN","Mus musculus",1
+"R-MMU-3270619","IRF3-mediated induction of type I IFN","Mus musculus",5
+"R-MMU-74713","IRS activation","Mus musculus",6
+"R-MMU-112399","IRS-mediated signalling","Mus musculus",42
+"R-MMU-2428928","IRS-related events triggered by IGF1R","Mus musculus",46
+"R-MMU-1169408","ISG15 antiviral mechanism","Mus musculus",27
+"R-MMU-168256","Immune System","Mus musculus",1672
+"R-MMU-198933","Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell","Mus musculus",83
+"R-MMU-141430","Inactivation of APC/C via direct inhibition of the APC/C complex","Mus musculus",21
+"R-MMU-9705462","Inactivation of CSF3 (G-CSF) signaling","Mus musculus",19
+"R-MMU-2514859","Inactivation, recovery and regulation of the phototransduction cascade","Mus musculus",25
+"R-MMU-400508","Incretin synthesis, secretion, and inactivation","Mus musculus",12
+"R-MMU-622312","Inflammasomes","Mus musculus",14
+"R-MMU-997272","Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits","Mus musculus",28
+"R-MMU-9670095","Inhibition of DNA recombination at telomere","Mus musculus",61
+"R-MMU-165181","Inhibition of TSC complex formation by PKB","Mus musculus",2
+"R-MMU-113501","Inhibition of replication initiation of damaged DNA by RB1/E2F1","Mus musculus",9
+"R-MMU-141405","Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components","Mus musculus",21
+"R-MMU-166663","Initial triggering of complement","Mus musculus",20
+"R-MMU-2995383","Initiation of Nuclear Envelope (NE) Reformation","Mus musculus",17
+"R-MMU-168249","Innate Immune System","Mus musculus",891
+"R-MMU-427601","Inorganic anion exchange by SLC26 transporters","Mus musculus",8
+"R-MMU-1483249","Inositol phosphate metabolism","Mus musculus",33
+"R-MMU-429593","Inositol transporters","Mus musculus",3
+"R-MMU-9609523","Insertion of tail-anchored proteins into the endoplasmic reticulum membrane","Mus musculus",15
+"R-MMU-163754","Insulin effects increased synthesis of Xylulose-5-Phosphate","Mus musculus",2
+"R-MMU-264876","Insulin processing","Mus musculus",13
+"R-MMU-77387","Insulin receptor recycling","Mus musculus",30
+"R-MMU-74751","Insulin receptor signalling cascade","Mus musculus",49
+"R-MMU-163685","Integration of energy metabolism","Mus musculus",71
+"R-MMU-216083","Integrin cell surface interactions","Mus musculus",65
+"R-MMU-354192","Integrin signaling","Mus musculus",27
+"R-MMU-2534343","Interaction With Cumulus Cells And The Zona Pellucida","Mus musculus",10
+"R-MMU-445095","Interaction between L1 and Ankyrins","Mus musculus",8
+"R-MMU-8854521","Interaction between PHLDA1 and AURKA","Mus musculus",2
+"R-MMU-880009","Interconversion of 2-oxoglutarate and 2-hydroxyglutarate","Mus musculus",3
+"R-MMU-499943","Interconversion of nucleotide di- and triphosphates","Mus musculus",27
+"R-MMU-351200","Interconversion of polyamines","Mus musculus",3
+"R-MMU-913531","Interferon Signaling","Mus musculus",137
+"R-MMU-909733","Interferon alpha/beta signaling","Mus musculus",29
+"R-MMU-877300","Interferon gamma signaling","Mus musculus",19
+"R-MMU-912526","Interleukin receptor SHC signaling","Mus musculus",23
+"R-MMU-446652","Interleukin-1 family signaling","Mus musculus",105
+"R-MMU-448706","Interleukin-1 processing","Mus musculus",9
+"R-MMU-9020702","Interleukin-1 signaling","Mus musculus",88
+"R-MMU-6783783","Interleukin-10 signaling","Mus musculus",4
+"R-MMU-447115","Interleukin-12 family signaling","Mus musculus",17
+"R-MMU-9020591","Interleukin-12 signaling","Mus musculus",8
+"R-MMU-8983432","Interleukin-15 signaling","Mus musculus",12
+"R-MMU-448424","Interleukin-17 signaling","Mus musculus",56
+"R-MMU-9012546","Interleukin-18 signaling","Mus musculus",4
+"R-MMU-451927","Interleukin-2 family signaling","Mus musculus",37
+"R-MMU-9020558","Interleukin-2 signaling","Mus musculus",11
+"R-MMU-8854691","Interleukin-20 family signaling","Mus musculus",19
+"R-MMU-9020958","Interleukin-21 signaling","Mus musculus",8
+"R-MMU-9020933","Interleukin-23 signaling","Mus musculus",9
+"R-MMU-9020956","Interleukin-27 signaling","Mus musculus",9
+"R-MMU-512988","Interleukin-3, Interleukin-5 and GM-CSF signaling","Mus musculus",42
+"R-MMU-9014843","Interleukin-33 signaling","Mus musculus",3
+"R-MMU-8984722","Interleukin-35 Signalling","Mus musculus",10
+"R-MMU-9014826","Interleukin-36 pathway","Mus musculus",6
+"R-MMU-9008059","Interleukin-37 signaling","Mus musculus",2
+"R-MMU-9007892","Interleukin-38 signaling","Mus musculus",3
+"R-MMU-6785807","Interleukin-4 and Interleukin-13 signaling","Mus musculus",14
+"R-MMU-6783589","Interleukin-6 family signaling","Mus musculus",22
+"R-MMU-1059683","Interleukin-6 signaling","Mus musculus",9
+"R-MMU-1266695","Interleukin-7 signaling","Mus musculus",27
+"R-MMU-8985947","Interleukin-9 signaling","Mus musculus",7
+"R-MMU-8963676","Intestinal absorption","Mus musculus",3
+"R-MMU-8981373","Intestinal hexose absorption","Mus musculus",3
+"R-MMU-8963678","Intestinal lipid absorption","Mus musculus",0
+"R-MMU-6811442","Intra-Golgi and retrograde Golgi-to-ER traffic","Mus musculus",174
+"R-MMU-6811438","Intra-Golgi traffic","Mus musculus",33
+"R-MMU-434313","Intracellular metabolism of fatty acids regulates insulin secretion","Mus musculus",3
+"R-MMU-8981607","Intracellular oxygen transport","Mus musculus",3
+"R-MMU-9006925","Intracellular signaling by second messengers","Mus musculus",249
+"R-MMU-5620924","Intraflagellar transport","Mus musculus",57
+"R-MMU-109606","Intrinsic Pathway for Apoptosis","Mus musculus",25
+"R-MMU-140837","Intrinsic Pathway of Fibrin Clot Formation","Mus musculus",21
+"R-MMU-8941237","Invadopodia formation","Mus musculus",4
+"R-MMU-1296065","Inwardly rectifying K+ channels","Mus musculus",34
+"R-MMU-983712","Ion channel transport","Mus musculus",170
+"R-MMU-5578775","Ion homeostasis","Mus musculus",50
+"R-MMU-6803544","Ion influx/efflux at host-pathogen interface","Mus musculus",4
+"R-MMU-936837","Ion transport by P-type ATPases","Mus musculus",53
+"R-MMU-451306","Ionotropic activity of kainate receptors","Mus musculus",9
+"R-MMU-917937","Iron uptake and transport","Mus musculus",56
+"R-MMU-450321","JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1","Mus musculus",21
+"R-MMU-5689877","Josephin domain DUBs","Mus musculus",11
+"R-MMU-9755511","KEAP1-NFE2L2 pathway","Mus musculus",63
+"R-MMU-450604","KSRP (KHSRP) binds and destabilizes mRNA","Mus musculus",15
+"R-MMU-2022854","Keratan sulfate biosynthesis","Mus musculus",28
+"R-MMU-2022857","Keratan sulfate degradation","Mus musculus",15
+"R-MMU-1638074","Keratan sulfate/keratin metabolism","Mus musculus",36
+"R-MMU-6805567","Keratinization","Mus musculus",169
+"R-MMU-74182","Ketone body metabolism","Mus musculus",11
+"R-MMU-983189","Kinesins","Mus musculus",52
+"R-MMU-156827","L13a-mediated translational silencing of Ceruloplasmin expression","Mus musculus",107
+"R-MMU-373760","L1CAM interactions","Mus musculus",63
+"R-MMU-8964038","LDL clearance","Mus musculus",18
+"R-MMU-8964041","LDL remodeling","Mus musculus",2
+"R-MMU-5682910","LGI-ADAM interactions","Mus musculus",13
+"R-MMU-3134973","LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production","Mus musculus",3
+"R-MMU-5653890","Lactose synthesis","Mus musculus",3
+"R-MMU-69186","Lagging Strand Synthesis","Mus musculus",19
+"R-MMU-3000157","Laminin interactions","Mus musculus",10
+"R-MMU-9969896","Lanosterol biosynthesis","Mus musculus",14
+"R-MMU-69109","Leading Strand Synthesis","Mus musculus",14
+"R-MMU-166662","Lectin pathway of complement activation","Mus musculus",7
+"R-MMU-391906","Leukotriene receptors","Mus musculus",5
+"R-MMU-9037629","Lewis blood group biosynthesis","Mus musculus",13
+"R-MMU-5632681","Ligand-receptor interactions","Mus musculus",7
+"R-MMU-2046105","Linoleic acid (LA) metabolism","Mus musculus",8
+"R-MMU-8964572","Lipid particle organization","Mus musculus",6
+"R-MMU-446343","Localization of the PINCH-ILK-PARVIN complex to focal adhesions","Mus musculus",4
+"R-MMU-380259","Loss of Nlp from mitotic centrosomes","Mus musculus",67
+"R-MMU-380284","Loss of proteins required for interphase microtubule organization from the centrosome","Mus musculus",67
+"R-MMU-71064","Lysine catabolism","Mus musculus",12
+"R-MMU-8853383","Lysosomal oligosaccharide catabolism","Mus musculus",4
+"R-MMU-432720","Lysosome Vesicle Biogenesis","Mus musculus",33
+"R-MMU-419408","Lysosphingolipid and LPA receptors","Mus musculus",14
+"R-MMU-68886","M Phase","Mus musculus",386
+"R-MMU-450294","MAP kinase activation","Mus musculus",56
+"R-MMU-5674135","MAP2K and MAPK activation","Mus musculus",39
+"R-MMU-5684264","MAP3K8 (TPL2)-dependent MAPK1/3 activation","Mus musculus",12
+"R-MMU-5683057","MAPK family signaling cascades","Mus musculus",277
+"R-MMU-450282","MAPK targets/ Nuclear events mediated by MAP kinases","Mus musculus",28
+"R-MMU-112411","MAPK1 (ERK2) activation","Mus musculus",8
+"R-MMU-5684996","MAPK1/MAPK3 signaling","Mus musculus",254
+"R-MMU-110056","MAPK3 (ERK1) activation","Mus musculus",9
+"R-MMU-5687128","MAPK6/MAPK4 signaling","Mus musculus",59
+"R-MMU-2465910","MASTL Facilitates Mitotic Progression","Mus musculus",2
+"R-MMU-9851151","MDK and PTN in ALK signaling","Mus musculus",4
+"R-MMU-6806942","MET Receptor Activation","Mus musculus",5
+"R-MMU-8851907","MET activates PI3K/AKT signaling","Mus musculus",5
+"R-MMU-8874081","MET activates PTK2 signaling","Mus musculus",18
+"R-MMU-8865999","MET activates PTPN11","Mus musculus",4
+"R-MMU-8875555","MET activates RAP1 and RAC1","Mus musculus",9
+"R-MMU-8851805","MET activates RAS signaling","Mus musculus",9
+"R-MMU-8875791","MET activates STAT3","Mus musculus",2
+"R-MMU-8875513","MET interacts with TNS proteins","Mus musculus",4
+"R-MMU-8875878","MET promotes cell motility","Mus musculus",28
+"R-MMU-8875656","MET receptor recycling","Mus musculus",9
+"R-MMU-2132295","MHC class II antigen presentation","Mus musculus",101
+"R-MMU-9856651","MITF-M-dependent gene expression","Mus musculus",16
+"R-MMU-9730414","MITF-M-regulated melanocyte development","Mus musculus",45
+"R-MMU-9841922","MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis","Mus musculus",73
+"R-MMU-165159","MTOR signalling","Mus musculus",39
+"R-MMU-1632852","Macroautophagy","Mus musculus",129
+"R-MMU-6791226","Major pathway of rRNA processing in the nucleolus and cytosol","Mus musculus",172
+"R-MMU-9856872","Malate-aspartate shuttle","Mus musculus",9
+"R-MMU-9939291","Matriglycan biosynthesis on DAG1","Mus musculus",12
+"R-MMU-9854311","Maturation of TCA enzymes and regulation of TCA cycle","Mus musculus",18
+"R-MMU-1500620","Meiosis","Mus musculus",4
+"R-MMU-912446","Meiotic recombination","Mus musculus",4
+"R-MMU-5662702","Melanin biosynthesis","Mus musculus",5
+"R-MMU-199991","Membrane Trafficking","Mus musculus",533
+"R-MMU-1430728","Metabolism","Mus musculus",1786
+"R-MMU-2022377","Metabolism of Angiotensinogen to Angiotensins","Mus musculus",15
+"R-MMU-8953854","Metabolism of RNA","Mus musculus",593
+"R-MMU-209776","Metabolism of amine-derived hormones","Mus musculus",20
+"R-MMU-71291","Metabolism of amino acids and derivatives","Mus musculus",232
+"R-MMU-71387","Metabolism of carbohydrates and carbohydrate derivatives","Mus musculus",263
+"R-MMU-8978934","Metabolism of cofactors","Mus musculus",21
+"R-MMU-6806667","Metabolism of fat-soluble vitamins","Mus musculus",51
+"R-MMU-196757","Metabolism of folate and pterines","Mus musculus",16
+"R-MMU-5263617","Metabolism of ingested MeSeO2H into MeSeH","Mus musculus",1
+"R-MMU-2408508","Metabolism of ingested SeMet, Sec, MeSec into H2Se","Mus musculus",2
+"R-MMU-556833","Metabolism of lipids","Mus musculus",622
+"R-MMU-202131","Metabolism of nitric oxide: NOS3 activation and regulation","Mus musculus",13
+"R-MMU-194441","Metabolism of non-coding RNA","Mus musculus",48
+"R-MMU-15869","Metabolism of nucleotides","Mus musculus",94
+"R-MMU-351202","Metabolism of polyamines","Mus musculus",45
+"R-MMU-189445","Metabolism of porphyrins","Mus musculus",27
+"R-MMU-392499","Metabolism of proteins","Mus musculus",1717
+"R-MMU-380612","Metabolism of serotonin","Mus musculus",2
+"R-MMU-196071","Metabolism of steroid hormones","Mus musculus",43
+"R-MMU-8957322","Metabolism of steroids","Mus musculus",131
+"R-MMU-6806664","Metabolism of vitamin K","Mus musculus",3
+"R-MMU-196854","Metabolism of vitamins and cofactors","Mus musculus",173
+"R-MMU-196849","Metabolism of water-soluble vitamins and cofactors","Mus musculus",102
+"R-MMU-425410","Metal ion SLC transporters","Mus musculus",40
+"R-MMU-6799990","Metal sequestration by antimicrobial proteins","Mus musculus",4
+"R-MMU-5689901","Metalloprotease DUBs","Mus musculus",38
+"R-MMU-5661231","Metallothioneins bind metals","Mus musculus",2
+"R-MMU-1237112","Methionine salvage pathway","Mus musculus",4
+"R-MMU-156581","Methylation","Mus musculus",14
+"R-MMU-203927","MicroRNA (miRNA) biogenesis","Mus musculus",6
+"R-MMU-190840","Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane","Mus musculus",16
+"R-MMU-193993","Mineralocorticoid biosynthesis","Mus musculus",11
+"R-MMU-9715370","Miro GTPase Cycle","Mus musculus",7
+"R-MMU-211958","Miscellaneous substrates","Mus musculus",27
+"R-MMU-5223345","Miscellaneous transport and binding events","Mus musculus",27
+"R-MMU-5358508","Mismatch Repair","Mus musculus",15
+"R-MMU-5358606","Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)","Mus musculus",10
+"R-MMU-5358565","Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)","Mus musculus",14
+"R-MMU-1369007","Mitochondrial ABC transporters","Mus musculus",3
+"R-MMU-77289","Mitochondrial Fatty Acid Beta-Oxidation","Mus musculus",36
+"R-MMU-166187","Mitochondrial Uncoupling","Mus musculus",6
+"R-MMU-1592230","Mitochondrial biogenesis","Mus musculus",29
+"R-MMU-8949215","Mitochondrial calcium ion transport","Mus musculus",17
+"R-MMU-1362409","Mitochondrial iron-sulfur cluster biogenesis","Mus musculus",11
+"R-MMU-9837999","Mitochondrial protein degradation","Mus musculus",76
+"R-MMU-1268020","Mitochondrial protein import","Mus musculus",10
+"R-MMU-9937383","Mitochondrial ribosome-associated quality control","Mus musculus",85
+"R-MMU-379726","Mitochondrial tRNA aminoacylation","Mus musculus",1
+"R-MMU-163282","Mitochondrial transcription initiation","Mus musculus",3
+"R-MMU-163316","Mitochondrial transcription termination","Mus musculus",1
+"R-MMU-5368287","Mitochondrial translation","Mus musculus",103
+"R-MMU-5389840","Mitochondrial translation elongation","Mus musculus",83
+"R-MMU-5419276","Mitochondrial translation termination","Mus musculus",99
+"R-MMU-9841251","Mitochondrial unfolded protein response (UPRmt)","Mus musculus",8
+"R-MMU-5205647","Mitophagy","Mus musculus",39
+"R-MMU-68882","Mitotic Anaphase","Mus musculus",206
+"R-MMU-453279","Mitotic G1 phase and G1/S transition","Mus musculus",118
+"R-MMU-453274","Mitotic G2-G2/M phases","Mus musculus",173
+"R-MMU-2555396","Mitotic Metaphase and Anaphase","Mus musculus",207
+"R-MMU-68881","Mitotic Metaphase/Anaphase Transition","Mus musculus",2
+"R-MMU-68877","Mitotic Prometaphase","Mus musculus",190
+"R-MMU-68875","Mitotic Prophase","Mus musculus",134
+"R-MMU-69618","Mitotic Spindle Checkpoint","Mus musculus",108
+"R-MMU-68884","Mitotic Telophase/Cytokinesis","Mus musculus",12
+"R-MMU-9909505","Modulation of host responses by IFN-stimulated genes","Mus musculus",11
+"R-MMU-2129379","Molecules associated with elastic fibres","Mus musculus",32
+"R-MMU-947581","Molybdenum cofactor biosynthesis","Mus musculus",5
+"R-MMU-390648","Muscarinic acetylcholine receptors","Mus musculus",5
+"R-MMU-397014","Muscle contraction","Mus musculus",150
+"R-MMU-975871","MyD88 cascade initiated on plasma membrane","Mus musculus",78
+"R-MMU-975155","MyD88 dependent cascade initiated on endosome","Mus musculus",84
+"R-MMU-166166","MyD88-independent TLR4 cascade","Mus musculus",97
+"R-MMU-166058","MyD88:MAL(TIRAP) cascade initiated on plasma membrane","Mus musculus",79
+"R-MMU-525793","Myogenesis","Mus musculus",24
+"R-MMU-975577","N-Glycan antennae elongation","Mus musculus",15
+"R-MMU-975576","N-glycan antennae elongation in the medial/trans-Golgi","Mus musculus",23
+"R-MMU-964739","N-glycan trimming and elongation in the cis-Golgi","Mus musculus",5
+"R-MMU-532668","N-glycan trimming in the ER and Calnexin/Calreticulin cycle","Mus musculus",15
+"R-MMU-205025","NADE modulates death signalling","Mus musculus",4
+"R-MMU-389542","NADPH regeneration","Mus musculus",2
+"R-MMU-375165","NCAM signaling for neurite out-growth","Mus musculus",32
+"R-MMU-419037","NCAM1 interactions","Mus musculus",16
+"R-MMU-209560","NF-kB is activated and signals survival","Mus musculus",12
+"R-MMU-9818027","NFE2L2 regulating anti-oxidant/detoxification enzymes","Mus musculus",2
+"R-MMU-205017","NFG and proNGF binds to p75NTR","Mus musculus",1
+"R-MMU-167060","NGF processing","Mus musculus",4
+"R-MMU-9031628","NGF-stimulated transcription","Mus musculus",6
+"R-MMU-5676590","NIK-->noncanonical NF-kB signaling","Mus musculus",43
+"R-MMU-168638","NOD1/2 Signaling Pathway","Mus musculus",30
+"R-MMU-203754","NOSIP mediated eNOS trafficking","Mus musculus",2
+"R-MMU-203641","NOSTRIN mediated eNOS trafficking","Mus musculus",4
+"R-MMU-2122947","NOTCH1 Intracellular Domain Regulates Transcription","Mus musculus",10
+"R-MMU-9013507","NOTCH3 Activation and Transmission of Signal to the Nucleus","Mus musculus",20
+"R-MMU-9013700","NOTCH4 Activation and Transmission of Signal to the Nucleus","Mus musculus",2
+"R-MMU-9768919","NPAS4 regulates expression of target genes","Mus musculus",5
+"R-MMU-9623433","NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis","Mus musculus",6
+"R-MMU-9024446","NR1H2 and NR1H3-mediated signaling","Mus musculus",12
+"R-MMU-9029569","NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux","Mus musculus",12
+"R-MMU-193648","NRAGE signals death through JNK","Mus musculus",49
+"R-MMU-205043","NRIF signals cell death from the nucleus","Mus musculus",14
+"R-MMU-9034013","NTF3 activates NTRK3 signaling","Mus musculus",2
+"R-MMU-9032759","NTRK2 activates RAC1","Mus musculus",4
+"R-MMU-420597","Nectin/Necl  trans heterodimerization","Mus musculus",7
+"R-MMU-8951664","Neddylation","Mus musculus",204
+"R-MMU-9764725","Negative Regulation of CDH1 Gene Transcription","Mus musculus",82
+"R-MMU-5674499","Negative feedback regulation of MAPK pathway","Mus musculus",6
+"R-MMU-5654726","Negative regulation of FGFR1 signaling","Mus musculus",31
+"R-MMU-5654727","Negative regulation of FGFR2 signaling","Mus musculus",33
+"R-MMU-5654732","Negative regulation of FGFR3 signaling","Mus musculus",28
+"R-MMU-5654733","Negative regulation of FGFR4 signaling","Mus musculus",31
+"R-MMU-9706369","Negative regulation of FLT3","Mus musculus",14
+"R-MMU-5675221","Negative regulation of MAPK pathway","Mus musculus",42
+"R-MMU-6807004","Negative regulation of MET activity","Mus musculus",20
+"R-MMU-9604323","Negative regulation of NOTCH4 signaling","Mus musculus",2
+"R-MMU-3772470","Negative regulation of TCF-dependent signaling by WNT ligand antagonists","Mus musculus",8
+"R-MMU-8866904","Negative regulation of activity of TFAP2 (AP-2) family transcription factors","Mus musculus",9
+"R-MMU-199418","Negative regulation of the PI3K/AKT network","Mus musculus",116
+"R-MMU-936440","Negative regulators of DDX58/IFIH1 signaling","Mus musculus",14
+"R-MMU-373753","Nephrin family interactions","Mus musculus",9
+"R-MMU-9675108","Nervous system development","Mus musculus",245
+"R-MMU-373752","Netrin-1 signaling","Mus musculus",13
+"R-MMU-6794361","Neurexins and neuroligins","Mus musculus",30
+"R-MMU-447043","Neurofascin interactions","Mus musculus",2
+"R-MMU-112316","Neuronal System","Mus musculus",317
+"R-MMU-194306","Neurophilin interactions with VEGF and VEGFR","Mus musculus",4
+"R-MMU-112311","Neurotransmitter clearance","Mus musculus",8
+"R-MMU-112314","Neurotransmitter receptors and postsynaptic signal transmission","Mus musculus",135
+"R-MMU-112310","Neurotransmitter release cycle","Mus musculus",48
+"R-MMU-112313","Neurotransmitter uptake and metabolism In glial cells","Mus musculus",4
+"R-MMU-6798695","Neutrophil degranulation","Mus musculus",501
+"R-MMU-196807","Nicotinate metabolism","Mus musculus",21
+"R-MMU-392154","Nitric oxide stimulates guanylate cyclase","Mus musculus",13
+"R-MMU-9686114","Non-canonical inflammasome activation","Mus musculus",5
+"R-MMU-3000171","Non-integrin membrane-ECM interactions","Mus musculus",55
+"R-MMU-9017802","Noncanonical activation of NOTCH3","Mus musculus",8
+"R-MMU-5693571","Nonhomologous End-Joining (NHEJ)","Mus musculus",63
+"R-MMU-975957","Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)","Mus musculus",110
+"R-MMU-975956","Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)","Mus musculus",90
+"R-MMU-927802","Nonsense-Mediated Decay (NMD)","Mus musculus",110
+"R-MMU-181430","Norepinephrine Neurotransmitter Release Cycle","Mus musculus",18
+"R-MMU-350054","Notch-HLH transcription pathway","Mus musculus",23
+"R-MMU-2995410","Nuclear Envelope (NE) Reassembly","Mus musculus",65
+"R-MMU-2980766","Nuclear Envelope Breakdown","Mus musculus",48
+"R-MMU-198725","Nuclear Events (kinase and transcription factor activation)","Mus musculus",27
+"R-MMU-3301854","Nuclear Pore Complex (NPC) Disassembly","Mus musculus",32
+"R-MMU-9930044","Nuclear RNA decay","Mus musculus",30
+"R-MMU-383280","Nuclear Receptor transcription pathway","Mus musculus",50
+"R-MMU-9759194","Nuclear events mediated by NFE2L2","Mus musculus",44
+"R-MMU-1251985","Nuclear signaling by ERBB4","Mus musculus",12
+"R-MMU-774815","Nucleosome assembly","Mus musculus",78
+"R-MMU-5696398","Nucleotide Excision Repair","Mus musculus",100
+"R-MMU-8956320","Nucleotide biosynthesis","Mus musculus",14
+"R-MMU-8956319","Nucleotide catabolism","Mus musculus",35
+"R-MMU-8956321","Nucleotide salvage","Mus musculus",23
+"R-MMU-168643","Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways","Mus musculus",44
+"R-MMU-418038","Nucleotide-like (purinergic) receptors","Mus musculus",14
+"R-MMU-5173214","O-glycosylation of TSR domain-containing proteins","Mus musculus",33
+"R-MMU-5173105","O-linked glycosylation","Mus musculus",110
+"R-MMU-913709","O-linked glycosylation of mucins","Mus musculus",54
+"R-MMU-1480926","O2/CO2 exchange in erythrocytes","Mus musculus",12
+"R-MMU-9858328","OADH complex synthesizes glutaryl-CoA from 2-OA","Mus musculus",3
+"R-MMU-8983711","OAS antiviral response","Mus musculus",5
+"R-MMU-9853506","OGDH complex synthesizes succinyl-CoA from 2-OG","Mus musculus",4
+"R-MMU-9673163","Oleoyl-phe metabolism","Mus musculus",1
+"R-MMU-381753","Olfactory Signaling Pathway","Mus musculus",82
+"R-MMU-190704","Oligomerization of connexins into connexons","Mus musculus",1
+"R-MMU-2559585","Oncogene Induced Senescence","Mus musculus",15
+"R-MMU-111885","Opioid Signalling","Mus musculus",67
+"R-MMU-419771","Opsins","Mus musculus",8
+"R-MMU-68949","Orc1 removal from chromatin","Mus musculus",56
+"R-MMU-389397","Orexin and neuropeptides FF and QRFP bind to their respective receptors","Mus musculus",9
+"R-MMU-1852241","Organelle biogenesis and maintenance","Mus musculus",225
+"R-MMU-561048","Organic anion transport by SLC22 transporters","Mus musculus",4
+"R-MMU-428643","Organic anion transport by SLC5/17/25 transporters","Mus musculus",6
+"R-MMU-879518","Organic anion transport by SLCO transporters","Mus musculus",10
+"R-MMU-449836","Other interleukin signaling","Mus musculus",14
+"R-MMU-416700","Other semaphorin interactions","Mus musculus",13
+"R-MMU-5689896","Ovarian tumor domain proteases","Mus musculus",29
+"R-MMU-2559580","Oxidative Stress Induced Senescence","Mus musculus",37
+"R-MMU-1234176","Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha","Mus musculus",52
+"R-MMU-417957","P2Y receptors","Mus musculus",11
+"R-MMU-141334","PAOs oxidise polyamines to amines","Mus musculus",2
+"R-MMU-5651801","PCNA-Dependent Long Patch Base Excision Repair","Mus musculus",20
+"R-MMU-4086400","PCP/CE pathway","Mus musculus",73
+"R-MMU-9931295","PD-L1(CD274) glycosylation and translocation to plasma membrane","Mus musculus",20
+"R-MMU-165160","PDE3B signalling","Mus musculus",1
+"R-MMU-9861559","PDH complex synthesizes acetyl-CoA from PYR","Mus musculus",6
+"R-MMU-210990","PECAM1 interactions","Mus musculus",12
+"R-MMU-9954714","PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA","Mus musculus",85
+"R-MMU-381042","PERK regulates gene expression","Mus musculus",4
+"R-MMU-1483255","PI Metabolism","Mus musculus",74
+"R-MMU-1483196","PI and PC transport between ER and Golgi membranes","Mus musculus",1
+"R-MMU-5654689","PI-3K cascade:FGFR1","Mus musculus",20
+"R-MMU-5654695","PI-3K cascade:FGFR2","Mus musculus",22
+"R-MMU-5654710","PI-3K cascade:FGFR3","Mus musculus",17
+"R-MMU-5654720","PI-3K cascade:FGFR4","Mus musculus",20
+"R-MMU-109704","PI3K Cascade","Mus musculus",41
+"R-MMU-1963642","PI3K events in ERBB2 signaling","Mus musculus",14
+"R-MMU-1250342","PI3K events in ERBB4 signaling","Mus musculus",8
+"R-MMU-198203","PI3K/AKT activation","Mus musculus",9
+"R-MMU-6811555","PI5P Regulates TP53 Acetylation","Mus musculus",9
+"R-MMU-6811558","PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling","Mus musculus",109
+"R-MMU-5205685","PINK1-PRKN Mediated Mitophagy","Mus musculus",32
+"R-MMU-1257604","PIP3 activates AKT signaling","Mus musculus",226
+"R-MMU-163615","PKA activation","Mus musculus",13
+"R-MMU-164378","PKA activation in glucagon signalling","Mus musculus",5
+"R-MMU-111931","PKA-mediated phosphorylation of CREB","Mus musculus",13
+"R-MMU-109703","PKB-mediated events","Mus musculus",1
+"R-MMU-3214841","PKMTs methylate histone lysines","Mus musculus",61
+"R-MMU-9833482","PKR-mediated signaling","Mus musculus",63
+"R-MMU-112043","PLC beta mediated events","Mus musculus",31
+"R-MMU-110362","POLB-Dependent Long Patch Base Excision Repair","Mus musculus",5
+"R-MMU-212300","PRC2 methylates histones and DNA","Mus musculus",80
+"R-MMU-6807070","PTEN Regulation","Mus musculus",97
+"R-MMU-8849474","PTK6 Activates STAT3","Mus musculus",4
+"R-MMU-8849472","PTK6 Down-Regulation","Mus musculus",2
+"R-MMU-8849470","PTK6 Regulates Cell Cycle","Mus musculus",6
+"R-MMU-8849468","PTK6 Regulates Proteins Involved in RNA Processing","Mus musculus",5
+"R-MMU-8849471","PTK6 Regulates RHO GTPases, RAS GTPase and MAP kinases","Mus musculus",13
+"R-MMU-8849469","PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1","Mus musculus",9
+"R-MMU-8857538","PTK6 promotes HIF1A stabilization","Mus musculus",6
+"R-MMU-9753281","Paracetamol ADME","Mus musculus",25
+"R-MMU-432047","Passive transport by Aquaporins","Mus musculus",11
+"R-MMU-71336","Pentose phosphate pathway","Mus musculus",13
+"R-MMU-156902","Peptide chain elongation","Mus musculus",1
+"R-MMU-209952","Peptide hormone biosynthesis","Mus musculus",9
+"R-MMU-2980736","Peptide hormone metabolism","Mus musculus",60
+"R-MMU-375276","Peptide ligand-binding receptors","Mus musculus",186
+"R-MMU-390918","Peroxisomal lipid metabolism","Mus musculus",26
+"R-MMU-9033241","Peroxisomal protein import","Mus musculus",65
+"R-MMU-9664873","Pexophagy","Mus musculus",10
+"R-MMU-5576892","Phase 0 - rapid depolarisation","Mus musculus",7
+"R-MMU-5576894","Phase 1 - inactivation of fast Na+ channels","Mus musculus",7
+"R-MMU-5576893","Phase 2 - plateau phase","Mus musculus",13
+"R-MMU-5576890","Phase 3 - rapid repolarisation","Mus musculus",8
+"R-MMU-5576886","Phase 4 - resting membrane potential","Mus musculus",17
+"R-MMU-211945","Phase I - Functionalization of compounds","Mus musculus",108
+"R-MMU-156580","Phase II - Conjugation of compounds","Mus musculus",92
+"R-MMU-8963691","Phenylalanine and tyrosine metabolism","Mus musculus",12
+"R-MMU-8964208","Phenylalanine metabolism","Mus musculus",7
+"R-MMU-8850843","Phosphate bond hydrolysis by NTPDase proteins","Mus musculus",8
+"R-MMU-2393930","Phosphate bond hydrolysis by NUDT proteins","Mus musculus",7
+"R-MMU-5654219","Phospholipase C-mediated cascade: FGFR1","Mus musculus",15
+"R-MMU-5654221","Phospholipase C-mediated cascade; FGFR2","Mus musculus",17
+"R-MMU-5654227","Phospholipase C-mediated cascade; FGFR3","Mus musculus",12
+"R-MMU-5654228","Phospholipase C-mediated cascade; FGFR4","Mus musculus",15
+"R-MMU-1483257","Phospholipid metabolism","Mus musculus",189
+"R-MMU-202427","Phosphorylation of CD3 and TCR zeta chains","Mus musculus",12
+"R-MMU-176417","Phosphorylation of Emi1","Mus musculus",6
+"R-MMU-69200","Phosphorylation of proteins involved in G1/S transition by active Cyclin E:Cdk2 complexes","Mus musculus",4
+"R-MMU-176412","Phosphorylation of the APC/C","Mus musculus",20
+"R-MMU-5578768","Physiological factors","Mus musculus",7
+"R-MMU-8963898","Plasma lipoprotein assembly","Mus musculus",18
+"R-MMU-174824","Plasma lipoprotein assembly, remodeling, and clearance","Mus musculus",63
+"R-MMU-8964043","Plasma lipoprotein clearance","Mus musculus",34
+"R-MMU-8963899","Plasma lipoprotein remodeling","Mus musculus",26
+"R-MMU-75896","Plasmalogen biosynthesis","Mus musculus",3
+"R-MMU-75892","Platelet Adhesion to exposed collagen","Mus musculus",4
+"R-MMU-76009","Platelet Aggregation (Plug Formation)","Mus musculus",35
+"R-MMU-76002","Platelet activation, signaling and aggregation","Mus musculus",238
+"R-MMU-418360","Platelet calcium homeostasis","Mus musculus",24
+"R-MMU-114608","Platelet degranulation","Mus musculus",112
+"R-MMU-418346","Platelet homeostasis","Mus musculus",73
+"R-MMU-432142","Platelet sensitization by LDL","Mus musculus",17
+"R-MMU-156711","Polo-like kinase mediated events","Mus musculus",4
+"R-MMU-69091","Polymerase switching","Mus musculus",14
+"R-MMU-174411","Polymerase switching on the C-strand of the telomere","Mus musculus",25
+"R-MMU-5250913","Positive epigenetic regulation of rRNA expression","Mus musculus",29
+"R-MMU-438064","Post NMDA receptor activation events","Mus musculus",14
+"R-MMU-426496","Post-transcriptional silencing by small RNAs","Mus musculus",7
+"R-MMU-163125","Post-translational modification: synthesis of GPI-anchored proteins","Mus musculus",84
+"R-MMU-597592","Post-translational protein modification","Mus musculus",1292
+"R-MMU-8957275","Post-translational protein phosphorylation","Mus musculus",113
+"R-MMU-9615933","Postmitotic nuclear pore complex (NPC) reformation","Mus musculus",22
+"R-MMU-622327","Postsynaptic nicotinic acetylcholine receptors","Mus musculus",13
+"R-MMU-1296071","Potassium Channels","Mus musculus",98
+"R-MMU-1296067","Potassium transport channels","Mus musculus",3
+"R-MMU-1912422","Pre-NOTCH Expression and Processing","Mus musculus",7
+"R-MMU-1912420","Pre-NOTCH Processing in Golgi","Mus musculus",5
+"R-MMU-1912408","Pre-NOTCH Transcription and Translation","Mus musculus",2
+"R-MMU-9757110","Prednisone ADME","Mus musculus",31
+"R-MMU-196108","Pregnenolone biosynthesis","Mus musculus",12
+"R-MMU-112308","Presynaptic depolarization and calcium channel opening","Mus musculus",10
+"R-MMU-500657","Presynaptic function of Kainate receptors","Mus musculus",21
+"R-MMU-622323","Presynaptic nicotinic acetylcholine receptors","Mus musculus",11
+"R-MMU-5693616","Presynaptic phase of homologous DNA pairing and strand exchange","Mus musculus",22
+"R-MMU-3215018","Processing and activation of SUMO","Mus musculus",10
+"R-MMU-72203","Processing of Capped Intron-Containing Pre-mRNA","Mus musculus",279
+"R-MMU-75067","Processing of Capped Intronless Pre-mRNA","Mus musculus",29
+"R-MMU-5693607","Processing of DNA double-strand break ends","Mus musculus",91
+"R-MMU-77595","Processing of Intronless Pre-mRNAs","Mus musculus",20
+"R-MMU-8949664","Processing of SMDT1","Mus musculus",16
+"R-MMU-174414","Processive synthesis on the C-strand of the telomere","Mus musculus",17
+"R-MMU-69183","Processive synthesis on the lagging strand","Mus musculus",14
+"R-MMU-5357801","Programmed Cell Death","Mus musculus",81
+"R-MMU-964827","Progressive trimming of alpha-1,2-linked mannose residues from Man9/8/7GlcNAc2 to produce Man5GlcNAc2","Mus musculus",3
+"R-MMU-1170546","Prolactin receptor signaling","Mus musculus",8
+"R-MMU-70688","Proline catabolism","Mus musculus",3
+"R-MMU-169893","Prolonged ERK activation events","Mus musculus",14
+"R-MMU-71032","Propionyl-CoA catabolism","Mus musculus",5
+"R-MMU-392851","Prostacyclin signalling through prostacyclin receptor","Mus musculus",19
+"R-MMU-391908","Prostanoid ligand receptors","Mus musculus",8
+"R-MMU-9907900","Proteasome assembly","Mus musculus",47
+"R-MMU-391251","Protein folding","Mus musculus",37
+"R-MMU-9629569","Protein hydroxylation","Mus musculus",18
+"R-MMU-9857492","Protein lipoylation","Mus musculus",10
+"R-MMU-9609507","Protein localization","Mus musculus",104
+"R-MMU-8876725","Protein methylation","Mus musculus",17
+"R-MMU-5676934","Protein repair","Mus musculus",6
+"R-MMU-8852135","Protein ubiquitination","Mus musculus",70
+"R-MMU-6794362","Protein-protein interactions at synapses","Mus musculus",62
+"R-MMU-433692","Proton-coupled monocarboxylate transport","Mus musculus",6
+"R-MMU-428559","Proton-coupled neutral amino acid transporters","Mus musculus",2
+"R-MMU-427975","Proton/oligopeptide cotransporters","Mus musculus",3
+"R-MMU-74259","Purine catabolism","Mus musculus",18
+"R-MMU-73817","Purine ribonucleoside monophosphate biosynthesis","Mus musculus",11
+"R-MMU-74217","Purine salvage","Mus musculus",14
+"R-MMU-500753","Pyrimidine biosynthesis","Mus musculus",3
+"R-MMU-73621","Pyrimidine catabolism","Mus musculus",11
+"R-MMU-73614","Pyrimidine salvage","Mus musculus",10
+"R-MMU-71737","Pyrophosphate hydrolysis","Mus musculus",3
+"R-MMU-5620971","Pyroptosis","Mus musculus",16
+"R-MMU-70268","Pyruvate metabolism","Mus musculus",43
+"R-MMU-5365859","RA biosynthesis pathway","Mus musculus",29
+"R-MMU-8876198","RAB GEFs exchange GTP for GDP on RABs","Mus musculus",86
+"R-MMU-8873719","RAB geranylgeranylation","Mus musculus",58
+"R-MMU-9013149","RAC1 GTPase cycle","Mus musculus",163
+"R-MMU-9013404","RAC2 GTPase cycle","Mus musculus",80
+"R-MMU-9013423","RAC3 GTPase cycle","Mus musculus",85
+"R-MMU-5673000","RAF activation","Mus musculus",33
+"R-MMU-112409","RAF-independent MAPK1/3 activation","Mus musculus",22
+"R-MMU-5673001","RAF/MAP kinase cascade","Mus musculus",248
+"R-MMU-9648002","RAS processing","Mus musculus",20
+"R-MMU-8853659","RET signaling","Mus musculus",38
+"R-MMU-195258","RHO GTPase Effectors","Mus musculus",233
+"R-MMU-9012999","RHO GTPase cycle","Mus musculus",382
+"R-MMU-5663220","RHO GTPases Activate Formins","Mus musculus",130
+"R-MMU-5668599","RHO GTPases Activate NADPH Oxidases","Mus musculus",24
+"R-MMU-5627117","RHO GTPases Activate ROCKs","Mus musculus",4
+"R-MMU-5666185","RHO GTPases Activate Rhotekin and Rhophilins","Mus musculus",5
+"R-MMU-5663213","RHO GTPases Activate WASPs and WAVEs","Mus musculus",32
+"R-MMU-5625900","RHO GTPases activate CIT","Mus musculus",8
+"R-MMU-5626467","RHO GTPases activate IQGAPs","Mus musculus",27
+"R-MMU-5625970","RHO GTPases activate KTN1","Mus musculus",9
+"R-MMU-5627123","RHO GTPases activate PAKs","Mus musculus",17
+"R-MMU-5625740","RHO GTPases activate PKNs","Mus musculus",22
+"R-MMU-5627083","RHO GTPases regulate CFTR trafficking","Mus musculus",3
+"R-MMU-8980692","RHOA GTPase cycle","Mus musculus",131
+"R-MMU-9013026","RHOB GTPase cycle","Mus musculus",64
+"R-MMU-9706574","RHOBTB GTPase Cycle","Mus musculus",31
+"R-MMU-9013422","RHOBTB1 GTPase cycle","Mus musculus",20
+"R-MMU-9013418","RHOBTB2 GTPase cycle","Mus musculus",21
+"R-MMU-9706019","RHOBTB3 ATPase cycle","Mus musculus",10
+"R-MMU-9013106","RHOC GTPase cycle","Mus musculus",64
+"R-MMU-9035034","RHOF GTPase cycle","Mus musculus",36
+"R-MMU-9013408","RHOG GTPase cycle","Mus musculus",68
+"R-MMU-9013407","RHOH GTPase cycle","Mus musculus",30
+"R-MMU-9013409","RHOJ GTPase cycle","Mus musculus",15
+"R-MMU-9013406","RHOQ GTPase cycle","Mus musculus",53
+"R-MMU-9013425","RHOT1 GTPase cycle","Mus musculus",4
+"R-MMU-9013419","RHOT2 GTPase cycle","Mus musculus",6
+"R-MMU-9013420","RHOU GTPase cycle","Mus musculus",37
+"R-MMU-9013424","RHOV GTPase cycle","Mus musculus",34
+"R-MMU-1810476","RIP-mediated NFkB activation via ZBP1","Mus musculus",11
+"R-MMU-5213460","RIPK1-mediated regulated necrosis","Mus musculus",18
+"R-MMU-3214858","RMTs methylate histone arginines","Mus musculus",70
+"R-MMU-77075","RNA Pol II CTD phosphorylation and interaction with CE","Mus musculus",26
+"R-MMU-73854","RNA Polymerase I Promoter Clearance","Mus musculus",44
+"R-MMU-73772","RNA Polymerase I Promoter Escape","Mus musculus",28
+"R-MMU-73728","RNA Polymerase I Promoter Opening","Mus musculus",1
+"R-MMU-73864","RNA Polymerase I Transcription","Mus musculus",45
+"R-MMU-73762","RNA Polymerase I Transcription Initiation","Mus musculus",43
+"R-MMU-73863","RNA Polymerase I Transcription Termination","Mus musculus",29
+"R-MMU-674695","RNA Polymerase II Pre-transcription Events","Mus musculus",76
+"R-MMU-73776","RNA Polymerase II Promoter Escape","Mus musculus",45
+"R-MMU-73857","RNA Polymerase II Transcription","Mus musculus",922
+"R-MMU-75955","RNA Polymerase II Transcription Elongation","Mus musculus",54
+"R-MMU-75953","RNA Polymerase II Transcription Initiation","Mus musculus",45
+"R-MMU-76042","RNA Polymerase II Transcription Initiation And Promoter Clearance","Mus musculus",45
+"R-MMU-73779","RNA Polymerase II Transcription Pre-Initiation And Promoter Opening","Mus musculus",45
+"R-MMU-73856","RNA Polymerase II Transcription Termination","Mus musculus",64
+"R-MMU-74158","RNA Polymerase III Transcription","Mus musculus",32
+"R-MMU-76046","RNA Polymerase III Transcription Initiation","Mus musculus",32
+"R-MMU-76061","RNA Polymerase III Transcription Initiation From Type 1 Promoter","Mus musculus",25
+"R-MMU-76066","RNA Polymerase III Transcription Initiation From Type 2 Promoter","Mus musculus",24
+"R-MMU-76071","RNA Polymerase III Transcription Initiation From Type 3 Promoter","Mus musculus",25
+"R-MMU-6807505","RNA polymerase II transcribes snRNA genes","Mus musculus",71
+"R-MMU-9696273","RND1 GTPase cycle","Mus musculus",39
+"R-MMU-9696270","RND2 GTPase cycle","Mus musculus",41
+"R-MMU-9696264","RND3 GTPase cycle","Mus musculus",37
+"R-MMU-1222556","ROS and RNS production in phagocytes","Mus musculus",36
+"R-MMU-444257","RSK activation","Mus musculus",4
+"R-MMU-8877330","RUNX1 and FOXP3 control the development of regulatory T lymphocytes (Tregs)","Mus musculus",2
+"R-MMU-8939243","RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known","Mus musculus",34
+"R-MMU-8931987","RUNX1 regulates estrogen receptor mediated transcription","Mus musculus",2
+"R-MMU-8936459","RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function","Mus musculus",81
+"R-MMU-8939245","RUNX1 regulates transcription of genes involved in BCR signaling","Mus musculus",3
+"R-MMU-8939236","RUNX1 regulates transcription of genes involved in differentiation of HSCs","Mus musculus",51
+"R-MMU-8939242","RUNX1 regulates transcription of genes involved in differentiation of keratinocytes","Mus musculus",3
+"R-MMU-8939246","RUNX1 regulates transcription of genes involved in differentiation of myeloid cells","Mus musculus",1
+"R-MMU-8939247","RUNX1 regulates transcription of genes involved in interleukin signaling","Mus musculus",2
+"R-MMU-8941326","RUNX2 regulates bone development","Mus musculus",6
+"R-MMU-8940973","RUNX2 regulates osteoblast differentiation","Mus musculus",2
+"R-MMU-8941855","RUNX3 regulates CDKN1A transcription","Mus musculus",5
+"R-MMU-8941856","RUNX3 regulates NOTCH signaling","Mus musculus",11
+"R-MMU-8951430","RUNX3 regulates WNT signaling","Mus musculus",6
+"R-MMU-8951671","RUNX3 regulates YAP1-mediated transcription","Mus musculus",6
+"R-MMU-8951936","RUNX3 regulates p14-ARF","Mus musculus",6
+"R-MMU-9007101","Rab regulation of trafficking","Mus musculus",110
+"R-MMU-392517","Rap1 signalling","Mus musculus",14
+"R-MMU-975578","Reactions specific to the complex N-glycan synthesis pathway","Mus musculus",8
+"R-MMU-975574","Reactions specific to the hybrid N-glycan synthesis pathway","Mus musculus",0
+"R-MMU-8934903","Receptor Mediated Mitophagy","Mus musculus",11
+"R-MMU-388844","Receptor-type tyrosine-protein phosphatases","Mus musculus",19
+"R-MMU-110330","Recognition and association of DNA glycosylase with site containing an affected purine","Mus musculus",59
+"R-MMU-110328","Recognition and association of DNA glycosylase with site containing an affected pyrimidine","Mus musculus",1
+"R-MMU-110314","Recognition of DNA damage by PCNA-containing replication complex","Mus musculus",30
+"R-MMU-5693565","Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks","Mus musculus",73
+"R-MMU-380320","Recruitment of NuMA to mitotic centrosomes","Mus musculus",88
+"R-MMU-380270","Recruitment of mitotic centrosome proteins and complexes","Mus musculus",77
+"R-MMU-159418","Recycling of bile acids and salts","Mus musculus",17
+"R-MMU-72731","Recycling of eIF2:GDP","Mus musculus",8
+"R-MMU-437239","Recycling pathway of L1","Mus musculus",35
+"R-MMU-418359","Reduction of cytosolic Ca++ levels","Mus musculus",12
+"R-MMU-8866376","Reelin signalling pathway","Mus musculus",5
+"R-MMU-5218859","Regulated Necrosis","Mus musculus",34
+"R-MMU-193692","Regulated proteolysis of p75NTR","Mus musculus",10
+"R-MMU-3371378","Regulation by c-FLIP","Mus musculus",4
+"R-MMU-176408","Regulation of APC/C activators between G1/S and early anaphase","Mus musculus",35
+"R-MMU-169911","Regulation of Apoptosis","Mus musculus",2
+"R-MMU-9708530","Regulation of BACH1 activity","Mus musculus",11
+"R-MMU-9764265","Regulation of CDH1 Expression and Function","Mus musculus",167
+"R-MMU-9764561","Regulation of CDH1 Function","Mus musculus",58
+"R-MMU-9764560","Regulation of CDH1 Gene Transcription","Mus musculus",82
+"R-MMU-9768727","Regulation of CDH1 posttranslational processing and trafficking to plasma membrane","Mus musculus",29
+"R-MMU-9759475","Regulation of CDH11 Expression and Function","Mus musculus",12
+"R-MMU-9762292","Regulation of CDH11 function","Mus musculus",8
+"R-MMU-9762293","Regulation of CDH11 gene transcription","Mus musculus",4
+"R-MMU-977606","Regulation of Complement cascade","Mus musculus",37
+"R-MMU-9764274","Regulation of Expression and Function of Type I Classical Cadherins","Mus musculus",167
+"R-MMU-9764260","Regulation of Expression and Function of Type II Classical Cadherins","Mus musculus",12
+"R-MMU-9617629","Regulation of FOXO transcriptional activity by acetylation","Mus musculus",6
+"R-MMU-4641263","Regulation of FZD by ubiquitination","Mus musculus",20
+"R-MMU-170822","Regulation of Glucokinase by Glucokinase Regulatory Protein","Mus musculus",31
+"R-MMU-9707587","Regulation of HMOX1 expression and activity","Mus musculus",2
+"R-MMU-3371453","Regulation of HSF1-mediated heat shock response","Mus musculus",62
+"R-MMU-9759476","Regulation of Homotypic Cell-Cell Adhesion","Mus musculus",176
+"R-MMU-912694","Regulation of IFNA/IFNB signaling","Mus musculus",18
+"R-MMU-877312","Regulation of IFNG signaling","Mus musculus",9
+"R-MMU-381426","Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)","Mus musculus",119
+"R-MMU-1433559","Regulation of KIT signaling","Mus musculus",14
+"R-MMU-9022692","Regulation of MECP2 expression and activity","Mus musculus",6
+"R-MMU-9824594","Regulation of MITF-M-dependent genes involved in apoptosis","Mus musculus",4
+"R-MMU-9825892","Regulation of MITF-M-dependent genes involved in cell cycle and proliferation","Mus musculus",8
+"R-MMU-9824585","Regulation of MITF-M-dependent genes involved in pigmentation","Mus musculus",7
+"R-MMU-9758274","Regulation of NF-kappa B signaling","Mus musculus",15
+"R-MMU-9909615","Regulation of PD-L1(CD274) Post-translational modification","Mus musculus",83
+"R-MMU-9909648","Regulation of PD-L1(CD274) expression","Mus musculus",153
+"R-MMU-9909649","Regulation of PD-L1(CD274) transcription","Mus musculus",70
+"R-MMU-2565942","Regulation of PLK1 Activity at G2/M Transition","Mus musculus",84
+"R-MMU-8943724","Regulation of PTEN gene transcription","Mus musculus",42
+"R-MMU-8948747","Regulation of PTEN localization","Mus musculus",8
+"R-MMU-8948751","Regulation of PTEN stability and activity","Mus musculus",53
+"R-MMU-5658442","Regulation of RAS by GAPs","Mus musculus",53
+"R-MMU-8934593","Regulation of RUNX1 Expression and Activity","Mus musculus",7
+"R-MMU-8939902","Regulation of RUNX2 expression and activity","Mus musculus",41
+"R-MMU-8941858","Regulation of RUNX3 expression and activity","Mus musculus",43
+"R-MMU-388841","Regulation of T cell activation by CD28 family","Mus musculus",213
+"R-MMU-9824878","Regulation of TBK1, IKKε (IKBKE)-mediated activation of IRF3, IRF7","Mus musculus",14
+"R-MMU-5686938","Regulation of TLR by endogenous ligand","Mus musculus",20
+"R-MMU-5357905","Regulation of TNFR1 signaling","Mus musculus",34
+"R-MMU-5633007","Regulation of TP53 Activity","Mus musculus",144
+"R-MMU-6804758","Regulation of TP53 Activity through Acetylation","Mus musculus",29
+"R-MMU-6804759","Regulation of TP53 Activity through Association with Co-factors","Mus musculus",10
+"R-MMU-6804760","Regulation of TP53 Activity through Methylation","Mus musculus",18
+"R-MMU-6804756","Regulation of TP53 Activity through Phosphorylation","Mus musculus",85
+"R-MMU-6804757","Regulation of TP53 Degradation","Mus musculus",34
+"R-MMU-6804754","Regulation of TP53 Expression","Mus musculus",1
+"R-MMU-6806003","Regulation of TP53 Expression and Degradation","Mus musculus",34
+"R-MMU-2029482","Regulation of actin dynamics for phagocytic cup formation","Mus musculus",53
+"R-MMU-186712","Regulation of beta-cell development","Mus musculus",4
+"R-MMU-1655829","Regulation of cholesterol biosynthesis by SREBP (SREBF)","Mus musculus",7
+"R-MMU-446388","Regulation of cytoskeletal remodeling and cell spreading by IPP complex components","Mus musculus",7
+"R-MMU-9842860","Regulation of endogenous retroelements","Mus musculus",119
+"R-MMU-9843940","Regulation of endogenous retroelements by KRAB-ZFP proteins","Mus musculus",119
+"R-MMU-9010553","Regulation of expression of SLITs and ROBOs","Mus musculus",8
+"R-MMU-191650","Regulation of gap junction activity","Mus musculus",3
+"R-MMU-1234158","Regulation of gene expression by Hypoxia-inducible Factor","Mus musculus",6
+"R-MMU-210745","Regulation of gene expression in beta cells","Mus musculus",4
+"R-MMU-9634600","Regulation of glycolysis by fructose 2,6-bisphosphate metabolism","Mus musculus",4
+"R-MMU-3134975","Regulation of innate immune responses to cytosolic DNA","Mus musculus",12
+"R-MMU-422356","Regulation of insulin secretion","Mus musculus",59
+"R-MMU-400206","Regulation of lipid metabolism by PPARalpha","Mus musculus",17
+"R-MMU-9614399","Regulation of localization of FOXO transcription factors","Mus musculus",12
+"R-MMU-450531","Regulation of mRNA stability by proteins that bind AU-rich elements","Mus musculus",71
+"R-MMU-453276","Regulation of mitotic cell cycle","Mus musculus",73
+"R-MMU-5675482","Regulation of necroptotic cell death","Mus musculus",18
+"R-MMU-350562","Regulation of ornithine decarboxylase (ODC)","Mus musculus",37
+"R-MMU-204174","Regulation of pyruvate dehydrogenase (PDH) complex","Mus musculus",15
+"R-MMU-9861718","Regulation of pyruvate metabolism","Mus musculus",33
+"R-MMU-912631","Regulation of signaling by CBL","Mus musculus",21
+"R-MMU-9627069","Regulation of the apoptosome activity","Mus musculus",3
+"R-MMU-350864","Regulation of thyroid hormone activity","Mus musculus",3
+"R-MMU-444821","Relaxin receptors","Mus musculus",6
+"R-MMU-5362798","Release of Hh-Np from the secreting cell","Mus musculus",6
+"R-MMU-111457","Release of apoptotic factors from the mitochondria","Mus musculus",3
+"R-MMU-159782","Removal of aminoterminal propeptides from gamma-carboxylated proteins","Mus musculus",10
+"R-MMU-69166","Removal of the Flap Intermediate","Mus musculus",13
+"R-MMU-174437","Removal of the Flap Intermediate from the C-strand","Mus musculus",15
+"R-MMU-4641265","Repression of WNT target genes","Mus musculus",10
+"R-MMU-1474165","Reproduction","Mus musculus",28
+"R-MMU-110373","Resolution of AP sites via the multiple-nucleotide patch replacement pathway","Mus musculus",22
+"R-MMU-110381","Resolution of AP sites via the single-nucleotide replacement pathway","Mus musculus",3
+"R-MMU-73933","Resolution of Abasic Sites (AP sites)","Mus musculus",33
+"R-MMU-5693537","Resolution of D-Loop Structures","Mus musculus",33
+"R-MMU-5693568","Resolution of D-loop Structures through Holliday Junction Intermediates","Mus musculus",33
+"R-MMU-2500257","Resolution of Sister Chromatid Cohesion","Mus musculus",119
+"R-MMU-611105","Respiratory electron transport","Mus musculus",131
+"R-MMU-9860931","Response of endothelial cells to shear stress","Mus musculus",65
+"R-MMU-76005","Response to elevated platelet cytosolic Ca2+","Mus musculus",117
+"R-MMU-5660526","Response to metal ions","Mus musculus",2
+"R-MMU-975634","Retinoid metabolism and transport","Mus musculus",47
+"R-MMU-177504","Retrograde neurotrophin signalling","Mus musculus",10
+"R-MMU-6811440","Retrograde transport at the Trans-Golgi-Network","Mus musculus",43
+"R-MMU-888593","Reuptake of GABA","Mus musculus",3
+"R-MMU-73943","Reversal of alkylation damage by DNA dioxygenases","Mus musculus",2
+"R-MMU-1475029","Reversible hydration of carbon dioxide","Mus musculus",12
+"R-MMU-444411","Rhesus glycoproteins mediate ammonium transport","Mus musculus",3
+"R-MMU-9755088","Ribavirin ADME","Mus musculus",12
+"R-MMU-72702","Ribosomal scanning and start codon recognition","Mus musculus",59
+"R-MMU-9954709","Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide","Mus musculus",93
+"R-MMU-9948299","Ribosome-associated quality control","Mus musculus",134
+"R-MMU-428890","Role of ABL in ROBO-SLIT signaling","Mus musculus",3
+"R-MMU-2730905","Role of LAT2/NTAL/LAB on calcium mobilization","Mus musculus",14
+"R-MMU-2029485","Role of phospholipids in phagocytosis","Mus musculus",19
+"R-MMU-69242","S Phase","Mus musculus",131
+"R-MMU-187577","SCF(Skp2)-mediated degradation of p27/p21","Mus musculus",49
+"R-MMU-174113","SCF-beta-TrCP mediated degradation of Emi1","Mus musculus",9
+"R-MMU-373756","SDK interactions","Mus musculus",2
+"R-MMU-399955","SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion","Mus musculus",10
+"R-MMU-5654688","SHC-mediated cascade:FGFR1","Mus musculus",19
+"R-MMU-5654699","SHC-mediated cascade:FGFR2","Mus musculus",21
+"R-MMU-5654704","SHC-mediated cascade:FGFR3","Mus musculus",16
+"R-MMU-5654719","SHC-mediated cascade:FGFR4","Mus musculus",19
+"R-MMU-2428933","SHC-related events triggered by IGF1R","Mus musculus",6
+"R-MMU-180336","SHC1 events in EGFR signaling","Mus musculus",13
+"R-MMU-1250196","SHC1 events in ERBB2 signaling","Mus musculus",15
+"R-MMU-1250347","SHC1 events in ERBB4 signaling","Mus musculus",11
+"R-MMU-77588","SLBP Dependent Processing of Replication-Dependent Histone Pre-mRNAs","Mus musculus",11
+"R-MMU-111367","SLBP independent Processing of Histone Pre-mRNAs","Mus musculus",10
+"R-MMU-9958517","SLC-mediated bile acid transport","Mus musculus",7
+"R-MMU-425407","SLC-mediated transmembrane transport","Mus musculus",218
+"R-MMU-9958863","SLC-mediated transport of amino acids","Mus musculus",34
+"R-MMU-9958790","SLC-mediated transport of inorganic anions","Mus musculus",31
+"R-MMU-442660","SLC-mediated transport of neurotransmitters","Mus musculus",20
+"R-MMU-9959399","SLC-mediated transport of oligopeptides","Mus musculus",4
+"R-MMU-9955298","SLC-mediated transport of organic anions","Mus musculus",36
+"R-MMU-549127","SLC-mediated transport of organic cations","Mus musculus",12
+"R-MMU-9860276","SLC15A4:TASL-dependent IRF5 activation","Mus musculus",5
+"R-MMU-8985586","SLIT2:ROBO1 increases RHOA activity","Mus musculus",3
+"R-MMU-111463","SMAC (DIABLO) binds to IAPs","Mus musculus",0
+"R-MMU-111464","SMAC(DIABLO)-mediated dissociation of IAP:caspase complexes","Mus musculus",0
+"R-MMU-111469","SMAC, XIAP-regulated apoptotic response","Mus musculus",1
+"R-MMU-2173796","SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription","Mus musculus",24
+"R-MMU-112412","SOS-mediated signalling","Mus musculus",4
+"R-MMU-9929491","SPOP-mediated proteasomal degradation of PD-L1(CD274)","Mus musculus",45
+"R-MMU-1799339","SRP-dependent cotranslational protein targeting to membrane","Mus musculus",87
+"R-MMU-9701898","STAT3 nuclear events downstream of ALK signaling","Mus musculus",5
+"R-MMU-3249367","STAT6-mediated induction of chemokines","Mus musculus",3
+"R-MMU-1834941","STING mediated induction of host immune responses","Mus musculus",7
+"R-MMU-3108232","SUMO E3 ligases SUMOylate target proteins","Mus musculus",156
+"R-MMU-3065676","SUMO is conjugated to E1 (UBA2:SAE1)","Mus musculus",3
+"R-MMU-3065679","SUMO is proteolytically processed","Mus musculus",6
+"R-MMU-3065678","SUMO is transferred from E1 to E2 (UBE2I, UBC9)","Mus musculus",5
+"R-MMU-2990846","SUMOylation","Mus musculus",162
+"R-MMU-3108214","SUMOylation of DNA damage response and repair proteins","Mus musculus",73
+"R-MMU-4655427","SUMOylation of DNA methylation proteins","Mus musculus",4
+"R-MMU-4615885","SUMOylation of DNA replication proteins","Mus musculus",42
+"R-MMU-4570464","SUMOylation of RNA binding proteins","Mus musculus",46
+"R-MMU-4085377","SUMOylation of SUMOylation proteins","Mus musculus",34
+"R-MMU-4551638","SUMOylation of chromatin organization proteins","Mus musculus",65
+"R-MMU-4755510","SUMOylation of immune response proteins","Mus musculus",11
+"R-MMU-4090294","SUMOylation of intracellular receptors","Mus musculus",26
+"R-MMU-9793242","SUMOylation of nuclear envelope proteins","Mus musculus",3
+"R-MMU-3899300","SUMOylation of transcription cofactors","Mus musculus",37
+"R-MMU-3232118","SUMOylation of transcription factors","Mus musculus",15
+"R-MMU-3232142","SUMOylation of ubiquitinylation proteins","Mus musculus",38
+"R-MMU-9932451","SWI/SNF chromatin remodelers","Mus musculus",28
+"R-MMU-3000480","Scavenging by Class A Receptors","Mus musculus",8
+"R-MMU-3000471","Scavenging by Class B Receptors","Mus musculus",8
+"R-MMU-3000497","Scavenging by Class H Receptors","Mus musculus",3
+"R-MMU-2168880","Scavenging of heme from plasma","Mus musculus",22
+"R-MMU-9668328","Sealing of the nuclear envelope (NE) by ESCRT-III","Mus musculus",26
+"R-MMU-9663891","Selective autophagy","Mus musculus",73
+"R-MMU-2408522","Selenoamino acid metabolism","Mus musculus",4
+"R-MMU-2408557","Selenocysteine synthesis","Mus musculus",1
+"R-MMU-399954","Sema3A PAK dependent Axon repulsion","Mus musculus",14
+"R-MMU-400685","Sema4D in semaphorin signaling","Mus musculus",13
+"R-MMU-416572","Sema4D induced cell migration and growth-cone collapse","Mus musculus",10
+"R-MMU-416550","Sema4D mediated inhibition of cell attachment and migration","Mus musculus",7
+"R-MMU-373755","Semaphorin interactions","Mus musculus",47
+"R-MMU-2559582","Senescence-Associated Secretory Phenotype (SASP)","Mus musculus",39
+"R-MMU-5693548","Sensing of DNA Double Strand Breaks","Mus musculus",5
+"R-MMU-9709957","Sensory Perception","Mus musculus",196
+"R-MMU-9730628","Sensory perception of salty taste","Mus musculus",3
+"R-MMU-9717207","Sensory perception of sweet, bitter, and umami (glutamate) taste","Mus musculus",23
+"R-MMU-9717189","Sensory perception of taste","Mus musculus",26
+"R-MMU-2467813","Separation of Sister Chromatids","Mus musculus",169
+"R-MMU-977347","Serine metabolism","Mus musculus",11
+"R-MMU-181429","Serotonin Neurotransmitter Release Cycle","Mus musculus",18
+"R-MMU-209931","Serotonin and melatonin biosynthesis","Mus musculus",5
+"R-MMU-380615","Serotonin clearance from the synaptic cleft","Mus musculus",3
+"R-MMU-390666","Serotonin receptors","Mus musculus",11
+"R-MMU-4085001","Sialic acid metabolism","Mus musculus",33
+"R-MMU-162582","Signal Transduction","Mus musculus",2127
+"R-MMU-392518","Signal amplification","Mus musculus",32
+"R-MMU-74749","Signal attenuation","Mus musculus",11
+"R-MMU-391160","Signal regulatory protein family interactions","Mus musculus",8
+"R-MMU-445144","Signal transduction by L1","Mus musculus",19
+"R-MMU-201556","Signaling by ALK","Mus musculus",20
+"R-MMU-1502540","Signaling by Activin","Mus musculus",15
+"R-MMU-201451","Signaling by BMP","Mus musculus",30
+"R-MMU-9674555","Signaling by CSF3 (G-CSF)","Mus musculus",23
+"R-MMU-177929","Signaling by EGFR","Mus musculus",49
+"R-MMU-1227986","Signaling by ERBB2","Mus musculus",46
+"R-MMU-1236394","Signaling by ERBB4","Mus musculus",34
+"R-MMU-9006335","Signaling by Erythropoietin","Mus musculus",17
+"R-MMU-190236","Signaling by FGFR","Mus musculus",75
+"R-MMU-5654736","Signaling by FGFR1","Mus musculus",49
+"R-MMU-5654738","Signaling by FGFR2","Mus musculus",61
+"R-MMU-5654741","Signaling by FGFR3","Mus musculus",38
+"R-MMU-5654743","Signaling by FGFR4","Mus musculus",40
+"R-MMU-372790","Signaling by GPCR","Mus musculus",598
+"R-MMU-5358351","Signaling by Hedgehog","Mus musculus",124
+"R-MMU-2028269","Signaling by Hippo","Mus musculus",18
+"R-MMU-74752","Signaling by Insulin receptor","Mus musculus",76
+"R-MMU-449147","Signaling by Interleukins","Mus musculus",270
+"R-MMU-9842663","Signaling by LTK","Mus musculus",12
+"R-MMU-6806834","Signaling by MET","Mus musculus",65
+"R-MMU-8852405","Signaling by MST1","Mus musculus",5
+"R-MMU-1181150","Signaling by NODAL","Mus musculus",6
+"R-MMU-157118","Signaling by NOTCH","Mus musculus",41
+"R-MMU-1980143","Signaling by NOTCH1","Mus musculus",19
+"R-MMU-9012852","Signaling by NOTCH3","Mus musculus",20
+"R-MMU-9013694","Signaling by NOTCH4","Mus musculus",3
+"R-MMU-187037","Signaling by NTRK1 (TRKA)","Mus musculus",63
+"R-MMU-9006115","Signaling by NTRK2 (TRKB)","Mus musculus",9
+"R-MMU-9034015","Signaling by NTRK3 (TRKC)","Mus musculus",4
+"R-MMU-166520","Signaling by NTRKs","Mus musculus",75
+"R-MMU-9006927","Signaling by Non-Receptor Tyrosine Kinases","Mus musculus",47
+"R-MMU-9006931","Signaling by Nuclear Receptors","Mus musculus",213
+"R-MMU-186797","Signaling by PDGF","Mus musculus",50
+"R-MMU-8848021","Signaling by PTK6","Mus musculus",47
+"R-MMU-376176","Signaling by ROBO receptors","Mus musculus",19
+"R-MMU-9006934","Signaling by Receptor Tyrosine Kinases","Mus musculus",404
+"R-MMU-5362517","Signaling by Retinoic Acid","Mus musculus",48
+"R-MMU-194315","Signaling by Rho GTPases","Mus musculus",556
+"R-MMU-9716542","Signaling by Rho GTPases, Miro GTPases and RHOBTB3","Mus musculus",571
+"R-MMU-1433557","Signaling by SCF-KIT","Mus musculus",37
+"R-MMU-170834","Signaling by TGF-beta Receptor Complex","Mus musculus",70
+"R-MMU-9006936","Signaling by TGFB family members","Mus musculus",111
+"R-MMU-9839373","Signaling by TGFBR3","Mus musculus",21
+"R-MMU-2404192","Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)","Mus musculus",48
+"R-MMU-194138","Signaling by VEGF","Mus musculus",97
+"R-MMU-195721","Signaling by WNT","Mus musculus",217
+"R-MMU-983705","Signaling by the B Cell Receptor (BCR)","Mus musculus",81
+"R-MMU-198765","Signalling to ERK5","Mus musculus",1
+"R-MMU-187687","Signalling to ERKs","Mus musculus",26
+"R-MMU-167044","Signalling to RAS","Mus musculus",12
+"R-MMU-426486","Small interfering RNA (siRNA) biogenesis","Mus musculus",8
+"R-MMU-445355","Smooth Muscle Contraction","Mus musculus",28
+"R-MMU-427652","Sodium-coupled phosphate cotransporters","Mus musculus",5
+"R-MMU-433137","Sodium-coupled sulphate, di- and tri-carboxylate transporters","Mus musculus",2
+"R-MMU-425561","Sodium/Calcium exchangers","Mus musculus",11
+"R-MMU-425986","Sodium/Proton exchangers","Mus musculus",9
+"R-MMU-9834899","Specification of the neural plate border","Mus musculus",3
+"R-MMU-1300642","Sperm Motility And Taxes","Mus musculus",8
+"R-MMU-9845614","Sphingolipid catabolism","Mus musculus",12
+"R-MMU-1660661","Sphingolipid de novo biosynthesis","Mus musculus",27
+"R-MMU-428157","Sphingolipid metabolism","Mus musculus",91
+"R-MMU-1295596","Spry regulation of FGF signaling","Mus musculus",16
+"R-MMU-69541","Stabilization of p53","Mus musculus",42
+"R-MMU-211994","Sterols are 12-hydroxylated by CYP8B1","Mus musculus",1
+"R-MMU-2672351","Stimuli-sensing channels","Mus musculus",95
+"R-MMU-9913635","Strand-asynchronous mitochondrial DNA replication","Mus musculus",4
+"R-MMU-390522","Striated Muscle Contraction","Mus musculus",32
+"R-MMU-1614517","Sulfide oxidation to sulfate","Mus musculus",5
+"R-MMU-1614635","Sulfur amino acid metabolism","Mus musculus",24
+"R-MMU-5683826","Surfactant metabolism","Mus musculus",19
+"R-MMU-69052","Switching of origins to a post-replicative state","Mus musculus",77
+"R-MMU-8849932","Synaptic adhesion-like molecules","Mus musculus",18
+"R-MMU-3000170","Syndecan interactions","Mus musculus",16
+"R-MMU-2142816","Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)","Mus musculus",11
+"R-MMU-2142712","Synthesis of 12-eicosatetraenoic acid derivatives","Mus musculus",7
+"R-MMU-2142770","Synthesis of 15-eicosatetraenoic acid derivatives","Mus musculus",6
+"R-MMU-2142688","Synthesis of 5-eicosatetraenoic acids","Mus musculus",6
+"R-MMU-1483076","Synthesis of CL","Mus musculus",1
+"R-MMU-69239","Synthesis of DNA","Mus musculus",104
+"R-MMU-446205","Synthesis of GDP-mannose","Mus musculus",5
+"R-MMU-2142696","Synthesis of Hepoxilins (HX) and Trioxilins (TrX)","Mus musculus",1
+"R-MMU-1855183","Synthesis of IP2, IP, and Ins in the cytosol","Mus musculus",10
+"R-MMU-1855204","Synthesis of IP3 and IP4 in the cytosol","Mus musculus",25
+"R-MMU-1855231","Synthesis of IPs in the ER lumen","Mus musculus",1
+"R-MMU-1855191","Synthesis of IPs in the nucleus","Mus musculus",0
+"R-MMU-77111","Synthesis of Ketone Bodies","Mus musculus",8
+"R-MMU-2142691","Synthesis of Leukotrienes (LT) and Eoxins (EX)","Mus musculus",25
+"R-MMU-1483166","Synthesis of PA","Mus musculus",38
+"R-MMU-1483191","Synthesis of PC","Mus musculus",24
+"R-MMU-1483213","Synthesis of PE","Mus musculus",12
+"R-MMU-1483148","Synthesis of PG","Mus musculus",1
+"R-MMU-1483226","Synthesis of PI","Mus musculus",5
+"R-MMU-1483248","Synthesis of PIPs at the ER membrane","Mus musculus",5
+"R-MMU-1660514","Synthesis of PIPs at the Golgi membrane","Mus musculus",17
+"R-MMU-1660516","Synthesis of PIPs at the early endosome membrane","Mus musculus",15
+"R-MMU-1660517","Synthesis of PIPs at the late endosome membrane","Mus musculus",10
+"R-MMU-1660499","Synthesis of PIPs at the plasma membrane","Mus musculus",48
+"R-MMU-8847453","Synthesis of PIPs in the nucleus","Mus musculus",4
+"R-MMU-1483101","Synthesis of PS","Mus musculus",2
+"R-MMU-2162123","Synthesis of Prostaglandins (PG) and Thromboxanes (TX)","Mus musculus",20
+"R-MMU-446210","Synthesis of UDP-N-acetyl-glucosamine","Mus musculus",8
+"R-MMU-8866652","Synthesis of active ubiquitin: roles of E1 and E2 enzymes","Mus musculus",30
+"R-MMU-192105","Synthesis of bile acids and bile salts","Mus musculus",38
+"R-MMU-193775","Synthesis of bile acids and bile salts via 24-hydroxycholesterol","Mus musculus",18
+"R-MMU-193807","Synthesis of bile acids and bile salts via 27-hydroxycholesterol","Mus musculus",19
+"R-MMU-193368","Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol","Mus musculus",28
+"R-MMU-5358493","Synthesis of diphthamide-EEF2","Mus musculus",7
+"R-MMU-446199","Synthesis of dolichyl-phosphate","Mus musculus",6
+"R-MMU-162699","Synthesis of dolichyl-phosphate mannose","Mus musculus",3
+"R-MMU-480985","Synthesis of dolichyl-phosphate-glucose","Mus musculus",2
+"R-MMU-2142670","Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)","Mus musculus",7
+"R-MMU-162710","Synthesis of glycosylphosphatidylinositol (GPI)","Mus musculus",16
+"R-MMU-1855167","Synthesis of pyrophosphates in the cytosol","Mus musculus",1
+"R-MMU-446219","Synthesis of substrates in N-glycan biosythesis","Mus musculus",63
+"R-MMU-75876","Synthesis of very long-chain fatty acyl-CoAs","Mus musculus",22
+"R-MMU-422085","Synthesis, secretion, and deacylation of Ghrelin","Mus musculus",16
+"R-MMU-381771","Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)","Mus musculus",11
+"R-MMU-400511","Synthesis, secretion, and inactivation of Glucose-dependent Insulinotropic Polypeptide (GIP)","Mus musculus",4
+"R-MMU-445989","TAK1-dependent IKK and NF-kappa-B activation","Mus musculus",35
+"R-MMU-8854214","TBC/RABGAPs","Mus musculus",32
+"R-MMU-201681","TCF dependent signaling in response to WNT","Mus musculus",140
+"R-MMU-202403","TCR signaling","Mus musculus",84
+"R-MMU-5221030","TET1,2,3 and TDG demethylate DNA","Mus musculus",1
+"R-MMU-8866911","TFAP2 (AP-2) family regulates transcription of cell cycle factors","Mus musculus",3
+"R-MMU-8866910","TFAP2 (AP-2) family regulates transcription of growth factors and their receptors","Mus musculus",3
+"R-MMU-8869496","TFAP2A acts as a transcriptional repressor during retinoic acid induced cell differentiation","Mus musculus",2
+"R-MMU-2173789","TGF-beta receptor signaling activates SMADs","Mus musculus",36
+"R-MMU-2173791","TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)","Mus musculus",14
+"R-MMU-9839383","TGFBR3 PTM regulation","Mus musculus",10
+"R-MMU-9839397","TGFBR3 regulates FGF2 signaling","Mus musculus",3
+"R-MMU-9839389","TGFBR3 regulates TGF-beta signaling","Mus musculus",8
+"R-MMU-9839406","TGFBR3 regulates activin signaling","Mus musculus",4
+"R-MMU-9013973","TICAM1-dependent activation of IRF3/IRF7","Mus musculus",2
+"R-MMU-5676594","TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway","Mus musculus",17
+"R-MMU-75893","TNF signaling","Mus musculus",42
+"R-MMU-5357956","TNFR1-induced NF-kappa-B signaling pathway","Mus musculus",20
+"R-MMU-5357786","TNFR1-induced proapoptotic signaling","Mus musculus",11
+"R-MMU-5626978","TNFR1-mediated ceramide production","Mus musculus",4
+"R-MMU-5668541","TNFR2 non-canonical NF-kB pathway","Mus musculus",80
+"R-MMU-5669034","TNFs bind their physiological receptors","Mus musculus",24
+"R-MMU-5628897","TP53 Regulates Metabolic Genes","Mus musculus",65
+"R-MMU-6803207","TP53 Regulates Transcription of Caspase Activators and Caspases","Mus musculus",4
+"R-MMU-6791312","TP53 Regulates Transcription of Cell Cycle Genes","Mus musculus",32
+"R-MMU-5633008","TP53 Regulates Transcription of Cell Death Genes","Mus musculus",14
+"R-MMU-6796648","TP53 Regulates Transcription of DNA Repair Genes","Mus musculus",42
+"R-MMU-6803211","TP53 Regulates Transcription of Death Receptors and Ligands","Mus musculus",2
+"R-MMU-6803204","TP53 Regulates Transcription of Genes Involved in Cytochrome C Release","Mus musculus",7
+"R-MMU-6804116","TP53 Regulates Transcription of Genes Involved in G1 Cell Cycle Arrest","Mus musculus",9
+"R-MMU-6804114","TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest","Mus musculus",6
+"R-MMU-6804115","TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain","Mus musculus",17
+"R-MMU-6803205","TP53 regulates transcription of several additional cell death genes whose specific roles in p53-dependent apoptosis remain uncertain","Mus musculus",2
+"R-MMU-918233","TRAF3-dependent IRF activation pathway","Mus musculus",2
+"R-MMU-933541","TRAF6 mediated IRF7 activation","Mus musculus",3
+"R-MMU-975110","TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling","Mus musculus",1
+"R-MMU-933542","TRAF6 mediated NF-kB activation","Mus musculus",13
+"R-MMU-975138","TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation","Mus musculus",83
+"R-MMU-937072","TRAF6-mediated induction of TAK1 complex within TLR4 complex","Mus musculus",16
+"R-MMU-75158","TRAIL  signaling","Mus musculus",2
+"R-MMU-937061","TRIF (TICAM1)-mediated TLR4 signaling","Mus musculus",97
+"R-MMU-2562578","TRIF-mediated programmed cell death","Mus musculus",9
+"R-MMU-187042","TRKA activation by NGF","Mus musculus",2
+"R-MMU-3295583","TRP channels","Mus musculus",27
+"R-MMU-1299503","TWIK related potassium channel (TREK)","Mus musculus",3
+"R-MMU-1299361","TWIK-related alkaline pH activated K+ channel (TALK)","Mus musculus",1
+"R-MMU-1299344","TWIK-related spinal cord K+ channel (TRESK)","Mus musculus",1
+"R-MMU-1299316","TWIK-releated acid-sensitive K+ channel (TASK)","Mus musculus",2
+"R-MMU-9033500","TYSND1 cleaves peroxisomal proteins","Mus musculus",1
+"R-MMU-380095","Tachykinin receptors bind tachykinins","Mus musculus",5
+"R-MMU-1299308","Tandem of pore domain in a weak inwardly rectifying K+ channels (TWIK)","Mus musculus",3
+"R-MMU-1299287","Tandem pore domain halothane-inhibited K+ channel (THIK)","Mus musculus",1
+"R-MMU-1296346","Tandem pore domain potassium channels","Mus musculus",11
+"R-MMU-174417","Telomere C-strand (Lagging Strand) Synthesis","Mus musculus",32
+"R-MMU-174430","Telomere C-strand synthesis initiation","Mus musculus",12
+"R-MMU-171319","Telomere Extension By Telomerase","Mus musculus",20
+"R-MMU-157579","Telomere Maintenance","Mus musculus",103
+"R-MMU-166665","Terminal pathway of complement","Mus musculus",8
+"R-MMU-977068","Termination of O-glycan biosynthesis","Mus musculus",16
+"R-MMU-5656169","Termination of translesion DNA synthesis","Mus musculus",32
+"R-MMU-1474151","Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation","Mus musculus",7
+"R-MMU-844615","The AIM2 inflammasome","Mus musculus",1
+"R-MMU-844455","The NLRP1 inflammasome","Mus musculus",3
+"R-MMU-844456","The NLRP3 inflammasome","Mus musculus",10
+"R-MMU-1663150","The activation of arylsulfatases","Mus musculus",9
+"R-MMU-2453902","The canonical retinoid cycle in rods (twilight vision)","Mus musculus",20
+"R-MMU-167826","The fatty acid cycling model","Mus musculus",5
+"R-MMU-2514856","The phototransduction cascade","Mus musculus",26
+"R-MMU-2187335","The retinoid cycle in cones (daylight vision)","Mus musculus",6
+"R-MMU-8852276","The role of GTSE1 in G2/M progression after G2 checkpoint","Mus musculus",61
+"R-MMU-8849175","Threonine catabolism","Mus musculus",3
+"R-MMU-456926","Thrombin signalling through proteinase activated receptors (PARs)","Mus musculus",31
+"R-MMU-428930","Thromboxane signalling through TP receptor","Mus musculus",23
+"R-MMU-209968","Thyroxine biosynthesis","Mus musculus",12
+"R-MMU-210993","Tie2 Signaling","Mus musculus",17
+"R-MMU-420029","Tight junction interactions","Mus musculus",6
+"R-MMU-168142","Toll Like Receptor 10 (TLR10) Cascade","Mus musculus",78
+"R-MMU-181438","Toll Like Receptor 2 (TLR2) Cascade","Mus musculus",79
+"R-MMU-168164","Toll Like Receptor 3 (TLR3) Cascade","Mus musculus",77
+"R-MMU-166016","Toll Like Receptor 4 (TLR4) Cascade","Mus musculus",112
+"R-MMU-168176","Toll Like Receptor 5 (TLR5) Cascade","Mus musculus",78
+"R-MMU-168181","Toll Like Receptor 7/8 (TLR7/8) Cascade","Mus musculus",88
+"R-MMU-168138","Toll Like Receptor 9 (TLR9) Cascade","Mus musculus",92
+"R-MMU-168179","Toll Like Receptor TLR1:TLR2 Cascade","Mus musculus",79
+"R-MMU-168188","Toll Like Receptor TLR6:TLR2 Cascade","Mus musculus",79
+"R-MMU-168898","Toll-like Receptor Cascades","Mus musculus",143
+"R-MMU-1679131","Trafficking and processing of endosomal TLR","Mus musculus",11
+"R-MMU-399719","Trafficking of AMPA receptors","Mus musculus",27
+"R-MMU-416993","Trafficking of GluR2-containing AMPA receptors","Mus musculus",14
+"R-MMU-5624138","Trafficking of myristoylated proteins to the cilium","Mus musculus",4
+"R-MMU-75944","Transcription from mitochondrial promoters","Mus musculus",4
+"R-MMU-6781827","Transcription-Coupled Nucleotide Excision Repair (TC-NER)","Mus musculus",71
+"R-MMU-69895","Transcriptional  activation of  cell cycle inhibitor p21","Mus musculus",2
+"R-MMU-8953750","Transcriptional Regulation by E2F6","Mus musculus",23
+"R-MMU-8986944","Transcriptional Regulation by MECP2","Mus musculus",6
+"R-MMU-9634815","Transcriptional Regulation by NPAS4","Mus musculus",5
+"R-MMU-3700989","Transcriptional Regulation by TP53","Mus musculus",276
+"R-MMU-2151201","Transcriptional activation of mitochondrial biogenesis","Mus musculus",9
+"R-MMU-69560","Transcriptional activation of p53 responsive genes","Mus musculus",2
+"R-MMU-2173793","Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer","Mus musculus",37
+"R-MMU-9856649","Transcriptional and post-translational regulation of MITF-M expression and activity","Mus musculus",31
+"R-MMU-8878171","Transcriptional regulation by RUNX1","Mus musculus",176
+"R-MMU-8878166","Transcriptional regulation by RUNX2","Mus musculus",52
+"R-MMU-8878159","Transcriptional regulation by RUNX3","Mus musculus",67
+"R-MMU-5578749","Transcriptional regulation by small RNAs","Mus musculus",4
+"R-MMU-8864260","Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors","Mus musculus",21
+"R-MMU-9616222","Transcriptional regulation of granulopoiesis","Mus musculus",6
+"R-MMU-381340","Transcriptional regulation of white adipocyte differentiation","Mus musculus",4
+"R-MMU-166020","Transfer of LPS from LBP carrier to CD14","Mus musculus",2
+"R-MMU-917977","Transferrin endocytosis and recycling","Mus musculus",31
+"R-MMU-72766","Translation","Mus musculus",288
+"R-MMU-72649","Translation initiation complex formation","Mus musculus",59
+"R-MMU-110320","Translesion Synthesis by POLH","Mus musculus",19
+"R-MMU-5656121","Translesion synthesis by POLI","Mus musculus",17
+"R-MMU-5655862","Translesion synthesis by POLK","Mus musculus",17
+"R-MMU-110312","Translesion synthesis by REV1","Mus musculus",16
+"R-MMU-110313","Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template","Mus musculus",39
+"R-MMU-202430","Translocation of ZAP-70 to Immunological synapse","Mus musculus",9
+"R-MMU-112315","Transmission across Chemical Synapses","Mus musculus",198
+"R-MMU-112307","Transmission across Electrical Synapses","Mus musculus",4
+"R-MMU-174362","Transport and metabolism of PAPS","Mus musculus",7
+"R-MMU-72202","Transport of Mature Transcript to Cytoplasm","Mus musculus",80
+"R-MMU-159231","Transport of Mature mRNA Derived from an Intronless Transcript","Mus musculus",41
+"R-MMU-159236","Transport of Mature mRNA derived from an Intron-Containing Transcript","Mus musculus",71
+"R-MMU-159234","Transport of Mature mRNAs Derived from Intronless Transcripts","Mus musculus",42
+"R-MMU-9758890","Transport of RCbl within the body","Mus musculus",7
+"R-MMU-190872","Transport of connexons to the plasma membrane","Mus musculus",17
+"R-MMU-804914","Transport of fatty acids","Mus musculus",6
+"R-MMU-159763","Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus","Mus musculus",9
+"R-MMU-432030","Transport of glycerol from adipocytes to the liver by Aquaporins","Mus musculus",2
+"R-MMU-83936","Transport of nucleosides and free purine and pyrimidine bases across the plasma membrane","Mus musculus",9
+"R-MMU-727802","Transport of nucleotide sugars","Mus musculus",9
+"R-MMU-382551","Transport of small molecules","Mus musculus",643
+"R-MMU-159230","Transport of the SLBP Dependant Mature mRNA","Mus musculus",35
+"R-MMU-159227","Transport of the SLBP independent Mature mRNA","Mus musculus",34
+"R-MMU-425397","Transport of vitamins, nucleosides, and related molecules","Mus musculus",27
+"R-MMU-948021","Transport to the Golgi and subsequent modification","Mus musculus",170
+"R-MMU-75109","Triglyceride biosynthesis","Mus musculus",13
+"R-MMU-163560","Triglyceride catabolism","Mus musculus",11
+"R-MMU-8979227","Triglyceride metabolism","Mus musculus",24
+"R-MMU-450513","Tristetraprolin (TTP, ZFP36) binds and destabilizes mRNA","Mus musculus",16
+"R-MMU-71240","Tryptophan catabolism","Mus musculus",11
+"R-MMU-9860927","Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells","Mus musculus",27
+"R-MMU-446107","Type I hemidesmosome assembly","Mus musculus",8
+"R-MMU-427589","Type II Na+/Pi cotransporters","Mus musculus",2
+"R-MMU-8963684","Tyrosine catabolism","Mus musculus",5
+"R-MMU-5689603","UCH proteinases","Mus musculus",80
+"R-MMU-5689880","Ub-specific processing proteases","Mus musculus",162
+"R-MMU-2142789","Ubiquinol biosynthesis","Mus musculus",12
+"R-MMU-69601","Ubiquitin-Mediated Degradation of Phosphorylated Cdc25A","Mus musculus",48
+"R-MMU-75815","Ubiquitin-dependent degradation of Cyclin D","Mus musculus",37
+"R-MMU-438066","Unblocking of NMDA receptors, glutamate binding and activation","Mus musculus",19
+"R-MMU-381119","Unfolded Protein Response (UPR)","Mus musculus",10
+"R-MMU-176974","Unwinding of DNA","Mus musculus",4
+"R-MMU-9758881","Uptake of dietary cobalamins into enterocytes","Mus musculus",3
+"R-MMU-70635","Urea cycle","Mus musculus",11
+"R-MMU-77108","Utilization of Ketone Bodies","Mus musculus",5
+"R-MMU-195399","VEGF binds to VEGFR leading to receptor dimerization","Mus musculus",8
+"R-MMU-194313","VEGF ligand-receptor interactions","Mus musculus",8
+"R-MMU-4420097","VEGFA-VEGFR2 Pathway","Mus musculus",89
+"R-MMU-5218921","VEGFR2 mediated cell proliferation","Mus musculus",13
+"R-MMU-5218920","VEGFR2 mediated vascular permeability","Mus musculus",26
+"R-MMU-8866423","VLDL assembly","Mus musculus",5
+"R-MMU-8964046","VLDL clearance","Mus musculus",5
+"R-MMU-8866427","VLDLR internalisation and degradation","Mus musculus",15
+"R-MMU-432040","Vasopressin regulates renal water homeostasis via Aquaporins","Mus musculus",31
+"R-MMU-388479","Vasopressin-like receptors","Mus musculus",6
+"R-MMU-5653656","Vesicle-mediated transport","Mus musculus",569
+"R-MMU-2187338","Visual phototransduction","Mus musculus",91
+"R-MMU-196819","Vitamin B1 (thiamin) metabolism","Mus musculus",5
+"R-MMU-196843","Vitamin B2 (riboflavin) metabolism","Mus musculus",6
+"R-MMU-199220","Vitamin B5 (pantothenate) metabolism","Mus musculus",15
+"R-MMU-964975","Vitamin B6 activation to pyridoxal phosphate","Mus musculus",3
+"R-MMU-196836","Vitamin C (ascorbate) metabolism","Mus musculus",8
+"R-MMU-196791","Vitamin D (calciferol) metabolism","Mus musculus",8
+"R-MMU-8877627","Vitamin E transport","Mus musculus",1
+"R-MMU-211916","Vitamins","Mus musculus",6
+"R-MMU-1296072","Voltage gated Potassium channels","Mus musculus",40
+"R-MMU-5620916","VxPx cargo-targeting to cilium","Mus musculus",20
+"R-MMU-3238698","WNT ligand biogenesis and trafficking","Mus musculus",24
+"R-MMU-201688","WNT mediated activation of DVL","Mus musculus",8
+"R-MMU-5140745","WNT5A-dependent internalization of FZD2, FZD5 and ROR2","Mus musculus",11
+"R-MMU-5099900","WNT5A-dependent internalization of FZD4","Mus musculus",14
+"R-MMU-8848584","Wax and plasmalogen biosynthesis","Mus musculus",7
+"R-MMU-9640463","Wax biosynthesis","Mus musculus",4
+"R-MMU-211981","Xenobiotics","Mus musculus",27
+"R-MMU-2032785","YAP1- and WWTR1 (TAZ)-stimulated gene expression","Mus musculus",8
+"R-MMU-1606322","ZBP1(DAI) mediated induction of type I IFNs","Mus musculus",12
+"R-MMU-9954716","ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA","Mus musculus",91
+"R-MMU-435368","Zinc efflux and compartmentalization by the SLC30 family","Mus musculus",3
+"R-MMU-442380","Zinc influx into cells by the SLC39 gene family","Mus musculus",8
+"R-MMU-435354","Zinc transporters","Mus musculus",11
+"R-MMU-6807062","Zymostenol biosynthesis via lathosterol (Kandutsch-Russell pathway)","Mus musculus",6
+"R-MMU-450302","activated TAK1 mediates p38 MAPK activation","Mus musculus",22
+"R-MMU-2046104","alpha-linolenic (omega3) and linoleic (omega6) acid metabolism","Mus musculus",13
+"R-MMU-2046106","alpha-linolenic acid (ALA) metabolism","Mus musculus",13
+"R-MMU-1307965","betaKlotho-mediated ligand binding","Mus musculus",3
+"R-MMU-418457","cGMP effects","Mus musculus",10
+"R-MMU-203615","eNOS activation","Mus musculus",10
+"R-MMU-72187","mRNA 3'-end processing","Mus musculus",139
+"R-MMU-72086","mRNA Capping","Mus musculus",28
+"R-MMU-75072","mRNA Editing","Mus musculus",7
+"R-MMU-75064","mRNA Editing: A to I Conversion","Mus musculus",2
+"R-MMU-72200","mRNA Editing: C to U Conversion","Mus musculus",5
+"R-MMU-9770562","mRNA Polyadenylation","Mus musculus",115
+"R-MMU-72172","mRNA Splicing","Mus musculus",198
+"R-MMU-72163","mRNA Splicing - Major Pathway","Mus musculus",192
+"R-MMU-72165","mRNA Splicing - Minor Pathway","Mus musculus",44
+"R-MMU-429958","mRNA decay by 3' to 5' exoribonuclease","Mus musculus",16
+"R-MMU-430039","mRNA decay by 5' to 3' exoribonuclease","Mus musculus",13
+"R-MMU-166208","mTORC1-mediated signalling","Mus musculus",23
+"R-MMU-77286","mitochondrial fatty acid beta-oxidation of saturated fatty acids","Mus musculus",9
+"R-MMU-77288","mitochondrial fatty acid beta-oxidation of unsaturated fatty acids","Mus musculus",3
+"R-MMU-372708","p130Cas linkage to MAPK signaling for integrins","Mus musculus",15
+"R-MMU-171007","p38MAPK events","Mus musculus",7
+"R-MMU-69563","p53-Dependent G1 DNA Damage Response","Mus musculus",50
+"R-MMU-69580","p53-Dependent G1/S DNA damage checkpoint","Mus musculus",50
+"R-MMU-69613","p53-Independent G1/S DNA Damage Checkpoint","Mus musculus",48
+"R-MMU-193704","p75 NTR receptor-mediated signalling","Mus musculus",81
+"R-MMU-209543","p75NTR recruits signalling complexes","Mus musculus",12
+"R-MMU-193697","p75NTR regulates axonogenesis","Mus musculus",8
+"R-MMU-193639","p75NTR signals via NF-kB","Mus musculus",15
+"R-MMU-111995","phospho-PLA2 pathway","Mus musculus",2
+"R-MMU-72312","rRNA processing","Mus musculus",172
+"R-MMU-8868773","rRNA processing in the nucleus and cytosol","Mus musculus",172
+"R-MMU-191859","snRNP Assembly","Mus musculus",48
+"R-MMU-379724","tRNA Aminoacylation","Mus musculus",2
+"R-MMU-6787450","tRNA modification in the mitochondrion","Mus musculus",1
+"R-MMU-6782315","tRNA modification in the nucleus and cytosol","Mus musculus",1
+"R-MMU-72306","tRNA processing","Mus musculus",2
+"R-MMU-199992","trans-Golgi Network Vesicle Budding","Mus musculus",68

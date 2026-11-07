@@ -1,0 +1,26 @@
+$status
+[1] "Exploratory planned coverage sensitivity; rules fixed before these new results"
+
+$measure
+[1] "stats::cor(method='spearman') with default average tie ranks"
+
+$primary
+[1] "Same accepted all13 common genes in every contrast; primary results unchanged"
+
+$sensitivity
+[1] "For each terrestrial contrast, use all eligible Entrez IDs also eligible in the fixed OSD reference"
+
+$eligibility
+[1] "Exactly the frozen module09 row maps; no rescue of ambiguous/repeated/unmapped targets"
+
+$score
+[1] "Original saved signed within-study scores, unchanged; no refit, normalization or FDR selection"
+
+$comparison
+[1] "Reproduce primary scores/rho before expanding coverage; retain all12 separate contrasts"
+
+$inference
+[1] "Changes assess dependence on coverage; different pairwise gene universes are not a fairer replacement ranking or biological confidence intervals"
+
+$documentation
+[1] "https://stat.ethz.ch/R-manual/R-devel/library/stats/html/cor.html"

@@ -1,24 +1,28 @@
 # Spaceflight retina and terrestrial disease responses
 
-**Status: seven terrestrial prechecks completed; within-study results available for all seven datasets and 12 comparisons.**
+**Status: the exploratory comparison of 12 terrestrial contrasts with OSD-758 is complete.**
 
 Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba).
 
-Last documented update: 5 November 2026.
+Last documented update: 7 November 2026.
 
 This bioinformatics project asks: **which selected terrestrial eye-disease models most closely resemble the measured mouse retinal response to spaceflight, and which biological programs are shared or change in opposite directions?**
 
-The fixed spaceflight reference is [NASA OSD-758](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758), associated with [Kremsky et al. (2024)](https://doi.org/10.3390/ijms252212041). The planned primary comparison is flight 0 g versus habitat ground controls. The study collected tissue after the mice returned to Earth, so this contrast represents a flight-associated response with recovery exposures included.
+The fixed spaceflight reference is [NASA OSD-758](https://osdr.nasa.gov/bio/repo/data/studies/OSD-758), associated with [Kremsky et al. (2024)](https://doi.org/10.3390/ijms252212041). The reference contrast is flight 0 g versus habitat ground controls. The study collected tissue after the mice returned to Earth, so this contrast represents a flight-associated response with recovery exposures included.
 
-Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The measurements are from mouse retina; conclusions will concern resemblance among the tested models. A closest model has not yet been established in this workflow.
+Spaceflight-associated neuro-ocular syndrome (SANS) motivates the research. The measurements are from mouse retina, and the analysis estimates resemblance among the tested models.
 
-## Current work: within-study differential expression
+## Completed comparison
+
+Two-week experimental glaucoma had the highest observed correlation with the flight response across the shared gene scores (Spearman ρ = 0.243) and Reactome pathway profiles (ρ = 0.302). It ranked first in 545 of 552 pathway neighborhood deletions and second in the other seven. These ranges describe sensitivity to pathway selection. Biological sampling uncertainty remains open. [Final analysis and saved outputs](docs/main_analysis/README.md)
+
+## Within-study differential expression
 
 The [within-study results](docs/withinstudy/README.md) now include study-specific models, complete tested-gene tables, FDR-qualified gene lists, full signed rankings and saved result figures. Glaucoma and RP account for sex; LHON retains three genotype-versus-WT contrasts; DR uses the untreated six-versus-six comparison; AMD has two age-matched gene-level contrasts; uveitis and light damage retain their selected disease/injury comparisons.
 
 RNA-seq models reuse the filtered counts and TMM factors with robust edgeR quasi-likelihood testing. The microarrays use robust limma-trend models. AMD's original array features are mapped conservatively to 19,825 recorded Entrez IDs using fixed maximum-mean representatives, with saved mapping/selection audits. The earlier feature-level results remain identifiable as history. Gene-level FDR calls use BH < 0.05, without an extra fold-change threshold; all tested rows remain in the rankings.
 
-The [overview of 12 contrasts](docs/withinstudy/README.md#recorded-comparison-results) links each dataset's results and figures. DEG counts describe each study and do not rank resemblance to spaceflight. Identifier harmonization, pathway analysis and comparison with OSD-758 remain later stages. [Execution instructions](docs/withinstudy/running-the-analysis.md) describe the required local checkpoints; RP's final checkpoint/session export was not present, while its completed tables, rankings and figures are included.
+The [overview of 12 contrasts](docs/withinstudy/README.md#recorded-comparison-results) links each dataset's results and figures. The final comparison uses harmonized ranks and pathway profiles. The [OSD-758 result](docs/withinstudy/osdr758.md) supplies the flight reference. [Execution instructions](docs/withinstudy/running-the-analysis.md) describe the required local checkpoints; RP's final checkpoint/session export was not present, while its completed tables, rankings and figures are included.
 
 ## Completed prechecks
 
@@ -44,9 +48,9 @@ AMD preserves array feature/transcript-cluster IDs and their multiple supplied g
 
 All seven datasets now have group-coloured boxplots. The [shared restyle script and record](docs/boxplot-styling.md) cover the six revised plots; light damage already used this style. Sample keys preserve original IDs and plot order.
 
-These prechecks concern deposited expression measurements and metadata. Raw sequence or CEL processing was not repeated, and disease–spaceflight similarity has not yet been calculated. The seven-dataset panel remains the agreed project scope.
+These prechecks use deposited expression measurements and metadata for the seven terrestrial datasets. The separate flight precheck records 17 selected libraries. [OSD-758 precheck](docs/osdr758/README.md)
 
-## Latest completed prechecks: AMD and light damage
+## AMD and light damage prechecks
 
 The [AMD report](docs/amd-precheck.md) documents neuroretina-only selection, the log2 microarray branch, probe-group IDs, ambiguous/truncated annotations and the recorded sample flag. The [light-damage report](docs/light-damage-precheck.md) records count normalization, fixed GTF annotation, all 10 retained libraries and existing independent verification.
 
@@ -56,6 +60,8 @@ Light-damage projections show partial condition separation and variation among L
 
 ## Explore the repository
 
+- [Final comparison scripts](scripts/main_analysis/), [tables](tables/main_analysis/) and [figures](figures/main_analysis/).
+- [Earlier analysis scripts and dated backups](scripts/archive/).
 - [Within-study results and 12-comparison summary](docs/withinstudy/README.md), [analysis scripts](scripts/withinstudy/), [result tables](tables/withinstudy/) and [figures](figures/withinstudy/).
 - [Glaucoma script](scripts/01_Glaucoma_GSE241782_precheck.R) and [execution guide](docs/running-the-precheck.md).
 - [RP script](scripts/02_Retinitis_Pigmentosa_GSE156533_precheck.R), [recovery helper](scripts/03_Retinitis_Pigmentosa_GSE156533_reload.R) and [execution guide](docs/running-the-rp-precheck.md).
@@ -72,14 +78,8 @@ Light-damage projections show partial condition separation and variation among L
 - [Dataset panel, measurement/identifier distinctions and input sources](docs/datasets.md).
 - [GitHub first steps](docs/github-first-steps.md).
 
-## Planned comparison
-
-Each terrestrial study has now been assessed against its own controls using its documented within-study model. The resulting responses will be compared against the same spaceflight reference. The objective includes relative resemblance, shared programs and opposing responses; no condition is assumed to be the closest in advance.
-
-The panel contains RNA-seq counts and microarray measurements. Within-study models and signed rankings are recorded; cross-study identifier harmonization and similarity metrics remain to be completed. Separate studies' raw measurements are not pooled into one disease/control model.
-
 ## Reproducibility and scope
 
 The teaching scripts are designed for interactive execution one block at a time; separate complete workflows and restore helpers are documented where provided. Recorded observations and figures come from the completed project R runs. Repository synchronization reviewed those records, checked script syntax/portable paths and saved-table consistency, and preserved the original figure files without rerunning expression analysis. See [environment details](docs/environment.md).
 
-Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded expression inputs, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. This repository contains a portable copy of the working script; changes to a separate working copy need to be brought into this repository deliberately.
+Original expression inputs remain at their public repositories and on local storage; [data instructions](data/README.md) explain where to obtain them. Downloaded expression inputs, R workspace checkpoints and local files under `results/` are excluded from Git. Selected reviewed QC figures are versioned under `figures/`. The repository includes portable copies of the current scripts and an archive of earlier scripts.

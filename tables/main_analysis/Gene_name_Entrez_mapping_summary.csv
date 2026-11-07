@@ -1,0 +1,5 @@
+"Study","Comparison","Source_rows","One_match","Multiple_matches","No_match","Missing_ID","Rows_sharing_target"
+"LHON","YARS2_vs_WT",17860,17113,9,738,0,29
+"LHON","COI_vs_WT",17860,17113,9,738,0,29
+"LHON","YARS2_COI_vs_WT",17860,17113,9,738,0,29
+"Autoimmune_uveitis","EAU_vs_CON",18187,16579,5,1603,0,24

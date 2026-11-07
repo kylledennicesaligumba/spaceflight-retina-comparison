@@ -1,0 +1,13 @@
+"Study","Comparison","Flight_pathways","Positive_in_both","Negative_in_both","Opposite_in_both","Terrestrial_FDR_not_met","Zero_NES_in_both"
+"Glaucoma","3D_vs_Naive",44,2,3,0,39,0
+"Glaucoma","2W_vs_Naive",44,9,9,0,26,0
+"Glaucoma","6W_vs_Naive",44,6,3,0,35,0
+"RP","P23H_vs_WT",44,14,7,3,20,0
+"LHON","YARS2_vs_WT",44,0,0,0,44,0
+"LHON","COI_vs_WT",44,0,0,1,43,0
+"LHON","YARS2_COI_vs_WT",44,0,0,1,43,0
+"DR","Diabetic_vs_Normal",44,0,3,4,37,0
+"AMD","Young_CfhKO_vs_WT",44,0,0,7,37,0
+"AMD","Aged_CfhKO_vs_WT",44,4,1,3,36,0
+"Autoimmune_uveitis","EAU_vs_CON",44,8,3,1,32,0
+"Light_damage","LD_vs_CTRL",44,4,0,10,30,0

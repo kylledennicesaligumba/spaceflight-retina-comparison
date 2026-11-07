@@ -1,0 +1,8 @@
+"name","value"
+"DBSCHEMA","REACTOME_DB"
+"DBSCHEMAVERSION","95"
+"SOURCENAME","Reactome"
+"SOURCEURL","https://reactome.org/download/current/databases/gk_current.sql.gz"
+"SOURCEDATE","20459"
+"Supporting package","AnnotationDbi"
+"Db type","ReactomeDb"

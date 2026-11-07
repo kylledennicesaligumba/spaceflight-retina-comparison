@@ -1,5 +1,11 @@
 # Project progress
 
+## 7 November 2026 — Completed flight and terrestrial comparison
+
+- Added the 27 cross-study scripts and 13 OSD-758 precheck and within-study scripts, together with their saved tables, figures and records.
+- Archived 18 earlier scripts and dated backups.
+- Linked the completed results, mapping audits, shared pathway programs and the gene coverage and pathway deletion sensitivity analyses.
+
 ## 5 November 2026 — Within-study results for all seven terrestrial datasets
 
 - Added 46 portable source-preserving scripts under `scripts/withinstudy/`, complete/DEG/ranked result tables, exact figure data, available mapping/design/sample audits, session/verification records, and 30 unchanged saved PNGs (29 current plus one earlier AMD feature-level diagnostic).

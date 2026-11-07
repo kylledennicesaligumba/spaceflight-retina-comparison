@@ -1,0 +1,42 @@
+$purpose
+[1] "Inspect identities and original support already generated in the full-panel contributor review"
+
+$both_gene_cutoffs
+[1] "View every selected shared contributor with original individual-gene FDR < .05 in each study; all12 contrasts considered"
+
+$illustrative_programs
+[1] "R-MMU-1474244" "R-MMU-112316"
+
+$program_names
+[1] "Extracellular matrix organization" "Neuronal System"
+
+$focus_rationale
+[1] "Two broad programs already reviewed in the heatmaps; examples of matrix and neuronal responses, not a new discovery test"
+
+$three_model_examples
+                      Glaucoma2W                               RP                          Uveitis
+         "Glaucoma__2W_vs_Naive"                 "RP__P23H_vs_WT" "Autoimmune_uveitis__EAU_vs_CON"
+
+$shared_across_pairs
+[1] "Intersect Entrez IDs within the SAME pathway across the three existing flight-model leading-edge overlaps"
+
+$common_gene_filter
+[1] "No gene-FDR filtering of common contributors; preserve gene fold changes/FDR and pathway NES directions separately"
+
+$full_panel
+[1] "Two-program wide table retains all12 contrast membership labels; complete all-pathway tables remain in module22"
+
+$preview
+[1] "First ten common gene symbols alphabetically per pathway, not an importance ranking; full values saved"
+
+$counting
+[1] "Both-cutoff records can repeat a gene across contrasts; common-program records can repeat a gene across pathways; counts are not independent replications"
+
+$inference
+[1] "Descriptive inspection, not independent validation, joint FDR, causality, disease specificity or a new disease ranking"
+
+$zero_overlap
+[1] "No common contributor across all three selected pairs does not erase pairwise sharing or pathway enrichment"
+
+$provenance
+[1] "Only the saved module22 checkpoint is read; no model, enrichment, annotation or adjusted P value is recomputed"

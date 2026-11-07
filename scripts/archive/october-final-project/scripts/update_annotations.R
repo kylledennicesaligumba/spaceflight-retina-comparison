@@ -1,0 +1,10 @@
+suppressPackageStartupMessages(library(jsonlite))
+r<-fromJSON('outputs/preliminary_results.json',simplifyVector=FALSE)
+o<-readRDS('outputs/analysis_objects.rds')
+g<-read.delim('outputs/GSE87433_platform.tsv',quote='',comment.char='',fill=TRUE,check.names=FALSE)
+v<-g$dbXrefs[match(rownames(o$GSE87433_main$expr),as.character(g$ID))]
+e<-unlist(regmatches(v,gregexpr('ENSMUSG[0-9]+',v)))
+r$GSE87433_main$array_assayed_overlap_not_expression_calls<-length(intersect(rownames(o$OSD758_RSEM$expr),e))
+r$GSE87433_main$features_with_Ensembl_annotation<-sum(grepl('ENSMUSG',v))
+write_json(r,'outputs/preliminary_results.json',pretty=TRUE,auto_unbox=TRUE,na='null')
+print(r$GSE87433_main[c('array_assayed_overlap_not_expression_calls','features_with_Ensembl_annotation')])

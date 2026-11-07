@@ -1,0 +1,31 @@
+options(stringsAsFactors=FALSE)
+suppressPackageStartupMessages({library(edgeR);library(limma);library(jsonlite)})
+o<-readRDS('outputs/analysis_objects.rds');res<-list()
+a<-o$OSD758_RSEM$MG_HGC;b<-o$OSD758_STAR$MG_HGC
+i<-match(a$gene_id,b$gene_id);ok<-!is.na(i);bb<-b[i[ok],];aa<-a[ok,]
+res$processing_comparison<-list(common_tested_mouse_genes=sum(ok),
+ Spearman_logFC=cor(aa$logFC,bb$logFC,method='spearman'),Pearson_logFC=cor(aa$logFC,bb$logFC),
+ sign_agreement=mean(sign(aa$logFC)==sign(bb$logFC)),
+ large_BH_DEG_intersection=length(intersect(a$gene_id[a$FDR<.05&abs(a$logFC)>1],b$gene_id[b$FDR<.05&abs(b$logFC)>1])))
+z<-o$OSD758_RSEM;keep<-z$keep;meta<-z$meta;design<-z$design
+cf<-rep(0,ncol(design));names(cf)<-colnames(design);cf[c('MG','HGC')]<-c(1,-1)
+lf<-matrix(NA_real_,nrow(a),sum(meta$group%in%c('MG','HGC')),dimnames=list(a$gene_id,NULL));rows<-list();j<-0
+for(k in which(meta$group%in%c('MG','HGC'))) {
+ j<-j+1;sel<-seq_len(ncol(z$raw))!=k
+ y<-calcNormFactors(DGEList(z$raw[keep,sel,drop=FALSE]));des<-design[sel,,drop=FALSE]
+ y<-estimateDisp(y,des,robust=TRUE);fit<-glmQLFit(y,des,robust=TRUE)
+ t<-topTags(glmQLFTest(fit,contrast=cf),n=Inf,sort.by='none')$table;t<-t[match(a$gene_id,rownames(t)),]
+ lf[,j]<-t$logFC
+ rows[[j]]<-data.frame(omitted=meta$sample[k],omitted_group=meta$group[k],
+  Spearman_logFC=cor(a$logFC,t$logFC,method='spearman'),BH05=sum(t$FDR<.05),BH05_abslog2FC1=sum(t$FDR<.05&abs(t$logFC)>1),
+  baseline_DEG_sign_agreement=mean(sign(a$logFC[a$FDR<.05&abs(a$logFC)>1])==sign(t$logFC[a$FDR<.05&abs(a$logFC)>1])))
+ cat('LOO',meta$label[k],rows[[j]]$BH05_abslog2FC1,'\n')
+}
+rows<-do.call(rbind,rows);write.csv(rows,'outputs/OSD758_leave_one_out.csv',row.names=FALSE)
+write.csv(lf,'outputs/OSD758_leave_one_out_logFC.csv')
+res$leave_one_out<-list(fixed_tested_gene_universe=nrow(a),omissions=nrow(rows),
+ Spearman_logFC_range=range(rows$Spearman_logFC),BH05_abslog2FC1_range=range(rows$BH05_abslog2FC1),
+ baseline_DEG_sign_agreement_range=range(rows$baseline_DEG_sign_agreement),
+ details=rows)
+write_json(res,'outputs/reference_sensitivity.json',pretty=TRUE,auto_unbox=TRUE)
+cat('Reference sensitivity complete\n')

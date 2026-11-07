@@ -1,0 +1,79 @@
+$algorithm
+[1] "fgsea::fgseaMultilevel"
+
+$gene_universe
+[1] "All accepted all-13 common Entrez IDs; no FDR filtering or removal of unannotated genes"
+
+$gene_count
+[1] 12127
+
+$pathway_count
+[1] 799
+
+$inputs
+[1] "Original signed within-study scores: sign(logFC)*sqrt(F) for edgeR and moderated t for limma"
+
+$ties
+[1] "Presort equal scores by Entrez ID; retain exact values without jitter; record fgsea warnings"
+
+$minSize
+[1] 15
+
+$maxSize
+[1] 500
+
+$scoreType
+[1] "std"
+
+$gseaParam
+[1] 1
+
+$sampleSize
+[1] 101
+
+$nPermSimple
+[1] 10000
+
+$eps
+[1] 0
+
+$nproc
+[1] 1
+
+$seeds
+         OSD758__FLT_0G_vs_HGC          Glaucoma__3D_vs_Naive          Glaucoma__2W_vs_Naive          Glaucoma__6W_vs_Naive
+                      20261107                       20261108                       20261109                       20261110
+                RP__P23H_vs_WT              LHON__YARS2_vs_WT                LHON__COI_vs_WT          LHON__YARS2_COI_vs_WT
+                      20261111                       20261112                       20261113                       20261114
+        DR__Diabetic_vs_Normal         AMD__Young_CfhKO_vs_WT          AMD__Aged_CfhKO_vs_WT Autoimmune_uveitis__EAU_vs_CON
+                      20261115                       20261116                       20261117                       20261118
+      Light_damage__LD_vs_CTRL
+                      20261119
+
+$RNG
+[1] "Mersenne-Twister" "Inversion"        "Rejection"
+
+$multiple_testing
+[1] "BH across the full retained pathway family within each contrast, including unestimated tests in the family size"
+
+$FDR_cutoff
+[1] 0.05
+
+$interpretation
+[1] "Positive/negative NES denotes enrichment toward the higher/lower-expression end; not direct proof of pathway activation/inhibition"
+
+$uncertainty
+[1] "Gene-set randomization conditional on stored gene scores; no biological-sample resampling or disease-ranking confidence intervals"
+
+$contrast_handling
+[1] "Keep every reference/terrestrial stage, genotype and age separate"
+
+$planned_profile_comparison
+[1] "Descriptive Spearman correlation of all retained-pathway NES values against the fixed OSD-758 profile, without pathway-FDR filtering; resolve missing estimates before that comparison"
+
+$versions
+           R        fgsea BiocParallel
+     "4.5.3"     "1.36.2"     "1.44.0"
+
+$script_md5
+[1] "26f770c115ec6268c1a85d976dc4040b"

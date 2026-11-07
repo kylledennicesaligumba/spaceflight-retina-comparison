@@ -1,0 +1,13 @@
+"Study","Comparison","Both_enriched_pathways","Same_NES_pathways","Opposite_NES_pathways","Zero_NES_pathways","Unique_shared_LE_genes","Shared_genes_same_NES","Shared_genes_opposite_NES"
+"Glaucoma","3D_vs_Naive",5,5,0,0,85,85,0
+"Glaucoma","2W_vs_Naive",18,18,0,0,174,174,0
+"Glaucoma","6W_vs_Naive",9,9,0,0,56,56,0
+"RP","P23H_vs_WT",24,21,3,0,221,127,94
+"LHON","YARS2_vs_WT",0,0,0,0,0,0,0
+"LHON","COI_vs_WT",1,0,1,0,45,0,45
+"LHON","YARS2_COI_vs_WT",1,0,1,0,19,0,19
+"DR","Diabetic_vs_Normal",7,3,4,0,76,58,18
+"AMD","Young_CfhKO_vs_WT",7,0,7,0,35,0,35
+"AMD","Aged_CfhKO_vs_WT",8,5,3,0,104,41,63
+"Autoimmune_uveitis","EAU_vs_CON",12,11,1,0,146,102,44
+"Light_damage","LD_vs_CTRL",14,4,10,0,233,16,217

@@ -1,0 +1,86 @@
+              Study         Comparison Primary_genes Pairwise_genes Added_genes
+           Glaucoma        2W_vs_Naive         12127          15841        3714
+ Autoimmune_uveitis         EAU_vs_CON         12127          14609        2482
+           Glaucoma        6W_vs_Naive         12127          15841        3714
+                 DR Diabetic_vs_Normal         12127          15215        3088
+           Glaucoma        3D_vs_Naive         12127          15841        3714
+               LHON          COI_vs_WT         12127          14487        2360
+                AMD  Young_CfhKO_vs_WT         12127          13934        1807
+               LHON    YARS2_COI_vs_WT         12127          14487        2360
+               LHON        YARS2_vs_WT         12127          14487        2360
+                 RP         P23H_vs_WT         12127          14777        2650
+                AMD   Aged_CfhKO_vs_WT         12127          13934        1807
+       Light_damage         LD_vs_CTRL         12127          14717        2590
+ Primary_rho Pairwise_rho  Rho_change Primary_rank Pairwise_rank Rank_change
+  0.24293484   0.23303927 -0.00989557            1             1           0
+  0.14474374   0.13568957 -0.00905417            2             2           0
+  0.12927252   0.12265436 -0.00661816            3             3           0
+  0.11507404   0.09597762 -0.01909642            4             4           0
+  0.04366642   0.03852254 -0.00514388            5             5           0
+  0.02188163   0.02594181  0.00406018            6             6           0
+  0.00797277  -0.01658146 -0.02455423            7             8           1
+  0.00206599  -0.00382798 -0.00589397            8             7          -1
+ -0.01904156  -0.02258022 -0.00353866            9             9           0
+ -0.03149993  -0.02530477  0.00619516           10            10           0
+ -0.03940005  -0.04492027 -0.00552022           11            11           0
+ -0.19679965  -0.19211425  0.00468541           12            12           0
+   Input_integrity      All_contrasts   Preserved_scores      Common_subset
+              TRUE               TRUE               TRUE               TRUE
+   Pairwise_counts Primary_reproduced         Finite_rho
+              TRUE               TRUE               TRUE
+[1] TRUE TRUE TRUE TRUE TRUE TRUE
+              Study         Comparison Baseline_rho Baseline_rank
+           Glaucoma        2W_vs_Naive    0.3020768             1
+ Autoimmune_uveitis         EAU_vs_CON    0.2730642             2
+                 RP         P23H_vs_WT    0.2601529             3
+           Glaucoma        6W_vs_Naive    0.1790539             4
+                AMD   Aged_CfhKO_vs_WT    0.1744447             5
+           Glaucoma        3D_vs_Naive    0.1195013             6
+                 DR Diabetic_vs_Normal    0.0495495             7
+               LHON          COI_vs_WT   -0.0529565             8
+       Light_damage         LD_vs_CTRL   -0.0781100             9
+               LHON        YARS2_vs_WT   -0.1064729            10
+               LHON    YARS2_COI_vs_WT   -0.1190386            11
+                AMD  Young_CfhKO_vs_WT   -0.1608058            12
+ Valid_half_retained_scenarios Minimum_rho Maximum_rho Best_rank Worst_rank
+                           552   0.2616817  0.42989503         1          2
+                           552   0.2294910  0.30149735         1          4
+                           552   0.1633458  0.34310946         1          6
+                           552   0.1304308  0.26035700         2          5
+                           552   0.0300665  0.24725415         3          7
+                           552   0.0662044  0.20131052         4          6
+                           552   0.0124668  0.17334506         5          7
+                           552  -0.0909207  0.00913723         8          9
+                           552  -0.1583305 -0.04311900         8         12
+                           552  -0.1498377 -0.06967312         9         12
+                           552  -0.1660196 -0.07589204        10         12
+                           552  -0.2046873 -0.10906839         9         12
+ Top_rank_scenarios
+                545
+                  4
+                  3
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+                  0
+          Anchor_pathways Unique_deletion_scenarios       Estimated_scenarios
+                      799                       552                       552
+      Principal_scenarios
+                      552
+ Primary_reproduced  Frozen_memberships Neighborhoods_valid    Unique_deletions
+               TRUE                TRUE                TRUE                TRUE
+      All_contrasts     Finite_selected     Rank_accounting
+               TRUE                TRUE                TRUE
+[1] TRUE TRUE TRUE TRUE TRUE TRUE TRUE
+            Coverage_passed            Stability_passed
+                       TRUE                        TRUE
+  Primary_sources_unchanged      All_contrasts_retained
+                       TRUE                        TRUE
+  Identity_review_preserved Explicit_uncertainty_limits
+                       TRUE                        TRUE
+[1] TRUE TRUE TRUE TRUE TRUE

@@ -1,0 +1,4 @@
+"Study","Comparison","Source_rows","In_database","Not_in_database","Invalid_format","Missing_ID","Rows_sharing_target"
+"DR","Diabetic_vs_Normal",24973,24685,288,0,0,0
+"AMD","Young_CfhKO_vs_WT",19825,19743,82,0,0,0
+"AMD","Aged_CfhKO_vs_WT",19825,19743,82,0,0,0

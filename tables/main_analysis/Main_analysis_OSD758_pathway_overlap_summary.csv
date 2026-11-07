@@ -1,0 +1,13 @@
+"Study","Comparison","Both_FDR005","Same_direction_both","Opposite_direction_both","Zero_NES_both","OSD_only_FDR005","Terrestrial_only_FDR005"
+"Glaucoma","3D_vs_Naive",5,5,0,0,39,21
+"Glaucoma","2W_vs_Naive",18,18,0,0,26,240
+"Glaucoma","6W_vs_Naive",9,9,0,0,35,103
+"RP","P23H_vs_WT",24,21,3,0,20,230
+"LHON","YARS2_vs_WT",0,0,0,0,44,30
+"LHON","COI_vs_WT",1,0,1,0,43,11
+"LHON","YARS2_COI_vs_WT",1,0,1,0,43,27
+"DR","Diabetic_vs_Normal",7,3,4,0,37,54
+"AMD","Young_CfhKO_vs_WT",7,0,7,0,37,0
+"AMD","Aged_CfhKO_vs_WT",8,5,3,0,36,30
+"Autoimmune_uveitis","EAU_vs_CON",12,11,1,0,32,52
+"Light_damage","LD_vs_CTRL",14,4,10,0,30,249

@@ -1,6 +1,6 @@
-# Comparative transcriptomics of mouse retinal responses to spaceflight, disease, and injury
+# Comparative transcriptomics of mouse retinal responses to spaceflight, disease, and injury to Terrestrial Retinal Disease Models
 
-Maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba) · Completed 7 November 2026
+Created and maintained by [Kylle Dennice Saligumba](https://github.com/kylledennicesaligumba) · Completed 8 November 2026
 
 This exploratory study compares the mouse retinal response to spaceflight with **12 disease and injury contrasts from seven terrestrial studies** to identify which models show similar gene-expression changes and where their responses differ. The comparison uses 12,127 shared mouse genes and 799 matched Reactome pathways.
 
